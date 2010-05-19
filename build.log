@@ -1,0 +1,415 @@
+------ Generate Configure Script ------
+autogenerating build system for 'pidgin-sipe'
+checking for autogen.args: not found.
+checking for libtoolize... /usr/bin/libtoolize
+checking for glib-gettextize... /usr/bin/glib-gettextize
+checking for intltoolize... /usr/bin/intltoolize
+checking for aclocal... /usr/bin/aclocal
+checking for autoheader... /usr/bin/autoheader
+checking for automake... /usr/bin/automake
+checking for autoconf... /usr/bin/autoconf
+running /usr/bin/libtoolize -c -f --automake... done.
+running /usr/bin/glib-gettextize --force --copy... done.
+Copying file mkinstalldirs
+Copying file po/Makefile.in.in
+
+Please add the files
+  codeset.m4 gettext.m4 glibc21.m4 iconv.m4 isc-posix.m4 lcmessage.m4
+  progtest.m4
+from the /aclocal directory to your autoconf macro directory
+or directly to your aclocal.m4 file.
+You will also need config.guess and config.sub, which you can get from
+ftp://ftp.gnu.org/pub/gnu/config/.
+
+running /usr/bin/intltoolize -c -f --automake... done.
+running /usr/bin/aclocal -I m4macros... done.
+running /usr/bin/autoheader ... done.
+running /usr/bin/automake -a -c --gnu... done.
+configure.ac:31: installing `./compile'
+configure.ac:35: installing `./config.guess'
+configure.ac:35: installing `./config.sub'
+configure.ac:21: installing `./install-sh'
+configure.ac:21: installing `./missing'
+src/core/Makefile.am: installing `./depcomp'
+Makefile.am: installing `./INSTALL'
+running /usr/bin/autoconf ... done.
+------ Configure ------
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking how to create a ustar tar archive... gnutar
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking dependency style of gcc... gcc3
+checking whether gcc and cc understand -c and -o together... yes
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking build system type... i686-pc-linux-gnu
+checking host system type... i686-pc-linux-gnu
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for ar... ar
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking whether NLS is requested... yes
+checking for intltool >= 0.35.0... 0.41.0 found
+checking for intltool-update... /usr/bin/intltool-update
+checking for intltool-merge... /usr/bin/intltool-merge
+checking for intltool-extract... /usr/bin/intltool-extract
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for perl... /usr/bin/perl
+checking for perl >= 5.8.1... 5.10.0
+checking for XML::Parser... ok
+checking for ranlib... (cached) ranlib
+checking sys/sockio.h usability... no
+checking sys/sockio.h presence... no
+checking for sys/sockio.h... no
+checking for dummy... no
+checking for ranlib... no
+checking if gcc supports -Wextra... yes
+checking if gcc supports -Werror=declaration-after-statement... yes
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking if Kerberos 5 is available... Kerberos 5 release 1.7-beta3
+checking for GLIB... yes
+checking for GMODULE... yes
+checking for GMIME... no
+checking for GMIME... no
+checking for NSS... no
+checking for NSS... no
+checking for NSS... no
+checking for LIBXML2... yes
+checking that sizeof(uuid_t) is 16... yes
+checking for PURPLE... yes
+checking for 32- and 64-bit header conflicts... none
+checking for purple SSL support... ok
+checking for purple voice and video support... ok
+checking for NICE... yes
+checking for TELEPATHY... no
+checking locale_CPPFLAGS... -DLOCALEDIR=\"$(prefix)/$(DATADIRNAME)/locale\"
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking for LC_MESSAGES... yes
+checking libintl.h usability... yes
+checking libintl.h presence... yes
+checking for libintl.h... yes
+checking for ngettext in libc... yes
+checking for dgettext in libc... yes
+checking for bind_textdomain_codeset... yes
+checking for msgfmt... (cached) /usr/bin/msgfmt
+checking for dcgettext... yes
+checking if msgfmt accepts -c... yes
+checking for gmsgfmt... (cached) /usr/bin/msgfmt
+checking for xgettext... (cached) /usr/bin/xgettext
+checking for nl_langinfo and CODESET... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating pixmaps/Makefile
+config.status: creating m4macros/Makefile
+config.status: creating po/Makefile.in
+config.status: creating pixmaps/16/Makefile
+config.status: creating pixmaps/22/Makefile
+config.status: creating pixmaps/48/Makefile
+config.status: creating pixmaps/scalable/Makefile
+config.status: creating src/Makefile
+config.status: creating src/core/Makefile
+config.status: creating src/api/Makefile
+config.status: creating src/purple/Makefile
+config.status: creating src/telepathy/Makefile
+config.status: creating src/kopete/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing default-1 commands
+config.status: executing po/stamp-it commands
+
+Build purple plugin
+PURPLE_CFLAGS  : -I/usr/local/include/libpurple -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include  
+PURPLE_LIBS    : -L/usr/local/lib -lpurple -lglib-2.0  
+Voice and video: enabled
+
+Not building telepathy plugin
+
+Not building kopete plugin
+
+Build with Kerberos 5 support
+KRB5_CFLAGS    : 
+KRB5_LDFLAGS   : 
+
+Debugging not enabled
+
+Build with compiler checks enabled
+QUALITY_CFLAGS :  -Werror -Wall -Wextra -Werror=declaration-after-statement
+
+configure complete. Now run 'make'
+
+------ Build ------
+make  all-recursive
+make[1]: Entering directory `/home/fstl/Public/siplcs'
+Making all in src
+make[2]: Entering directory `/home/fstl/Public/siplcs/src'
+Making all in core
+make[3]: Entering directory `/home/fstl/Public/siplcs/src/core'
+/bin/bash ../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../..     -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/libxml2   -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -DLOCALEDIR=\"/usr/local/share/locale\" -I./../api    -g -O2 -MT libsipe_core_la-http-conn.lo -MD -MP -MF .deps/libsipe_core_la-http-conn.Tpo -c -o libsipe_core_la-http-conn.lo `test -f 'http-conn.c' || echo './'`http-conn.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/libxml2 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DLOCALEDIR=\"/usr/local/share/locale\" -I./../api -g -O2 -MT libsipe_core_la-http-conn.lo -MD -MP -MF .deps/libsipe_core_la-http-conn.Tpo -c http-conn.c  -fPIC -DPIC -o .libs/libsipe_core_la-http-conn.o
+mv -f .deps/libsipe_core_la-http-conn.Tpo .deps/libsipe_core_la-http-conn.Plo
+/bin/bash ../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../..     -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/libxml2   -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -DLOCALEDIR=\"/usr/local/share/locale\" -I./../api    -g -O2 -MT libsipe_core_la-sipmsg.lo -MD -MP -MF .deps/libsipe_core_la-sipmsg.Tpo -c -o libsipe_core_la-sipmsg.lo `test -f 'sipmsg.c' || echo './'`sipmsg.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/libxml2 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DLOCALEDIR=\"/usr/local/share/locale\" -I./../api -g -O2 -MT libsipe_core_la-sipmsg.lo -MD -MP -MF .deps/libsipe_core_la-sipmsg.Tpo -c sipmsg.c  -fPIC -DPIC -o .libs/libsipe_core_la-sipmsg.o
+mv -f .deps/libsipe_core_la-sipmsg.Tpo .deps/libsipe_core_la-sipmsg.Plo
+/bin/bash ../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../..     -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/libxml2   -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -DLOCALEDIR=\"/usr/local/share/locale\" -I./../api    -g -O2 -MT libsipe_core_la-sip-csta.lo -MD -MP -MF .deps/libsipe_core_la-sip-csta.Tpo -c -o libsipe_core_la-sip-csta.lo `test -f 'sip-csta.c' || echo './'`sip-csta.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/libxml2 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DLOCALEDIR=\"/usr/local/share/locale\" -I./../api -g -O2 -MT libsipe_core_la-sip-csta.lo -MD -MP -MF .deps/libsipe_core_la-sip-csta.Tpo -c sip-csta.c  -fPIC -DPIC -o .libs/libsipe_core_la-sip-csta.o
+mv -f .deps/libsipe_core_la-sip-csta.Tpo .deps/libsipe_core_la-sip-csta.Plo
+/bin/bash ../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../..     -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/libxml2   -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -DLOCALEDIR=\"/usr/local/share/locale\" -I./../api    -g -O2 -MT libsipe_core_la-sip-sec.lo -MD -MP -MF .deps/libsipe_core_la-sip-sec.Tpo -c -o libsipe_core_la-sip-sec.lo `test -f 'sip-sec.c' || echo './'`sip-sec.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/libxml2 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DLOCALEDIR=\"/usr/local/share/locale\" -I./../api -g -O2 -MT libsipe_core_la-sip-sec.lo -MD -MP -MF .deps/libsipe_core_la-sip-sec.Tpo -c sip-sec.c  -fPIC -DPIC -o .libs/libsipe_core_la-sip-sec.o
+mv -f .deps/libsipe_core_la-sip-sec.Tpo .deps/libsipe_core_la-sip-sec.Plo
+/bin/bash ../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../..     -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/libxml2   -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -DLOCALEDIR=\"/usr/local/share/locale\" -I./../api    -g -O2 -MT libsipe_core_la-sip-sec-ntlm.lo -MD -MP -MF .deps/libsipe_core_la-sip-sec-ntlm.Tpo -c -o libsipe_core_la-sip-sec-ntlm.lo `test -f 'sip-sec-ntlm.c' || echo './'`sip-sec-ntlm.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/libxml2 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DLOCALEDIR=\"/usr/local/share/locale\" -I./../api -g -O2 -MT libsipe_core_la-sip-sec-ntlm.lo -MD -MP -MF .deps/libsipe_core_la-sip-sec-ntlm.Tpo -c sip-sec-ntlm.c  -fPIC -DPIC -o .libs/libsipe_core_la-sip-sec-ntlm.o
+mv -f .deps/libsipe_core_la-sip-sec-ntlm.Tpo .deps/libsipe_core_la-sip-sec-ntlm.Plo
+/bin/bash ../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../..     -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/libxml2   -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -DLOCALEDIR=\"/usr/local/share/locale\" -I./../api    -g -O2 -MT libsipe_core_la-sip-transport.lo -MD -MP -MF .deps/libsipe_core_la-sip-transport.Tpo -c -o libsipe_core_la-sip-transport.lo `test -f 'sip-transport.c' || echo './'`sip-transport.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/libxml2 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DLOCALEDIR=\"/usr/local/share/locale\" -I./../api -g -O2 -MT libsipe_core_la-sip-transport.lo -MD -MP -MF .deps/libsipe_core_la-sip-transport.Tpo -c sip-transport.c  -fPIC -DPIC -o .libs/libsipe_core_la-sip-transport.o
+mv -f .deps/libsipe_core_la-sip-transport.Tpo .deps/libsipe_core_la-sip-transport.Plo
+/bin/bash ../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../..     -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/libxml2   -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -DLOCALEDIR=\"/usr/local/share/locale\" -I./../api    -g -O2 -MT libsipe_core_la-sipe-buddy.lo -MD -MP -MF .deps/libsipe_core_la-sipe-buddy.Tpo -c -o libsipe_core_la-sipe-buddy.lo `test -f 'sipe-buddy.c' || echo './'`sipe-buddy.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/libxml2 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DLOCALEDIR=\"/usr/local/share/locale\" -I./../api -g -O2 -MT libsipe_core_la-sipe-buddy.lo -MD -MP -MF .deps/libsipe_core_la-sipe-buddy.Tpo -c sipe-buddy.c  -fPIC -DPIC -o .libs/libsipe_core_la-sipe-buddy.o
+mv -f .deps/libsipe_core_la-sipe-buddy.Tpo .deps/libsipe_core_la-sipe-buddy.Plo
+/bin/bash ../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../..     -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/libxml2   -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -DLOCALEDIR=\"/usr/local/share/locale\" -I./../api    -g -O2 -MT libsipe_core_la-sipe-cal.lo -MD -MP -MF .deps/libsipe_core_la-sipe-cal.Tpo -c -o libsipe_core_la-sipe-cal.lo `test -f 'sipe-cal.c' || echo './'`sipe-cal.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/libxml2 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DLOCALEDIR=\"/usr/local/share/locale\" -I./../api -g -O2 -MT libsipe_core_la-sipe-cal.lo -MD -MP -MF .deps/libsipe_core_la-sipe-cal.Tpo -c sipe-cal.c  -fPIC -DPIC -o .libs/libsipe_core_la-sipe-cal.o
+mv -f .deps/libsipe_core_la-sipe-cal.Tpo .deps/libsipe_core_la-sipe-cal.Plo
+/bin/bash ../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../..     -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/libxml2   -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -DLOCALEDIR=\"/usr/local/share/locale\" -I./../api    -g -O2 -MT libsipe_core_la-sipe-chat.lo -MD -MP -MF .deps/libsipe_core_la-sipe-chat.Tpo -c -o libsipe_core_la-sipe-chat.lo `test -f 'sipe-chat.c' || echo './'`sipe-chat.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/libxml2 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DLOCALEDIR=\"/usr/local/share/locale\" -I./../api -g -O2 -MT libsipe_core_la-sipe-chat.lo -MD -MP -MF .deps/libsipe_core_la-sipe-chat.Tpo -c sipe-chat.c  -fPIC -DPIC -o .libs/libsipe_core_la-sipe-chat.o
+mv -f .deps/libsipe_core_la-sipe-chat.Tpo .deps/libsipe_core_la-sipe-chat.Plo
+/bin/bash ../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../..     -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/libxml2   -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -DLOCALEDIR=\"/usr/local/share/locale\" -I./../api    -g -O2 -MT libsipe_core_la-sipe-core.lo -MD -MP -MF .deps/libsipe_core_la-sipe-core.Tpo -c -o libsipe_core_la-sipe-core.lo `test -f 'sipe-core.c' || echo './'`sipe-core.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/libxml2 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DLOCALEDIR=\"/usr/local/share/locale\" -I./../api -g -O2 -MT libsipe_core_la-sipe-core.lo -MD -MP -MF .deps/libsipe_core_la-sipe-core.Tpo -c sipe-core.c  -fPIC -DPIC -o .libs/libsipe_core_la-sipe-core.o
+mv -f .deps/libsipe_core_la-sipe-core.Tpo .deps/libsipe_core_la-sipe-core.Plo
+/bin/bash ../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../..     -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/libxml2   -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -DLOCALEDIR=\"/usr/local/share/locale\" -I./../api    -g -O2 -MT libsipe_core_la-sipe-dialog.lo -MD -MP -MF .deps/libsipe_core_la-sipe-dialog.Tpo -c -o libsipe_core_la-sipe-dialog.lo `test -f 'sipe-dialog.c' || echo './'`sipe-dialog.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/libxml2 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DLOCALEDIR=\"/usr/local/share/locale\" -I./../api -g -O2 -MT libsipe_core_la-sipe-dialog.lo -MD -MP -MF .deps/libsipe_core_la-sipe-dialog.Tpo -c sipe-dialog.c  -fPIC -DPIC -o .libs/libsipe_core_la-sipe-dialog.o
+mv -f .deps/libsipe_core_la-sipe-dialog.Tpo .deps/libsipe_core_la-sipe-dialog.Plo
+/bin/bash ../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../..     -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/libxml2   -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -DLOCALEDIR=\"/usr/local/share/locale\" -I./../api    -g -O2 -MT libsipe_core_la-sipe-domino.lo -MD -MP -MF .deps/libsipe_core_la-sipe-domino.Tpo -c -o libsipe_core_la-sipe-domino.lo `test -f 'sipe-domino.c' || echo './'`sipe-domino.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/libxml2 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DLOCALEDIR=\"/usr/local/share/locale\" -I./../api -g -O2 -MT libsipe_core_la-sipe-domino.lo -MD -MP -MF .deps/libsipe_core_la-sipe-domino.Tpo -c sipe-domino.c  -fPIC -DPIC -o .libs/libsipe_core_la-sipe-domino.o
+mv -f .deps/libsipe_core_la-sipe-domino.Tpo .deps/libsipe_core_la-sipe-domino.Plo
+/bin/bash ../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../..     -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/libxml2   -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -DLOCALEDIR=\"/usr/local/share/locale\" -I./../api    -g -O2 -MT libsipe_core_la-sipe-ews.lo -MD -MP -MF .deps/libsipe_core_la-sipe-ews.Tpo -c -o libsipe_core_la-sipe-ews.lo `test -f 'sipe-ews.c' || echo './'`sipe-ews.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/libxml2 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DLOCALEDIR=\"/usr/local/share/locale\" -I./../api -g -O2 -MT libsipe_core_la-sipe-ews.lo -MD -MP -MF .deps/libsipe_core_la-sipe-ews.Tpo -c sipe-ews.c  -fPIC -DPIC -o .libs/libsipe_core_la-sipe-ews.o
+mv -f .deps/libsipe_core_la-sipe-ews.Tpo .deps/libsipe_core_la-sipe-ews.Plo
+/bin/bash ../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../..     -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/libxml2   -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -DLOCALEDIR=\"/usr/local/share/locale\" -I./../api    -g -O2 -MT libsipe_core_la-sipe-schedule.lo -MD -MP -MF .deps/libsipe_core_la-sipe-schedule.Tpo -c -o libsipe_core_la-sipe-schedule.lo `test -f 'sipe-schedule.c' || echo './'`sipe-schedule.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/libxml2 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DLOCALEDIR=\"/usr/local/share/locale\" -I./../api -g -O2 -MT libsipe_core_la-sipe-schedule.lo -MD -MP -MF .deps/libsipe_core_la-sipe-schedule.Tpo -c sipe-schedule.c  -fPIC -DPIC -o .libs/libsipe_core_la-sipe-schedule.o
+mv -f .deps/libsipe_core_la-sipe-schedule.Tpo .deps/libsipe_core_la-sipe-schedule.Plo
+/bin/bash ../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../..     -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/libxml2   -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -DLOCALEDIR=\"/usr/local/share/locale\" -I./../api    -g -O2 -MT libsipe_core_la-sipe-session.lo -MD -MP -MF .deps/libsipe_core_la-sipe-session.Tpo -c -o libsipe_core_la-sipe-session.lo `test -f 'sipe-session.c' || echo './'`sipe-session.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/libxml2 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DLOCALEDIR=\"/usr/local/share/locale\" -I./../api -g -O2 -MT libsipe_core_la-sipe-session.lo -MD -MP -MF .deps/libsipe_core_la-sipe-session.Tpo -c sipe-session.c  -fPIC -DPIC -o .libs/libsipe_core_la-sipe-session.o
+mv -f .deps/libsipe_core_la-sipe-session.Tpo .deps/libsipe_core_la-sipe-session.Plo
+/bin/bash ../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../..     -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/libxml2   -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -DLOCALEDIR=\"/usr/local/share/locale\" -I./../api    -g -O2 -MT libsipe_core_la-sipe-sign.lo -MD -MP -MF .deps/libsipe_core_la-sipe-sign.Tpo -c -o libsipe_core_la-sipe-sign.lo `test -f 'sipe-sign.c' || echo './'`sipe-sign.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/libxml2 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DLOCALEDIR=\"/usr/local/share/locale\" -I./../api -g -O2 -MT libsipe_core_la-sipe-sign.lo -MD -MP -MF .deps/libsipe_core_la-sipe-sign.Tpo -c sipe-sign.c  -fPIC -DPIC -o .libs/libsipe_core_la-sipe-sign.o
+mv -f .deps/libsipe_core_la-sipe-sign.Tpo .deps/libsipe_core_la-sipe-sign.Plo
+/bin/bash ../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../..     -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/libxml2   -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -DLOCALEDIR=\"/usr/local/share/locale\" -I./../api    -g -O2 -MT libsipe_core_la-sipe-utils.lo -MD -MP -MF .deps/libsipe_core_la-sipe-utils.Tpo -c -o libsipe_core_la-sipe-utils.lo `test -f 'sipe-utils.c' || echo './'`sipe-utils.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/libxml2 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DLOCALEDIR=\"/usr/local/share/locale\" -I./../api -g -O2 -MT libsipe_core_la-sipe-utils.lo -MD -MP -MF .deps/libsipe_core_la-sipe-utils.Tpo -c sipe-utils.c  -fPIC -DPIC -o .libs/libsipe_core_la-sipe-utils.o
+mv -f .deps/libsipe_core_la-sipe-utils.Tpo .deps/libsipe_core_la-sipe-utils.Plo
+/bin/bash ../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../..     -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/libxml2   -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -DLOCALEDIR=\"/usr/local/share/locale\" -I./../api    -g -O2 -MT libsipe_core_la-sipe-xml.lo -MD -MP -MF .deps/libsipe_core_la-sipe-xml.Tpo -c -o libsipe_core_la-sipe-xml.lo `test -f 'sipe-xml.c' || echo './'`sipe-xml.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/libxml2 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DLOCALEDIR=\"/usr/local/share/locale\" -I./../api -g -O2 -MT libsipe_core_la-sipe-xml.lo -MD -MP -MF .deps/libsipe_core_la-sipe-xml.Tpo -c sipe-xml.c  -fPIC -DPIC -o .libs/libsipe_core_la-sipe-xml.o
+mv -f .deps/libsipe_core_la-sipe-xml.Tpo .deps/libsipe_core_la-sipe-xml.Plo
+/bin/bash ../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../..     -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/libxml2   -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -DLOCALEDIR=\"/usr/local/share/locale\" -I./../api    -g -O2 -MT libsipe_core_la-uuid.lo -MD -MP -MF .deps/libsipe_core_la-uuid.Tpo -c -o libsipe_core_la-uuid.lo `test -f 'uuid.c' || echo './'`uuid.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/libxml2 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DLOCALEDIR=\"/usr/local/share/locale\" -I./../api -g -O2 -MT libsipe_core_la-uuid.lo -MD -MP -MF .deps/libsipe_core_la-uuid.Tpo -c uuid.c  -fPIC -DPIC -o .libs/libsipe_core_la-uuid.o
+mv -f .deps/libsipe_core_la-uuid.Tpo .deps/libsipe_core_la-uuid.Plo
+/bin/bash ../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../..     -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/libxml2   -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -DLOCALEDIR=\"/usr/local/share/locale\" -I./../api    -g -O2 -MT libsipe_core_la-sip-sec-krb5.lo -MD -MP -MF .deps/libsipe_core_la-sip-sec-krb5.Tpo -c -o libsipe_core_la-sip-sec-krb5.lo `test -f 'sip-sec-krb5.c' || echo './'`sip-sec-krb5.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/libxml2 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DLOCALEDIR=\"/usr/local/share/locale\" -I./../api -g -O2 -MT libsipe_core_la-sip-sec-krb5.lo -MD -MP -MF .deps/libsipe_core_la-sip-sec-krb5.Tpo -c sip-sec-krb5.c  -fPIC -DPIC -o .libs/libsipe_core_la-sip-sec-krb5.o
+mv -f .deps/libsipe_core_la-sip-sec-krb5.Tpo .deps/libsipe_core_la-sip-sec-krb5.Plo
+/bin/bash ../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../..     -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/libxml2   -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -DLOCALEDIR=\"/usr/local/share/locale\" -I./../api    -g -O2 -MT libsipe_core_la-sipe-media.lo -MD -MP -MF .deps/libsipe_core_la-sipe-media.Tpo -c -o libsipe_core_la-sipe-media.lo `test -f 'sipe-media.c' || echo './'`sipe-media.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/libxml2 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DLOCALEDIR=\"/usr/local/share/locale\" -I./../api -g -O2 -MT libsipe_core_la-sipe-media.lo -MD -MP -MF .deps/libsipe_core_la-sipe-media.Tpo -c sipe-media.c  -fPIC -DPIC -o .libs/libsipe_core_la-sipe-media.o
+mv -f .deps/libsipe_core_la-sipe-media.Tpo .deps/libsipe_core_la-sipe-media.Plo
+/bin/bash ../../libtool --tag=CC   --mode=link gcc  -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/libxml2   -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -DLOCALEDIR=\"/usr/local/share/locale\" -I./../api    -g -O2   -o libsipe_core.la  libsipe_core_la-http-conn.lo libsipe_core_la-sipmsg.lo libsipe_core_la-sip-csta.lo libsipe_core_la-sip-sec.lo libsipe_core_la-sip-sec-ntlm.lo libsipe_core_la-sip-transport.lo libsipe_core_la-sipe-buddy.lo libsipe_core_la-sipe-cal.lo libsipe_core_la-sipe-chat.lo libsipe_core_la-sipe-core.lo libsipe_core_la-sipe-dialog.lo libsipe_core_la-sipe-domino.lo libsipe_core_la-sipe-ews.lo libsipe_core_la-sipe-schedule.lo libsipe_core_la-sipe-session.lo libsipe_core_la-sipe-sign.lo libsipe_core_la-sipe-utils.lo libsipe_core_la-sipe-xml.lo libsipe_core_la-uuid.lo libsipe_core_la-sip-sec-krb5.lo   libsipe_core_la-sipe-media.lo  -Wl,-Bsymbolic-functions -lgssapi_krb5 -lkrb5 -lk5crypto -lcom_err
+libtool: link: ar cru .libs/libsipe_core.a .libs/libsipe_core_la-http-conn.o .libs/libsipe_core_la-sipmsg.o .libs/libsipe_core_la-sip-csta.o .libs/libsipe_core_la-sip-sec.o .libs/libsipe_core_la-sip-sec-ntlm.o .libs/libsipe_core_la-sip-transport.o .libs/libsipe_core_la-sipe-buddy.o .libs/libsipe_core_la-sipe-cal.o .libs/libsipe_core_la-sipe-chat.o .libs/libsipe_core_la-sipe-core.o .libs/libsipe_core_la-sipe-dialog.o .libs/libsipe_core_la-sipe-domino.o .libs/libsipe_core_la-sipe-ews.o .libs/libsipe_core_la-sipe-schedule.o .libs/libsipe_core_la-sipe-session.o .libs/libsipe_core_la-sipe-sign.o .libs/libsipe_core_la-sipe-utils.o .libs/libsipe_core_la-sipe-xml.o .libs/libsipe_core_la-uuid.o .libs/libsipe_core_la-sip-sec-krb5.o .libs/libsipe_core_la-sipe-media.o 
+libtool: link: ranlib .libs/libsipe_core.a
+libtool: link: ( cd ".libs" && rm -f "libsipe_core.la" && ln -s "../libsipe_core.la" "libsipe_core.la" )
+/bin/bash ../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../..     -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/libxml2   -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -DLOCALEDIR=\"/usr/local/share/locale\" -I./../api    -g -O2 -MT libsipe_core_tests_la-sip-sec-ntlm-tests.lo -MD -MP -MF .deps/libsipe_core_tests_la-sip-sec-ntlm-tests.Tpo -c -o libsipe_core_tests_la-sip-sec-ntlm-tests.lo `test -f 'sip-sec-ntlm-tests.c' || echo './'`sip-sec-ntlm-tests.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/libxml2 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DLOCALEDIR=\"/usr/local/share/locale\" -I./../api -g -O2 -MT libsipe_core_tests_la-sip-sec-ntlm-tests.lo -MD -MP -MF .deps/libsipe_core_tests_la-sip-sec-ntlm-tests.Tpo -c sip-sec-ntlm-tests.c  -fPIC -DPIC -o .libs/libsipe_core_tests_la-sip-sec-ntlm-tests.o
+mv -f .deps/libsipe_core_tests_la-sip-sec-ntlm-tests.Tpo .deps/libsipe_core_tests_la-sip-sec-ntlm-tests.Plo
+/bin/bash ../../libtool --tag=CC   --mode=link gcc  -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/libxml2   -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -DLOCALEDIR=\"/usr/local/share/locale\" -I./../api    -g -O2   -o libsipe_core_tests.la  libsipe_core_tests_la-sip-sec-ntlm-tests.lo  -Wl,-Bsymbolic-functions -lgssapi_krb5 -lkrb5 -lk5crypto -lcom_err
+libtool: link: ar cru .libs/libsipe_core_tests.a .libs/libsipe_core_tests_la-sip-sec-ntlm-tests.o 
+libtool: link: ranlib .libs/libsipe_core_tests.a
+libtool: link: ( cd ".libs" && rm -f "libsipe_core_tests.la" && ln -s "../libsipe_core_tests.la" "libsipe_core_tests.la" )
+/bin/bash ../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../..     -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/libxml2   -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -DLOCALEDIR=\"/usr/local/share/locale\" -I./../api    -I/usr/local/include/libpurple -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -g -O2 -MT libsipe_core_purple_la-sipe.lo -MD -MP -MF .deps/libsipe_core_purple_la-sipe.Tpo -c -o libsipe_core_purple_la-sipe.lo `test -f 'sipe.c' || echo './'`sipe.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/libxml2 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DLOCALEDIR=\"/usr/local/share/locale\" -I./../api -I/usr/local/include/libpurple -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -g -O2 -MT libsipe_core_purple_la-sipe.lo -MD -MP -MF .deps/libsipe_core_purple_la-sipe.Tpo -c sipe.c  -fPIC -DPIC -o .libs/libsipe_core_purple_la-sipe.o
+mv -f .deps/libsipe_core_purple_la-sipe.Tpo .deps/libsipe_core_purple_la-sipe.Plo
+/bin/bash ../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../..     -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/libxml2   -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -DLOCALEDIR=\"/usr/local/share/locale\" -I./../api    -I/usr/local/include/libpurple -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -g -O2 -MT libsipe_core_purple_la-sipe-conf.lo -MD -MP -MF .deps/libsipe_core_purple_la-sipe-conf.Tpo -c -o libsipe_core_purple_la-sipe-conf.lo `test -f 'sipe-conf.c' || echo './'`sipe-conf.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/libxml2 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DLOCALEDIR=\"/usr/local/share/locale\" -I./../api -I/usr/local/include/libpurple -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -g -O2 -MT libsipe_core_purple_la-sipe-conf.lo -MD -MP -MF .deps/libsipe_core_purple_la-sipe-conf.Tpo -c sipe-conf.c  -fPIC -DPIC -o .libs/libsipe_core_purple_la-sipe-conf.o
+mv -f .deps/libsipe_core_purple_la-sipe-conf.Tpo .deps/libsipe_core_purple_la-sipe-conf.Plo
+/bin/bash ../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../..     -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/libxml2   -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -DLOCALEDIR=\"/usr/local/share/locale\" -I./../api    -I/usr/local/include/libpurple -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -g -O2 -MT libsipe_core_purple_la-sipe-ft.lo -MD -MP -MF .deps/libsipe_core_purple_la-sipe-ft.Tpo -c -o libsipe_core_purple_la-sipe-ft.lo `test -f 'sipe-ft.c' || echo './'`sipe-ft.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/libxml2 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DLOCALEDIR=\"/usr/local/share/locale\" -I./../api -I/usr/local/include/libpurple -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -g -O2 -MT libsipe_core_purple_la-sipe-ft.lo -MD -MP -MF .deps/libsipe_core_purple_la-sipe-ft.Tpo -c sipe-ft.c  -fPIC -DPIC -o .libs/libsipe_core_purple_la-sipe-ft.o
+mv -f .deps/libsipe_core_purple_la-sipe-ft.Tpo .deps/libsipe_core_purple_la-sipe-ft.Plo
+/bin/bash ../../libtool --tag=CC   --mode=link gcc  -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/libxml2   -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -DLOCALEDIR=\"/usr/local/share/locale\" -I./../api    -I/usr/local/include/libpurple -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -g -O2   -o libsipe_core_purple.la  libsipe_core_purple_la-sipe.lo libsipe_core_purple_la-sipe-conf.lo libsipe_core_purple_la-sipe-ft.lo  -Wl,-Bsymbolic-functions -lgssapi_krb5 -lkrb5 -lk5crypto -lcom_err
+libtool: link: ar cru .libs/libsipe_core_purple.a .libs/libsipe_core_purple_la-sipe.o .libs/libsipe_core_purple_la-sipe-conf.o .libs/libsipe_core_purple_la-sipe-ft.o 
+libtool: link: ranlib .libs/libsipe_core_purple.a
+libtool: link: ( cd ".libs" && rm -f "libsipe_core_purple.la" && ln -s "../libsipe_core_purple.la" "libsipe_core_purple.la" )
+make[3]: Leaving directory `/home/fstl/Public/siplcs/src/core'
+Making all in api
+make[3]: Entering directory `/home/fstl/Public/siplcs/src/api'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/home/fstl/Public/siplcs/src/api'
+Making all in purple
+make[3]: Entering directory `/home/fstl/Public/siplcs/src/purple'
+/bin/bash ../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../..     -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -DLOCALEDIR=\"/usr/local/share/locale\" -I/usr/local/include/libpurple -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -I./../api -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/nice   -g -O2 -MT libsipe_backend_la-purple-connection.lo -MD -MP -MF .deps/libsipe_backend_la-purple-connection.Tpo -c -o libsipe_backend_la-purple-connection.lo `test -f 'purple-connection.c' || echo './'`purple-connection.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DLOCALEDIR=\"/usr/local/share/locale\" -I/usr/local/include/libpurple -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I./../api -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/nice -g -O2 -MT libsipe_backend_la-purple-connection.lo -MD -MP -MF .deps/libsipe_backend_la-purple-connection.Tpo -c purple-connection.c  -fPIC -DPIC -o .libs/libsipe_backend_la-purple-connection.o
+mv -f .deps/libsipe_backend_la-purple-connection.Tpo .deps/libsipe_backend_la-purple-connection.Plo
+/bin/bash ../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../..     -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -DLOCALEDIR=\"/usr/local/share/locale\" -I/usr/local/include/libpurple -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -I./../api -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/nice   -g -O2 -MT libsipe_backend_la-purple-debug.lo -MD -MP -MF .deps/libsipe_backend_la-purple-debug.Tpo -c -o libsipe_backend_la-purple-debug.lo `test -f 'purple-debug.c' || echo './'`purple-debug.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DLOCALEDIR=\"/usr/local/share/locale\" -I/usr/local/include/libpurple -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I./../api -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/nice -g -O2 -MT libsipe_backend_la-purple-debug.lo -MD -MP -MF .deps/libsipe_backend_la-purple-debug.Tpo -c purple-debug.c  -fPIC -DPIC -o .libs/libsipe_backend_la-purple-debug.o
+mv -f .deps/libsipe_backend_la-purple-debug.Tpo .deps/libsipe_backend_la-purple-debug.Plo
+/bin/bash ../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../..     -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -DLOCALEDIR=\"/usr/local/share/locale\" -I/usr/local/include/libpurple -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -I./../api -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/nice   -g -O2 -MT libsipe_backend_la-purple-dnsquery.lo -MD -MP -MF .deps/libsipe_backend_la-purple-dnsquery.Tpo -c -o libsipe_backend_la-purple-dnsquery.lo `test -f 'purple-dnsquery.c' || echo './'`purple-dnsquery.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DLOCALEDIR=\"/usr/local/share/locale\" -I/usr/local/include/libpurple -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I./../api -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/nice -g -O2 -MT libsipe_backend_la-purple-dnsquery.lo -MD -MP -MF .deps/libsipe_backend_la-purple-dnsquery.Tpo -c purple-dnsquery.c  -fPIC -DPIC -o .libs/libsipe_backend_la-purple-dnsquery.o
+mv -f .deps/libsipe_backend_la-purple-dnsquery.Tpo .deps/libsipe_backend_la-purple-dnsquery.Plo
+/bin/bash ../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../..     -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -DLOCALEDIR=\"/usr/local/share/locale\" -I/usr/local/include/libpurple -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -I./../api -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/nice   -g -O2 -MT libsipe_backend_la-purple-markup.lo -MD -MP -MF .deps/libsipe_backend_la-purple-markup.Tpo -c -o libsipe_backend_la-purple-markup.lo `test -f 'purple-markup.c' || echo './'`purple-markup.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DLOCALEDIR=\"/usr/local/share/locale\" -I/usr/local/include/libpurple -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I./../api -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/nice -g -O2 -MT libsipe_backend_la-purple-markup.lo -MD -MP -MF .deps/libsipe_backend_la-purple-markup.Tpo -c purple-markup.c  -fPIC -DPIC -o .libs/libsipe_backend_la-purple-markup.o
+mv -f .deps/libsipe_backend_la-purple-markup.Tpo .deps/libsipe_backend_la-purple-markup.Plo
+/bin/bash ../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../..     -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -DLOCALEDIR=\"/usr/local/share/locale\" -I/usr/local/include/libpurple -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -I./../api -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/nice   -g -O2 -MT libsipe_backend_la-purple-network.lo -MD -MP -MF .deps/libsipe_backend_la-purple-network.Tpo -c -o libsipe_backend_la-purple-network.lo `test -f 'purple-network.c' || echo './'`purple-network.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DLOCALEDIR=\"/usr/local/share/locale\" -I/usr/local/include/libpurple -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I./../api -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/nice -g -O2 -MT libsipe_backend_la-purple-network.lo -MD -MP -MF .deps/libsipe_backend_la-purple-network.Tpo -c purple-network.c  -fPIC -DPIC -o .libs/libsipe_backend_la-purple-network.o
+mv -f .deps/libsipe_backend_la-purple-network.Tpo .deps/libsipe_backend_la-purple-network.Plo
+/bin/bash ../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../..     -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -DLOCALEDIR=\"/usr/local/share/locale\" -I/usr/local/include/libpurple -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -I./../api -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/nice   -g -O2 -MT libsipe_backend_la-purple-schedule.lo -MD -MP -MF .deps/libsipe_backend_la-purple-schedule.Tpo -c -o libsipe_backend_la-purple-schedule.lo `test -f 'purple-schedule.c' || echo './'`purple-schedule.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DLOCALEDIR=\"/usr/local/share/locale\" -I/usr/local/include/libpurple -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I./../api -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/nice -g -O2 -MT libsipe_backend_la-purple-schedule.lo -MD -MP -MF .deps/libsipe_backend_la-purple-schedule.Tpo -c purple-schedule.c  -fPIC -DPIC -o .libs/libsipe_backend_la-purple-schedule.o
+mv -f .deps/libsipe_backend_la-purple-schedule.Tpo .deps/libsipe_backend_la-purple-schedule.Plo
+/bin/bash ../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../..     -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -DLOCALEDIR=\"/usr/local/share/locale\" -I/usr/local/include/libpurple -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -I./../api -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/nice   -g -O2 -MT libsipe_backend_la-purple-setting.lo -MD -MP -MF .deps/libsipe_backend_la-purple-setting.Tpo -c -o libsipe_backend_la-purple-setting.lo `test -f 'purple-setting.c' || echo './'`purple-setting.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DLOCALEDIR=\"/usr/local/share/locale\" -I/usr/local/include/libpurple -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I./../api -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/nice -g -O2 -MT libsipe_backend_la-purple-setting.lo -MD -MP -MF .deps/libsipe_backend_la-purple-setting.Tpo -c purple-setting.c  -fPIC -DPIC -o .libs/libsipe_backend_la-purple-setting.o
+mv -f .deps/libsipe_backend_la-purple-setting.Tpo .deps/libsipe_backend_la-purple-setting.Plo
+/bin/bash ../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../..     -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -DLOCALEDIR=\"/usr/local/share/locale\" -I/usr/local/include/libpurple -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -I./../api -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/nice   -g -O2 -MT libsipe_backend_la-purple-transport.lo -MD -MP -MF .deps/libsipe_backend_la-purple-transport.Tpo -c -o libsipe_backend_la-purple-transport.lo `test -f 'purple-transport.c' || echo './'`purple-transport.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DLOCALEDIR=\"/usr/local/share/locale\" -I/usr/local/include/libpurple -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I./../api -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/nice -g -O2 -MT libsipe_backend_la-purple-transport.lo -MD -MP -MF .deps/libsipe_backend_la-purple-transport.Tpo -c purple-transport.c  -fPIC -DPIC -o .libs/libsipe_backend_la-purple-transport.o
+mv -f .deps/libsipe_backend_la-purple-transport.Tpo .deps/libsipe_backend_la-purple-transport.Plo
+/bin/bash ../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../..     -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -DLOCALEDIR=\"/usr/local/share/locale\" -I/usr/local/include/libpurple -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -I./../api -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/nice   -g -O2 -MT libsipe_backend_la-purple-mime.lo -MD -MP -MF .deps/libsipe_backend_la-purple-mime.Tpo -c -o libsipe_backend_la-purple-mime.lo `test -f 'purple-mime.c' || echo './'`purple-mime.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DLOCALEDIR=\"/usr/local/share/locale\" -I/usr/local/include/libpurple -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I./../api -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/nice -g -O2 -MT libsipe_backend_la-purple-mime.lo -MD -MP -MF .deps/libsipe_backend_la-purple-mime.Tpo -c purple-mime.c  -fPIC -DPIC -o .libs/libsipe_backend_la-purple-mime.o
+mv -f .deps/libsipe_backend_la-purple-mime.Tpo .deps/libsipe_backend_la-purple-mime.Plo
+/bin/bash ../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../..     -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -DLOCALEDIR=\"/usr/local/share/locale\" -I/usr/local/include/libpurple -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -I./../api -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/nice   -g -O2 -MT libsipe_backend_la-purple-crypt.lo -MD -MP -MF .deps/libsipe_backend_la-purple-crypt.Tpo -c -o libsipe_backend_la-purple-crypt.lo `test -f 'purple-crypt.c' || echo './'`purple-crypt.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DLOCALEDIR=\"/usr/local/share/locale\" -I/usr/local/include/libpurple -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I./../api -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/nice -g -O2 -MT libsipe_backend_la-purple-crypt.lo -MD -MP -MF .deps/libsipe_backend_la-purple-crypt.Tpo -c purple-crypt.c  -fPIC -DPIC -o .libs/libsipe_backend_la-purple-crypt.o
+mv -f .deps/libsipe_backend_la-purple-crypt.Tpo .deps/libsipe_backend_la-purple-crypt.Plo
+/bin/bash ../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../..     -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -DLOCALEDIR=\"/usr/local/share/locale\" -I/usr/local/include/libpurple -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -I./../api -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/nice   -g -O2 -MT libsipe_backend_la-purple-digest.lo -MD -MP -MF .deps/libsipe_backend_la-purple-digest.Tpo -c -o libsipe_backend_la-purple-digest.lo `test -f 'purple-digest.c' || echo './'`purple-digest.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DLOCALEDIR=\"/usr/local/share/locale\" -I/usr/local/include/libpurple -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I./../api -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/nice -g -O2 -MT libsipe_backend_la-purple-digest.lo -MD -MP -MF .deps/libsipe_backend_la-purple-digest.Tpo -c purple-digest.c  -fPIC -DPIC -o .libs/libsipe_backend_la-purple-digest.o
+mv -f .deps/libsipe_backend_la-purple-digest.Tpo .deps/libsipe_backend_la-purple-digest.Plo
+/bin/bash ../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../..     -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -DLOCALEDIR=\"/usr/local/share/locale\" -I/usr/local/include/libpurple -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -I./../api -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/nice   -g -O2 -MT libsipe_backend_la-purple-media.lo -MD -MP -MF .deps/libsipe_backend_la-purple-media.Tpo -c -o libsipe_backend_la-purple-media.lo `test -f 'purple-media.c' || echo './'`purple-media.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DLOCALEDIR=\"/usr/local/share/locale\" -I/usr/local/include/libpurple -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I./../api -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/nice -g -O2 -MT libsipe_backend_la-purple-media.lo -MD -MP -MF .deps/libsipe_backend_la-purple-media.Tpo -c purple-media.c  -fPIC -DPIC -o .libs/libsipe_backend_la-purple-media.o
+mv -f .deps/libsipe_backend_la-purple-media.Tpo .deps/libsipe_backend_la-purple-media.Plo
+/bin/bash ../../libtool --tag=CC   --mode=link gcc  -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -DLOCALEDIR=\"/usr/local/share/locale\" -I/usr/local/include/libpurple -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -I./../api -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/nice   -g -O2   -o libsipe_backend.la  libsipe_backend_la-purple-connection.lo libsipe_backend_la-purple-debug.lo libsipe_backend_la-purple-dnsquery.lo libsipe_backend_la-purple-markup.lo libsipe_backend_la-purple-network.lo libsipe_backend_la-purple-schedule.lo libsipe_backend_la-purple-setting.lo libsipe_backend_la-purple-transport.lo libsipe_backend_la-purple-mime.lo libsipe_backend_la-purple-crypt.lo libsipe_backend_la-purple-digest.lo libsipe_backend_la-purple-media.lo  -Wl,-Bsymbolic-functions -lgssapi_krb5 -lkrb5 -lk5crypto -lcom_err
+libtool: link: ar cru .libs/libsipe_backend.a .libs/libsipe_backend_la-purple-connection.o .libs/libsipe_backend_la-purple-debug.o .libs/libsipe_backend_la-purple-dnsquery.o .libs/libsipe_backend_la-purple-markup.o .libs/libsipe_backend_la-purple-network.o .libs/libsipe_backend_la-purple-schedule.o .libs/libsipe_backend_la-purple-setting.o .libs/libsipe_backend_la-purple-transport.o .libs/libsipe_backend_la-purple-mime.o .libs/libsipe_backend_la-purple-crypt.o .libs/libsipe_backend_la-purple-digest.o .libs/libsipe_backend_la-purple-media.o 
+libtool: link: ranlib .libs/libsipe_backend.a
+libtool: link: ( cd ".libs" && rm -f "libsipe_backend.la" && ln -s "../libsipe_backend.la" "libsipe_backend.la" )
+/bin/bash ../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../..     -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -DLOCALEDIR=\"/usr/local/share/locale\" -I/usr/local/include/libpurple -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -I./../api -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/nice   -g -O2 -MT libsipe_la-purple-plugin.lo -MD -MP -MF .deps/libsipe_la-purple-plugin.Tpo -c -o libsipe_la-purple-plugin.lo `test -f 'purple-plugin.c' || echo './'`purple-plugin.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DLOCALEDIR=\"/usr/local/share/locale\" -I/usr/local/include/libpurple -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I./../api -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/nice -g -O2 -MT libsipe_la-purple-plugin.lo -MD -MP -MF .deps/libsipe_la-purple-plugin.Tpo -c purple-plugin.c  -fPIC -DPIC -o .libs/libsipe_la-purple-plugin.o
+mv -f .deps/libsipe_la-purple-plugin.Tpo .deps/libsipe_la-purple-plugin.Plo
+/bin/bash ../../libtool --tag=CC   --mode=link gcc  -Werror -Wall -Wextra -Werror=declaration-after-statement -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -DLOCALEDIR=\"/usr/local/share/locale\" -I/usr/local/include/libpurple -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -I./../api -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/nice   -g -O2 -module -avoid-version -no-undefined  -o libsipe.la -rpath /usr/local/lib/purple-2 libsipe_la-purple-plugin.lo ../core/libsipe_core.la ../core/libsipe_core_purple.la libsipe_backend.la -lxml2   -lglib-2.0   -L/usr/local/lib -lpurple -lglib-2.0      -pthread -L/usr/local/lib -lnice -lgobject-2.0 -lgthread-2.0 -lrt -lglib-2.0   -Wl,-Bsymbolic-functions -lgssapi_krb5 -lkrb5 -lk5crypto -lcom_err
+libtool: link: gcc -shared  .libs/libsipe_la-purple-plugin.o  -Wl,--whole-archive ../core/.libs/libsipe_core.a ../core/.libs/libsipe_core_purple.a ./.libs/libsipe_backend.a -Wl,--no-whole-archive  /usr/lib/libxml2.so -L/usr/local/lib /usr/local/lib/libpurple.so /usr/local/lib/libnice.so /usr/lib/libgobject-2.0.so /usr/lib/libgthread-2.0.so -lrt /usr/lib/libglib-2.0.so -lgssapi_krb5 -lkrb5 -lk5crypto -lcom_err  -pthread -pthread -Wl,-Bsymbolic-functions   -pthread -Wl,-soname -Wl,libsipe.so -o .libs/libsipe.so
+libtool: link: ( cd ".libs" && rm -f "libsipe.la" && ln -s "../libsipe.la" "libsipe.la" )
+make[3]: Leaving directory `/home/fstl/Public/siplcs/src/purple'
+make[3]: Entering directory `/home/fstl/Public/siplcs/src'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/home/fstl/Public/siplcs/src'
+make[2]: Leaving directory `/home/fstl/Public/siplcs/src'
+Making all in pixmaps
+make[2]: Entering directory `/home/fstl/Public/siplcs/pixmaps'
+Making all in 16
+make[3]: Entering directory `/home/fstl/Public/siplcs/pixmaps/16'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/home/fstl/Public/siplcs/pixmaps/16'
+Making all in 22
+make[3]: Entering directory `/home/fstl/Public/siplcs/pixmaps/22'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/home/fstl/Public/siplcs/pixmaps/22'
+Making all in 48
+make[3]: Entering directory `/home/fstl/Public/siplcs/pixmaps/48'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/home/fstl/Public/siplcs/pixmaps/48'
+Making all in scalable
+make[3]: Entering directory `/home/fstl/Public/siplcs/pixmaps/scalable'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/home/fstl/Public/siplcs/pixmaps/scalable'
+make[3]: Entering directory `/home/fstl/Public/siplcs/pixmaps'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/home/fstl/Public/siplcs/pixmaps'
+make[2]: Leaving directory `/home/fstl/Public/siplcs/pixmaps'
+Making all in m4macros
+make[2]: Entering directory `/home/fstl/Public/siplcs/m4macros'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/home/fstl/Public/siplcs/m4macros'
+Making all in po
+make[2]: Entering directory `/home/fstl/Public/siplcs/po'
+file=`echo cs | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file cs.po
+file=`echo da | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file da.po
+file=`echo de | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file de.po
+file=`echo es | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file es.po
+file=`echo fi | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file fi.po
+file=`echo fr | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file fr.po
+file=`echo hi | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file hi.po
+file=`echo it | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file it.po
+file=`echo nb | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file nb.po
+file=`echo nl | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file nl.po
+file=`echo pl | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file pl.po
+file=`echo pt_BR | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file pt_BR.po
+file=`echo ru | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file ru.po
+file=`echo ta | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file ta.po
+file=`echo zh_CN | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file zh_CN.po
+make[2]: Leaving directory `/home/fstl/Public/siplcs/po'
+make[2]: Entering directory `/home/fstl/Public/siplcs'
+make[2]: Nothing to be done for `all-am'.
+make[2]: Leaving directory `/home/fstl/Public/siplcs'
+make[1]: Leaving directory `/home/fstl/Public/siplcs'
+------ SUCCESS ------

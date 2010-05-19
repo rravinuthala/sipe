@@ -1,0 +1,409 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACLOCAL	Makefile	/^ACLOCAL = ${SHELL} \/home\/fstl\/Public\/siplcs\/missing --run aclocal-1.11$/;"	m
+ACLOCAL_M4	Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ALL_LINGUAS	Makefile	/^ALL_LINGUAS = $/;"	m
+AMTAR	Makefile	/^AMTAR = ${SHELL} \/home\/fstl\/Public\/siplcs\/missing --run tar$/;"	m
+AM_CFLAGS	Makefile	/^AM_CFLAGS = $(st)$/;"	m
+AR	Makefile	/^AR = ar$/;"	m
+AUTOCONF	Makefile	/^AUTOCONF = ${SHELL} \/home\/fstl\/Public\/siplcs\/missing --run autoconf$/;"	m
+AUTOHEADER	Makefile	/^AUTOHEADER = ${SHELL} \/home\/fstl\/Public\/siplcs\/missing --run autoheader$/;"	m
+AUTOMAKE	Makefile	/^AUTOMAKE = ${SHELL} \/home\/fstl\/Public\/siplcs\/missing --run automake-1.11$/;"	m
+AWK	Makefile	/^AWK = mawk$/;"	m
+BUFFER_SIZE_INCREMENT	purple-transport.c	68;"	d	file:
+CATALOGS	Makefile	/^CATALOGS = $/;"	m
+CATOBJEXT	Makefile	/^CATOBJEXT = .gmo$/;"	m
+CC	Makefile	/^CC = gcc$/;"	m
+CCDEPMODE	Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCLD	Makefile	/^CCLD = $(CC)$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -g -O2$/;"	m
+COMPILE	Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
+CONFIG_CLEAN_FILES	Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_HEADER	Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+CPP	Makefile	/^CPP = gcc -E$/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS = $/;"	m
+CTAGS	Makefile	/^CTAGS = ctags$/;"	m
+CYGPATH_W	Makefile	/^CYGPATH_W = echo$/;"	m
+DATADIRNAME	Makefile	/^DATADIRNAME = share$/;"	m
+DEBUG_CFLAGS	Makefile	/^DEBUG_CFLAGS = $/;"	m
+DEFAULT_INCLUDES	Makefile	/^DEFAULT_INCLUDES = -I. -I$(top_builddir)$/;"	m
+DEFS	Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEPDIR	Makefile	/^DEPDIR = .deps$/;"	m
+DISTFILES	Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DIST_COMMON	Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.am $(srcdir)\/Makefile.in$/;"	m
+DIST_SOURCES	Makefile	/^DIST_SOURCES = $(libsipe_la_SOURCES) \\$/;"	m
+DSYMUTIL	Makefile	/^DSYMUTIL = $/;"	m
+DUMPBIN	Makefile	/^DUMPBIN = $/;"	m
+ECHO_C	Makefile	/^ECHO_C = $/;"	m
+ECHO_N	Makefile	/^ECHO_N = -n$/;"	m
+ECHO_T	Makefile	/^ECHO_T = $/;"	m
+EGREP	Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+ETAGS	Makefile	/^ETAGS = etags$/;"	m
+EXEEXT	Makefile	/^EXEEXT = $/;"	m
+FGREP	Makefile	/^FGREP = \/bin\/grep -F$/;"	m
+GETTEXT_PACKAGE	Makefile	/^GETTEXT_PACKAGE = pidgin-sipe$/;"	m
+GLIB_CFLAGS	Makefile	/^GLIB_CFLAGS = -I\/usr\/include\/glib-2.0 -I\/usr\/lib\/glib-2.0\/include  $/;"	m
+GLIB_LIBS	Makefile	/^GLIB_LIBS = -lglib-2.0  $/;"	m
+GMIME_CFLAGS	Makefile	/^GMIME_CFLAGS = $/;"	m
+GMIME_LIBS	Makefile	/^GMIME_LIBS = $/;"	m
+GMODULE_CFLAGS	Makefile	/^GMODULE_CFLAGS = -I\/usr\/include\/glib-2.0 -I\/usr\/lib\/glib-2.0\/include  $/;"	m
+GMODULE_LIBS	Makefile	/^GMODULE_LIBS = -Wl,--export-dynamic -lgmodule-2.0 -lglib-2.0  $/;"	m
+GMOFILES	Makefile	/^GMOFILES = $/;"	m
+GMSGFMT	Makefile	/^GMSGFMT = \/usr\/bin\/msgfmt$/;"	m
+GREP	Makefile	/^GREP = \/bin\/grep$/;"	m
+INSTALL	Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL_DATA	Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_HEADER	Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_STRIP_PROGRAM	Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+INSTOBJEXT	Makefile	/^INSTOBJEXT = .mo$/;"	m
+INTLLIBS	Makefile	/^INTLLIBS = $/;"	m
+INTLTOOL_EXTRACT	Makefile	/^INTLTOOL_EXTRACT = \/usr\/bin\/intltool-extract$/;"	m
+INTLTOOL_MERGE	Makefile	/^INTLTOOL_MERGE = \/usr\/bin\/intltool-merge$/;"	m
+INTLTOOL_PERL	Makefile	/^INTLTOOL_PERL = \/usr\/bin\/perl$/;"	m
+INTLTOOL_UPDATE	Makefile	/^INTLTOOL_UPDATE = \/usr\/bin\/intltool-update$/;"	m
+KRB5_CFLAGS	Makefile	/^KRB5_CFLAGS = $/;"	m
+KRB5_LDFLAGS	Makefile	/^KRB5_LDFLAGS = $/;"	m
+LD	Makefile	/^LD = \/usr\/bin\/ld$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS = $/;"	m
+LIBOBJS	Makefile	/^LIBOBJS = $/;"	m
+LIBS	Makefile	/^LIBS =  -Wl,-Bsymbolic-functions -lgssapi_krb5 -lkrb5 -lk5crypto -lcom_err$/;"	m
+LIBTOOL	Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LIBXML2_CFLAGS	Makefile	/^LIBXML2_CFLAGS = -I\/usr\/include\/libxml2  $/;"	m
+LIBXML2_LIBS	Makefile	/^LIBXML2_LIBS = -lxml2  $/;"	m
+LINK	Makefile	/^LINK = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \\$/;"	m
+LIPO	Makefile	/^LIPO = $/;"	m
+LN_S	Makefile	/^LN_S = ln -s$/;"	m
+LOCALE_CPPFLAGS	Makefile	/^LOCALE_CPPFLAGS = -DLOCALEDIR=\\"$(prefix)\/$(DATADIRNAME)\/locale\\"$/;"	m
+LTCOMPILE	Makefile	/^LTCOMPILE = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \\$/;"	m
+LTLIBOBJS	Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBRARIES	Makefile	/^LTLIBRARIES = $(noinst_LTLIBRARIES) $(pkg_LTLIBRARIES)$/;"	m
+MAINTAINERCLEANFILES	Makefile	/^MAINTAINERCLEANFILES = \\$/;"	m
+MAKEINFO	Makefile	/^MAKEINFO = ${SHELL} \/home\/fstl\/Public\/siplcs\/missing --run makeinfo$/;"	m
+MKDIR_P	Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+MKINSTALLDIRS	Makefile	/^MKINSTALLDIRS = .\/mkinstalldirs$/;"	m
+MSGFMT	Makefile	/^MSGFMT = \/usr\/bin\/msgfmt$/;"	m
+MSGFMT_OPTS	Makefile	/^MSGFMT_OPTS = -c$/;"	m
+MSGMERGE	Makefile	/^MSGMERGE = \/usr\/bin\/msgmerge$/;"	m
+NICE_CFLAGS	Makefile	/^NICE_CFLAGS = -pthread -I\/usr\/include\/glib-2.0 -I\/usr\/lib\/glib-2.0\/include -I\/usr\/local\/include -I\/usr\/local\/include\/nice  $/;"	m
+NICE_LIBS	Makefile	/^NICE_LIBS = -pthread -L\/usr\/local\/lib -lnice -lgobject-2.0 -lgthread-2.0 -lrt -lglib-2.0  $/;"	m
+NM	Makefile	/^NM = \/usr\/bin\/nm -B$/;"	m
+NMEDIT	Makefile	/^NMEDIT = $/;"	m
+NORMAL_INSTALL	Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_UNINSTALL	Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NSS_CFLAGS	Makefile	/^NSS_CFLAGS = $/;"	m
+NSS_LIBS	Makefile	/^NSS_LIBS = $/;"	m
+OBJDUMP	Makefile	/^OBJDUMP = objdump$/;"	m
+OBJEXT	Makefile	/^OBJEXT = o$/;"	m
+OTOOL	Makefile	/^OTOOL = $/;"	m
+OTOOL64	Makefile	/^OTOOL64 = $/;"	m
+PACKAGE	Makefile	/^PACKAGE = pidgin-sipe$/;"	m
+PACKAGE_BUGREPORT	Makefile	/^PACKAGE_BUGREPORT = https:\/\/sourceforge.net\/tracker\/?atid=949931&group_id=194563$/;"	m
+PACKAGE_NAME	Makefile	/^PACKAGE_NAME = pidgin-sipe$/;"	m
+PACKAGE_STRING	Makefile	/^PACKAGE_STRING = pidgin-sipe 1.11.0$/;"	m
+PACKAGE_TARNAME	Makefile	/^PACKAGE_TARNAME = pidgin-sipe$/;"	m
+PACKAGE_URL	Makefile	/^PACKAGE_URL = http:\/\/sipe.sourceforge.net\/$/;"	m
+PACKAGE_VERSION	Makefile	/^PACKAGE_VERSION = 1.11.0$/;"	m
+PATH_SEPARATOR	Makefile	/^PATH_SEPARATOR = :$/;"	m
+PKG_CONFIG	Makefile	/^PKG_CONFIG = \/usr\/bin\/pkg-config$/;"	m
+POFILES	Makefile	/^POFILES = $/;"	m
+POST_INSTALL	Makefile	/^POST_INSTALL = :$/;"	m
+POST_UNINSTALL	Makefile	/^POST_UNINSTALL = :$/;"	m
+POSUB	Makefile	/^POSUB = po$/;"	m
+PO_IN_DATADIR_FALSE	Makefile	/^PO_IN_DATADIR_FALSE = $/;"	m
+PO_IN_DATADIR_TRUE	Makefile	/^PO_IN_DATADIR_TRUE = $/;"	m
+PRE_INSTALL	Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_UNINSTALL	Makefile	/^PRE_UNINSTALL = :$/;"	m
+PURPLE_ACCOUNT_TO_SIPE_CORE_PUBLIC	purple-private.h	38;"	d
+PURPLE_BUDDY_TO_SIPE_CORE_PUBLIC	purple-plugin.c	67;"	d	file:
+PURPLE_CFLAGS	Makefile	/^PURPLE_CFLAGS = -I\/usr\/local\/include\/libpurple -I\/usr\/include\/glib-2.0 -I\/usr\/lib\/glib-2.0\/include  $/;"	m
+PURPLE_CONNECTION_ALLOW_CUSTOM_SMILEY	purple-plugin.c	63;"	d	file:
+PURPLE_GC_TO_SIPE_CORE_PUBLIC	purple-private.h	39;"	d
+PURPLE_LIBS	Makefile	/^PURPLE_LIBS = -L\/usr\/local\/lib -lpurple -lglib-2.0  $/;"	m
+PURPLE_MAJOR_VERSION	Makefile	/^PURPLE_MAJOR_VERSION = 2$/;"	m
+PURPLE_PLUGINS	purple-plugin.c	36;"	d	file:
+PURPLE_STATUS_TO_ACTIVITY	purple-plugin.c	91;"	d	file:
+PURPLE_TRANSPORT	purple-transport.c	65;"	d	file:
+QUALITY_CFLAGS	Makefile	/^QUALITY_CFLAGS =  -Werror -Wall -Wextra -Werror=declaration-after-statement$/;"	m
+RANLIB	Makefile	/^RANLIB = ranlib$/;"	m
+SED	Makefile	/^SED = \/bin\/sed$/;"	m
+SET_MAKE	Makefile	/^SET_MAKE = $/;"	m
+SHELL	Makefile	/^SHELL = \/bin\/bash$/;"	m
+SIPE_ADD_STATUS	purple-plugin.c	160;"	d	file:
+SIPE_STATUS_ATTR_ID_MESSAGE	purple-plugin.c	70;"	d	file:
+SIPE_TRANSPORT_CONNECTION	purple-transport.c	66;"	d	file:
+SOURCES	Makefile	/^SOURCES = $(libsipe_la_SOURCES) $(libsipe_backend_la_SOURCES) \\$/;"	m
+STRIP	Makefile	/^STRIP = strip$/;"	m
+TELEPATHY_CFLAGS	Makefile	/^TELEPATHY_CFLAGS = $/;"	m
+TELEPATHY_LIBS	Makefile	/^TELEPATHY_LIBS = $/;"	m
+TESTS	Makefile	/^TESTS = $(check_PROGRAMS)$/;"	m
+USE_NLS	Makefile	/^USE_NLS = yes$/;"	m
+VERSION	Makefile	/^VERSION = 1.11.0$/;"	m
+XGETTEXT	Makefile	/^XGETTEXT = \/usr\/bin\/xgettext$/;"	m
+_sipe_purple_media	purple-media.c	/^typedef struct _sipe_purple_media {$/;"	s	file:
+abs_builddir	Makefile	/^abs_builddir = \/home\/fstl\/Public\/siplcs\/src\/purple$/;"	m
+abs_srcdir	Makefile	/^abs_srcdir = \/home\/fstl\/Public\/siplcs\/src\/purple$/;"	m
+abs_top_builddir	Makefile	/^abs_top_builddir = \/home\/fstl\/Public\/siplcs$/;"	m
+abs_top_srcdir	Makefile	/^abs_top_srcdir = \/home\/fstl\/Public\/siplcs$/;"	m
+ac_ct_CC	Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_DUMPBIN	Makefile	/^ac_ct_DUMPBIN = $/;"	m
+account	purple-private.h	/^	struct _PurpleAccount *account;$/;"	m	struct:sipe_backend_private	typeref:struct:sipe_backend_private::_PurpleAccount
+activity_to_purple	purple-plugin.c	/^static const gchar * const activity_to_purple[SIPE_ACTIVITY_NUM_TYPES] = {$/;"	v	file:
+am__DEPENDENCIES_1	Makefile	/^am__DEPENDENCIES_1 =$/;"	m
+am__DEPENDENCIES_2	Makefile	/^am__DEPENDENCIES_2 = $(am__DEPENDENCIES_1)$/;"	m
+am__DEPENDENCIES_5	Makefile	/^am__DEPENDENCIES_5 = $(am__DEPENDENCIES_1)$/;"	m
+am__aclocal_m4_deps	Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/VERSION $(top_srcdir)\/configure.ac$/;"	m
+am__append_1	Makefile	/^am__append_1 = $(KRB5_LDFLAGS)$/;"	m
+am__append_10	Makefile	/^am__append_10 = $(NICE_LIBS)$/;"	m
+am__append_4	Makefile	/^am__append_4 = purple-mime.c$/;"	m
+am__append_7	Makefile	/^am__append_7 = purple-crypt.c purple-digest.c$/;"	m
+am__append_8	Makefile	/^am__append_8 = purple-media.c$/;"	m
+am__append_9	Makefile	/^am__append_9 = $(NICE_CFLAGS)$/;"	m
+am__base_list	Makefile	/^am__base_list = \\$/;"	m
+am__cd	Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__configure_deps	Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__depfiles_maybe	Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__include	Makefile	/^am__include = include$/;"	m
+am__install_max	Makefile	/^am__install_max = 40$/;"	m
+am__installdirs	Makefile	/^am__installdirs = "$(DESTDIR)$(pkgdir)"$/;"	m
+am__leading_dot	Makefile	/^am__leading_dot = .$/;"	m
+am__libsipe_backend_la_SOURCES_DIST	Makefile	/^am__libsipe_backend_la_SOURCES_DIST = purple-private.h \\$/;"	m
+am__mv	Makefile	/^am__mv = mv -f$/;"	m
+am__nobase_list	Makefile	/^am__nobase_list = $(am__nobase_strip_setup); \\$/;"	m
+am__nobase_strip	Makefile	/^am__nobase_strip = \\$/;"	m
+am__nobase_strip_setup	Makefile	/^am__nobase_strip_setup = \\$/;"	m
+am__objects_1	Makefile	/^am__objects_1 =  \\$/;"	m
+am__objects_2	Makefile	/^am__objects_2 =  \\$/;"	m
+am__objects_3	Makefile	/^am__objects_3 = libsipe_backend_la-purple-media.lo$/;"	m
+am__quote	Makefile	/^am__quote = $/;"	m
+am__strip_dir	Makefile	/^am__strip_dir = f=`echo $$p | sed -e 's|^.*\/||'`;$/;"	m
+am__tar	Makefile	/^am__tar = tar --format=ustar -chf - "$$tardir"$/;"	m
+am__tty_colors	Makefile	/^am__tty_colors = \\$/;"	m
+am__untar	Makefile	/^am__untar = tar -xf -$/;"	m
+am__vpath_adj	Makefile	/^am__vpath_adj = case $$p in \\$/;"	m
+am__vpath_adj_setup	Makefile	/^am__vpath_adj_setup = srcdirstrip=`echo "$(srcdir)" | sed 's|.|.|g'`;$/;"	m
+am_libsipe_backend_la_OBJECTS	Makefile	/^am_libsipe_backend_la_OBJECTS =  \\$/;"	m
+am_libsipe_la_OBJECTS	Makefile	/^am_libsipe_la_OBJECTS = libsipe_la-purple-plugin.lo$/;"	m
+am_tests_OBJECTS	Makefile	/^am_tests_OBJECTS = tests-tests.$(OBJEXT)$/;"	m
+am_tests_load_OBJECTS	Makefile	/^am_tests_load_OBJECTS = tests_load-tests-load.$(OBJEXT)$/;"	m
+bindir	Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+build	Makefile	/^build = i686-pc-linux-gnu$/;"	m
+build_alias	Makefile	/^build_alias = $/;"	m
+build_cpu	Makefile	/^build_cpu = i686$/;"	m
+build_os	Makefile	/^build_os = linux-gnu$/;"	m
+build_triplet	Makefile	/^build_triplet = i686-pc-linux-gnu$/;"	m
+build_vendor	Makefile	/^build_vendor = pc$/;"	m
+builddir	Makefile	/^builddir = .$/;"	m
+check_PROGRAMS	Makefile	/^check_PROGRAMS = tests$(EXEEXT) tests_load$(EXEEXT)$/;"	m
+connected	purple-transport.c	/^	transport_connected_cb *connected;$/;"	m	struct:sipe_transport_purple	file:
+core_data	purple-schedule.c	/^	gpointer core_data;$/;"	m	struct:purple_schedule	file:
+datadir	Makefile	/^datadir = ${datarootdir}$/;"	m
+datarootdir	Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+depcomp	Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/depcomp$/;"	m
+dns_query	purple-private.h	/^	struct _PurpleSrvQueryData *dns_query;$/;"	m	struct:sipe_backend_private	typeref:struct:sipe_backend_private::_PurpleSrvQueryData
+dns_srv_response	purple-dnsquery.c	/^static void dns_srv_response(PurpleSrvResponse *resp,$/;"	f	file:
+docdir	Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+dvidir	Makefile	/^dvidir = ${docdir}$/;"	m
+error	purple-transport.c	/^	transport_error_cb *error;$/;"	m	struct:sipe_transport_purple	file:
+exec_prefix	Makefile	/^exec_prefix = ${prefix}$/;"	m
+gc	purple-private.h	/^	struct _PurpleConnection *gc;$/;"	m	struct:sipe_backend_private	typeref:struct:sipe_backend_private::_PurpleConnection
+gc	purple-transport.c	/^	PurpleConnection *gc;$/;"	m	struct:sipe_transport_purple	file:
+gsc	purple-transport.c	/^	PurpleSslConnection *gsc;$/;"	m	struct:sipe_transport_purple	file:
+host	Makefile	/^host = i686-pc-linux-gnu$/;"	m
+host_alias	Makefile	/^host_alias = $/;"	m
+host_cpu	Makefile	/^host_cpu = i686$/;"	m
+host_os	Makefile	/^host_os = linux-gnu$/;"	m
+host_triplet	Makefile	/^host_triplet = i686-pc-linux-gnu$/;"	m
+host_vendor	Makefile	/^host_vendor = pc$/;"	m
+htmldir	Makefile	/^htmldir = ${docdir}$/;"	m
+in_recursion	purple-media.c	/^	gboolean	in_recursion;$/;"	m	struct:_sipe_purple_media	file:
+includedir	Makefile	/^includedir = ${prefix}\/include$/;"	m
+info	purple-plugin.c	/^static PurplePluginInfo info = {$/;"	v	file:
+infodir	Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+init_plugin	purple-plugin.c	/^static void init_plugin(PurplePlugin *plugin)$/;"	f	file:
+input	purple-transport.c	/^	transport_input_cb *input;$/;"	m	struct:sipe_transport_purple	file:
+install_sh	Makefile	/^install_sh = ${SHELL} \/home\/fstl\/Public\/siplcs\/install-sh$/;"	m
+install_sh_DATA	Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_PROGRAM	Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+last_keepalive	purple-private.h	/^	time_t last_keepalive;$/;"	m	struct:sipe_backend_private
+libdir	Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libexecdir	Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libsipe_backend_la_CFLAGS	Makefile	/^libsipe_backend_la_CFLAGS = $(DEBUG_CFLAGS) $(QUALITY_CFLAGS) \\$/;"	m
+libsipe_backend_la_LIBADD	Makefile	/^libsipe_backend_la_LIBADD =$/;"	m
+libsipe_backend_la_LINK	Makefile	/^libsipe_backend_la_LINK = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+libsipe_backend_la_OBJECTS	Makefile	/^libsipe_backend_la_OBJECTS = $(am_libsipe_backend_la_OBJECTS)$/;"	m
+libsipe_backend_la_SOURCES	Makefile	/^libsipe_backend_la_SOURCES = purple-private.h purple-connection.c \\$/;"	m
+libsipe_la_CFLAGS	Makefile	/^libsipe_la_CFLAGS = $(libsipe_backend_la_CFLAGS)$/;"	m
+libsipe_la_DEPENDENCIES	Makefile	/^libsipe_la_DEPENDENCIES = ..\/core\/libsipe_core.la \\$/;"	m
+libsipe_la_LDFLAGS	Makefile	/^libsipe_la_LDFLAGS = \\$/;"	m
+libsipe_la_LIBADD	Makefile	/^libsipe_la_LIBADD = ..\/core\/libsipe_core.la \\$/;"	m
+libsipe_la_LINK	Makefile	/^libsipe_la_LINK = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+libsipe_la_OBJECTS	Makefile	/^libsipe_la_OBJECTS = $(am_libsipe_la_OBJECTS)$/;"	m
+libsipe_la_SOURCES	Makefile	/^libsipe_la_SOURCES = \\$/;"	m
+localedir	Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localstatedir	Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+lt_ECHO	Makefile	/^lt_ECHO = echo$/;"	m
+m	purple-media.c	/^	PurpleMedia *m;$/;"	m	struct:_sipe_purple_media	file:
+main	tests-load.c	/^int main(int argc, char *argv[])$/;"	f
+main	tests.c	/^int main()$/;"	f
+mandir	Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+map	purple-connection.c	/^static const guint map[SIPE_CONNECTION_ERROR_LAST] = {$/;"	v	file:
+mime_fields_to_nameval	purple-mime.c	/^GSList * mime_fields_to_nameval(PurpleMimePart* part)$/;"	f	file:
+mkdir_p	Makefile	/^mkdir_p = \/bin\/mkdir -p$/;"	m
+mkinstalldirs	Makefile	/^mkinstalldirs = $(SHELL) $(top_srcdir)\/mkinstalldirs$/;"	m
+noinst_LTLIBRARIES	Makefile	/^noinst_LTLIBRARIES = libsipe_backend.la$/;"	m
+oldincludedir	Makefile	/^oldincludedir = \/usr\/include$/;"	m
+on_candidates_prepared_cb	purple-media.c	/^on_candidates_prepared_cb(SIPE_UNUSED_PARAMETER PurpleMedia *media,$/;"	f	file:
+on_state_changed_cb	purple-media.c	/^on_state_changed_cb(SIPE_UNUSED_PARAMETER PurpleMedia *media,$/;"	f	file:
+on_stream_info_cb	purple-media.c	/^on_stream_info_cb(SIPE_UNUSED_PARAMETER PurpleMedia *media,$/;"	f	file:
+pdfdir	Makefile	/^pdfdir = ${docdir}$/;"	m
+pkg_LTLIBRARIES	Makefile	/^pkg_LTLIBRARIES = libsipe.la$/;"	m
+pkgdatadir	Makefile	/^pkgdatadir = $(datadir)\/pidgin-sipe$/;"	m
+pkgdir	Makefile	/^pkgdir = $(libdir)\/purple-$(PURPLE_MAJOR_VERSION)$/;"	m
+pkgincludedir	Makefile	/^pkgincludedir = $(includedir)\/pidgin-sipe$/;"	m
+pkglibdir	Makefile	/^pkglibdir = $(libdir)\/pidgin-sipe$/;"	m
+pkglibexecdir	Makefile	/^pkglibexecdir = $(libexecdir)\/pidgin-sipe$/;"	m
+prefix	Makefile	/^prefix = \/usr\/local$/;"	m
+program_transform_name	Makefile	/^program_transform_name = s,x,x,$/;"	m
+prpl_info	purple-plugin.c	/^static PurplePluginProtocolInfo prpl_info =$/;"	v	file:
+psdir	Makefile	/^psdir = ${docdir}$/;"	m
+public	purple-transport.c	/^	struct sipe_transport_connection public;$/;"	m	struct:sipe_transport_purple	typeref:struct:sipe_transport_purple::sipe_transport_connection	file:
+purple_activity_destroy	purple-plugin.c	/^static void purple_activity_destroy(void)$/;"	f	file:
+purple_activity_init	purple-plugin.c	/^static void purple_activity_init(void)$/;"	f	file:
+purple_digest	purple-digest.c	/^static void purple_digest(const gchar *algorithm,$/;"	f	file:
+purple_network_protocol_to_sipe	purple-media.c	/^purple_network_protocol_to_sipe(PurpleMediaNetworkProtocol proto)$/;"	f	file:
+purple_schedule	purple-schedule.c	/^struct purple_schedule {$/;"	s	file:
+purple_timeout_execute	purple-schedule.c	/^static gboolean purple_timeout_execute(gpointer data)$/;"	f	file:
+purple_to_activity	purple-plugin.c	/^GHashTable *purple_to_activity = NULL;$/;"	v
+receive_handler	purple-transport.c	/^	guint receive_handler;$/;"	m	struct:sipe_transport_purple	file:
+sbindir	Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+setting_name	purple-setting.c	/^static const gchar * const setting_name[SIPE_SETTING_LAST] = {$/;"	v	file:
+sharedstatedir	Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+sipe_actions	purple-plugin.c	/^static GList *sipe_actions(SIPE_UNUSED_PARAMETER PurplePlugin *plugin,$/;"	f	file:
+sipe_add_deny	purple-plugin.c	/^static void sipe_add_deny(PurpleConnection *gc, const char *name)$/;"	f	file:
+sipe_add_permit	purple-plugin.c	/^static void sipe_add_permit(PurpleConnection *gc, const char *name)$/;"	f	file:
+sipe_alias_buddy	purple-plugin.c	/^static void sipe_alias_buddy(PurpleConnection *gc, const char *name,$/;"	f	file:
+sipe_backend_candidate_free	purple-media.c	/^sipe_backend_candidate_free(sipe_candidate *candidate)$/;"	f
+sipe_backend_candidate_get_component_type	purple-media.c	/^sipe_backend_candidate_get_component_type(sipe_candidate *candidate)$/;"	f
+sipe_backend_candidate_get_foundation	purple-media.c	/^sipe_backend_candidate_get_foundation(sipe_candidate *candidate)$/;"	f
+sipe_backend_candidate_get_ip	purple-media.c	/^sipe_backend_candidate_get_ip(sipe_candidate *candidate)$/;"	f
+sipe_backend_candidate_get_password	purple-media.c	/^sipe_backend_candidate_get_password(sipe_candidate *candidate)$/;"	f
+sipe_backend_candidate_get_port	purple-media.c	/^sipe_backend_candidate_get_port(sipe_candidate *candidate)$/;"	f
+sipe_backend_candidate_get_priority	purple-media.c	/^sipe_backend_candidate_get_priority(sipe_candidate *candidate)$/;"	f
+sipe_backend_candidate_get_protocol	purple-media.c	/^sipe_backend_candidate_get_protocol(sipe_candidate *candidate)$/;"	f
+sipe_backend_candidate_get_type	purple-media.c	/^sipe_backend_candidate_get_type(sipe_candidate *candidate)$/;"	f
+sipe_backend_candidate_get_username	purple-media.c	/^sipe_backend_candidate_get_username(sipe_candidate *candidate)$/;"	f
+sipe_backend_candidate_new	purple-media.c	/^sipe_backend_candidate_new(const gchar *foundation, SipeComponentType component,$/;"	f
+sipe_backend_candidate_set_priority	purple-media.c	/^sipe_backend_candidate_set_priority(sipe_candidate *candidate, guint32 priority)$/;"	f
+sipe_backend_candidate_set_username_and_pwd	purple-media.c	/^sipe_backend_candidate_set_username_and_pwd(sipe_candidate *candidate,$/;"	f
+sipe_backend_codec_add_optional_parameter	purple-media.c	/^sipe_backend_codec_add_optional_parameter(sipe_codec *codec,$/;"	f
+sipe_backend_codec_free	purple-media.c	/^sipe_backend_codec_free(sipe_codec *codec)$/;"	f
+sipe_backend_codec_get_clock_rate	purple-media.c	/^sipe_backend_codec_get_clock_rate(sipe_codec *codec)$/;"	f
+sipe_backend_codec_get_id	purple-media.c	/^sipe_backend_codec_get_id(sipe_codec *codec)$/;"	f
+sipe_backend_codec_get_name	purple-media.c	/^sipe_backend_codec_get_name(sipe_codec *codec)$/;"	f
+sipe_backend_codec_get_optional_parameters	purple-media.c	/^sipe_backend_codec_get_optional_parameters(sipe_codec *codec)$/;"	f
+sipe_backend_codec_new	purple-media.c	/^sipe_backend_codec_new(int id, const char *name, SipeMediaType type, guint clock_rate)$/;"	f
+sipe_backend_connection_error	purple-connection.c	/^void sipe_backend_connection_error(struct sipe_core_public *sipe_public,$/;"	f
+sipe_backend_debug	purple-debug.c	/^void sipe_backend_debug(sipe_debug_level level,$/;"	f
+sipe_backend_dns_query	purple-dnsquery.c	/^void sipe_backend_dns_query(struct sipe_core_public *sipe_public,$/;"	f
+sipe_backend_get_local_candidates	purple-media.c	/^sipe_backend_get_local_candidates(sipe_media_call* call, gchar* participant)$/;"	f
+sipe_backend_get_local_codecs	purple-media.c	/^sipe_backend_get_local_codecs(sipe_media_call* call)$/;"	f
+sipe_backend_markup_css_property	purple-markup.c	/^gchar *sipe_backend_markup_css_property(const gchar *style,$/;"	f
+sipe_backend_markup_strip_html	purple-markup.c	/^gchar *sipe_backend_markup_strip_html(const gchar *html)$/;"	f
+sipe_backend_media_add_remote_candidates	purple-media.c	/^sipe_backend_media_add_remote_candidates(sipe_media *media, gchar* participant, GList *candidates)$/;"	f
+sipe_backend_media_add_stream	purple-media.c	/^sipe_backend_media_add_stream(sipe_media *media, const gchar* participant,$/;"	f
+sipe_backend_media_free	purple-media.c	/^sipe_backend_media_free(sipe_media *media)$/;"	f
+sipe_backend_media_hangup	purple-media.c	/^sipe_backend_media_hangup(sipe_media* media, gboolean local)$/;"	f
+sipe_backend_media_hold	purple-media.c	/^sipe_backend_media_hold(sipe_media* media, gboolean local)$/;"	f
+sipe_backend_media_is_initiator	purple-media.c	/^gboolean sipe_backend_media_is_initiator(sipe_media *media, gchar *participant)$/;"	f
+sipe_backend_media_new	purple-media.c	/^sipe_backend_media_new(struct sipe_core_public *sipe_public,$/;"	f
+sipe_backend_media_reject	purple-media.c	/^sipe_backend_media_reject(sipe_media* media, gboolean local)$/;"	f
+sipe_backend_media_unhold	purple-media.c	/^sipe_backend_media_unhold(sipe_media* media, gboolean local)$/;"	f
+sipe_backend_network_ip_address	purple-network.c	/^const gchar *sipe_backend_network_ip_address(void)$/;"	f
+sipe_backend_private	purple-private.h	/^struct sipe_backend_private {$/;"	s
+sipe_backend_schedule_cancel	purple-schedule.c	/^void sipe_backend_schedule_cancel(SIPE_UNUSED_PARAMETER struct sipe_core_public *sipe_public,$/;"	f
+sipe_backend_schedule_mseconds	purple-schedule.c	/^gpointer sipe_backend_schedule_mseconds(SIPE_UNUSED_PARAMETER struct sipe_core_public *sipe_public,$/;"	f
+sipe_backend_schedule_seconds	purple-schedule.c	/^gpointer sipe_backend_schedule_seconds(SIPE_UNUSED_PARAMETER struct sipe_core_public *sipe_public,$/;"	f
+sipe_backend_set_remote_codecs	purple-media.c	/^sipe_backend_set_remote_codecs(sipe_media_call* call, gchar* participant)$/;"	f
+sipe_backend_setting	purple-setting.c	/^const gchar *sipe_backend_setting(struct sipe_core_public *sipe_public,$/;"	f
+sipe_backend_transport_connect	purple-transport.c	/^sipe_backend_transport_connect(struct sipe_core_public *sipe_public,$/;"	f
+sipe_backend_transport_disconnect	purple-transport.c	/^void sipe_backend_transport_disconnect(struct sipe_transport_connection *conn)$/;"	f
+sipe_backend_transport_message	purple-transport.c	/^void sipe_backend_transport_message(struct sipe_transport_connection *conn,$/;"	f
+sipe_backend_version	purple-plugin.c	/^gchar *sipe_backend_version(void)$/;"	f
+sipe_blist_node_menu	purple-plugin.c	/^static GList *sipe_blist_node_menu(PurpleBlistNode *node)$/;"	f	file:
+sipe_candidate_type_to_purple	purple-media.c	/^sipe_candidate_type_to_purple(SipeCandidateType type)$/;"	f	file:
+sipe_chat_invite	purple-plugin.c	/^static void sipe_chat_invite(PurpleConnection *gc, int id,$/;"	f	file:
+sipe_close	purple-plugin.c	/^static void sipe_close(PurpleConnection *gc)$/;"	f	file:
+sipe_crypt_des	purple-crypt.c	/^void sipe_crypt_des(const guchar *key,$/;"	f
+sipe_crypt_ft_destroy	purple-crypt.c	/^void sipe_crypt_ft_destroy(gpointer context)$/;"	f
+sipe_crypt_ft_start	purple-crypt.c	/^gpointer sipe_crypt_ft_start(const guchar *key)$/;"	f
+sipe_crypt_ft_stream	purple-crypt.c	/^void sipe_crypt_ft_stream(gpointer context,$/;"	f
+sipe_crypt_rc4	purple-crypt.c	/^void sipe_crypt_rc4(const guchar *key, gsize key_length,$/;"	f
+sipe_digest_ft_destroy	purple-digest.c	/^void sipe_digest_ft_destroy(gpointer context)$/;"	f
+sipe_digest_ft_end	purple-digest.c	/^void sipe_digest_ft_end(gpointer context, guchar *digest)$/;"	f
+sipe_digest_ft_start	purple-digest.c	/^gpointer sipe_digest_ft_start(const guchar *sha1_digest)$/;"	f
+sipe_digest_ft_update	purple-digest.c	/^void sipe_digest_ft_update(gpointer context, const guchar *data, gsize length)$/;"	f
+sipe_digest_hmac_md5	purple-digest.c	/^void sipe_digest_hmac_md5(const guchar *key, gsize key_length,$/;"	f
+sipe_digest_md4	purple-digest.c	/^void sipe_digest_md4(const guchar *data, gsize length, guchar *digest)$/;"	f
+sipe_digest_md5	purple-digest.c	/^void sipe_digest_md5(const guchar *data, gsize length, guchar *digest)$/;"	f
+sipe_digest_sha1	purple-digest.c	/^void sipe_digest_sha1(const guchar *data, gsize length, guchar *digest)$/;"	f
+sipe_get_account_text_table	purple-plugin.c	/^sipe_get_account_text_table(SIPE_UNUSED_PARAMETER PurpleAccount *account)$/;"	f	file:
+sipe_get_media_caps	purple-plugin.c	/^static PurpleMediaCaps sipe_get_media_caps(SIPE_UNUSED_PARAMETER PurpleAccount *account,$/;"	f	file:
+sipe_initiate_media	purple-plugin.c	/^static gboolean sipe_initiate_media(PurpleAccount *account, const char *who,$/;"	f	file:
+sipe_keep_alive	purple-plugin.c	/^static void sipe_keep_alive(PurpleConnection *gc)$/;"	f	file:
+sipe_list_icon	purple-plugin.c	/^static const char *sipe_list_icon(SIPE_UNUSED_PARAMETER PurpleAccount *a,$/;"	f	file:
+sipe_login	purple-plugin.c	/^static void sipe_login(PurpleAccount *account)$/;"	f	file:
+sipe_media_to_purple	purple-media.c	/^PurpleMediaSessionType sipe_media_to_purple(SipeMediaType type)$/;"	f
+sipe_mime_parts_foreach	purple-mime.c	/^void sipe_mime_parts_foreach(const gchar *type,$/;"	f
+sipe_network_protocol_to_purple	purple-media.c	/^sipe_network_protocol_to_purple(SipeNetworkProtocol proto)$/;"	f	file:
+sipe_plugin_destroy	purple-plugin.c	/^static void sipe_plugin_destroy(SIPE_UNUSED_PARAMETER PurplePlugin *plugin)$/;"	f	file:
+sipe_plugin_load	purple-plugin.c	/^static gboolean sipe_plugin_load(SIPE_UNUSED_PARAMETER PurplePlugin *plugin)$/;"	f	file:
+sipe_plugin_unload	purple-plugin.c	/^static gboolean sipe_plugin_unload(SIPE_UNUSED_PARAMETER PurplePlugin *plugin)$/;"	f	file:
+sipe_purple_media	purple-media.c	/^} sipe_purple_media;$/;"	t	typeref:struct:_sipe_purple_media	file:
+sipe_republish_calendar	purple-plugin.c	/^static void sipe_republish_calendar(PurplePluginAction *action)$/;"	f	file:
+sipe_reset_status	purple-plugin.c	/^static void sipe_reset_status(PurplePluginAction *action)$/;"	f	file:
+sipe_show_about_plugin	purple-plugin.c	/^static void sipe_show_about_plugin(PurplePluginAction *action)$/;"	f	file:
+sipe_show_find_contact	purple-plugin.c	/^static void sipe_show_find_contact(PurplePluginAction *action)$/;"	f	file:
+sipe_status_text	purple-plugin.c	/^static gchar *sipe_status_text(PurpleBuddy *buddy)$/;"	f	file:
+sipe_status_types	purple-plugin.c	/^static GList *sipe_status_types(SIPE_UNUSED_PARAMETER PurpleAccount *acc)$/;"	f	file:
+sipe_tooltip_text	purple-plugin.c	/^static void sipe_tooltip_text(PurpleBuddy *buddy,$/;"	f	file:
+sipe_transport_purple	purple-transport.c	/^struct sipe_transport_purple {$/;"	s	file:
+socket	purple-transport.c	/^	int socket;$/;"	m	struct:sipe_transport_purple	file:
+srcdir	Makefile	/^srcdir = .$/;"	m
+subdir	Makefile	/^subdir = src\/purple$/;"	m
+sysconfdir	Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+target_alias	Makefile	/^target_alias = $/;"	m
+tests_CFLAGS	Makefile	/^tests_CFLAGS = $(libsipe_la_CFLAGS)$/;"	m
+tests_DEPENDENCIES	Makefile	/^tests_DEPENDENCIES = ..\/core\/libsipe_core_tests.la \\$/;"	m
+tests_LDADD	Makefile	/^tests_LDADD = ..\/core\/libsipe_core_tests.la ..\/core\/libsipe_core.la \\$/;"	m
+tests_LINK	Makefile	/^tests_LINK = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \\$/;"	m
+tests_OBJECTS	Makefile	/^tests_OBJECTS = $(am_tests_OBJECTS)$/;"	m
+tests_SOURCES	Makefile	/^tests_SOURCES = tests.c$/;"	m
+tests_load_CFLAGS	Makefile	/^tests_load_CFLAGS = $(GMODULE_CFLAGS)$/;"	m
+tests_load_DEPENDENCIES	Makefile	/^tests_load_DEPENDENCIES = $(am__DEPENDENCIES_1)$/;"	m
+tests_load_LDADD	Makefile	/^tests_load_LDADD = $(GMODULE_LIBS)$/;"	m
+tests_load_LINK	Makefile	/^tests_load_LINK = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+tests_load_OBJECTS	Makefile	/^tests_load_OBJECTS = $(am_tests_load_OBJECTS)$/;"	m
+tests_load_SOURCES	Makefile	/^tests_load_SOURCES = tests-load.c$/;"	m
+timeout_handler	purple-schedule.c	/^	guint timeout_handler;$/;"	m	struct:purple_schedule	file:
+top_build_prefix	Makefile	/^top_build_prefix = ..\/..\/$/;"	m
+top_builddir	Makefile	/^top_builddir = ..\/..$/;"	m
+top_srcdir	Makefile	/^top_srcdir = ..\/..$/;"	m
+transform	Makefile	/^transform = $(program_transform_name)$/;"	m
+transmit_buffer	purple-transport.c	/^	PurpleCircBuffer *transmit_buffer;$/;"	m	struct:sipe_transport_purple	file:
+transmit_handler	purple-transport.c	/^	guint transmit_handler;$/;"	m	struct:sipe_transport_purple	file:
+transport_canwrite_cb	purple-transport.c	/^static void transport_canwrite_cb(gpointer data,$/;"	f	file:
+transport_common_connected	purple-transport.c	/^static void transport_common_connected(struct sipe_transport_purple *transport,$/;"	f	file:
+transport_common_input	purple-transport.c	/^static void transport_common_input(struct sipe_transport_purple *transport)$/;"	f	file:
+transport_ssl_connect_failure	purple-transport.c	/^static void transport_ssl_connect_failure(SIPE_UNUSED_PARAMETER PurpleSslConnection *gsc,$/;"	f	file:
+transport_ssl_connected	purple-transport.c	/^static void transport_ssl_connected(gpointer data,$/;"	f	file:
+transport_ssl_input	purple-transport.c	/^static void transport_ssl_input(gpointer data,$/;"	f	file:
+transport_tcp_connected	purple-transport.c	/^static void transport_tcp_connected(gpointer data,$/;"	f	file:
+transport_tcp_input	purple-transport.c	/^static void transport_tcp_input(gpointer data,$/;"	f	file:

@@ -1,0 +1,1616 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACLOCAL	Makefile	/^ACLOCAL = ${SHELL} \/home\/fstl\/Public\/siplcs\/missing --run aclocal-1.11$/;"	m
+ACLOCAL_M4	Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ACTION_NAME_PRESENCE	sipe.c	164;"	d	file:
+ADDRESS_CITY_PROP	sipe.c	2578;"	d	file:
+ADDRESS_COUNTRYCODE_PROP	sipe.c	2581;"	d	file:
+ADDRESS_STATE_PROP	sipe.c	2579;"	d	file:
+ADDRESS_STREET_PROP	sipe.c	2577;"	d	file:
+ADDRESS_ZIPCODE_PROP	sipe.c	2580;"	d	file:
+ALIAS_PROP	sipe.c	2559;"	d	file:
+ALIGN_AV	sip-sec-ntlm.c	199;"	d	file:
+ALIGN_AV_LOOP_END	sip-sec-ntlm.c	212;"	d	file:
+ALIGN_AV_LOOP_START	sip-sec-ntlm.c	203;"	d	file:
+ALL_LINGUAS	Makefile	/^ALL_LINGUAS = $/;"	m
+AMTAR	Makefile	/^AMTAR = ${SHELL} \/home\/fstl\/Public\/siplcs\/missing --run tar$/;"	m
+AM_CFLAGS	Makefile	/^AM_CFLAGS = $(st)$/;"	m
+APPEND_NEG_FLAG	sip-sec-ntlm.c	1287;"	d	file:
+AR	Makefile	/^AR = ar$/;"	m
+AUTH_TYPE_DIGEST	sip-sec.h	29;"	d
+AUTH_TYPE_KERBEROS	sip-sec.h	31;"	d
+AUTH_TYPE_NEGOTIATE	sip-sec.h	32;"	d
+AUTH_TYPE_NTLM	sip-sec.h	30;"	d
+AUTH_TYPE_UNSET	sip-sec.h	28;"	d
+AUTOCONF	Makefile	/^AUTOCONF = ${SHELL} \/home\/fstl\/Public\/siplcs\/missing --run autoconf$/;"	m
+AUTOHEADER	Makefile	/^AUTOHEADER = ${SHELL} \/home\/fstl\/Public\/siplcs\/missing --run autoheader$/;"	m
+AUTOMAKE	Makefile	/^AUTOMAKE = ${SHELL} \/home\/fstl\/Public\/siplcs\/missing --run automake-1.11$/;"	m
+AV_DESC	sip-sec-ntlm.c	1410;"	d	file:
+AWK	Makefile	/^AWK = mawk$/;"	m
+BUF_LEN	sipmsg.c	581;"	d	file:
+CATALOGS	Makefile	/^CATALOGS = $/;"	m
+CATOBJEXT	Makefile	/^CATOBJEXT = .gmo$/;"	m
+CC	Makefile	/^CC = gcc$/;"	m
+CCDEPMODE	Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCLD	Makefile	/^CCLD = $(CC)$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -g -O2$/;"	m
+COMPANY_PROP	sipe.c	2572;"	d	file:
+COMPILE	Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
+CONFIG_CLEAN_FILES	Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_HEADER	Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+CONTAINERS_LEN	sipe.c	2293;"	d	file:
+CPP	Makefile	/^CPP = gcc -E$/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS = $/;"	m
+CRC32	sip-sec-ntlm.c	/^CRC32 (const char *msg, int len)$/;"	f	file:
+CTAGS	Makefile	/^CTAGS = ctags$/;"	m
+CYGPATH_W	Makefile	/^CYGPATH_W = echo$/;"	m
+DATADIRNAME	Makefile	/^DATADIRNAME = share$/;"	m
+DEBUG_CFLAGS	Makefile	/^DEBUG_CFLAGS = $/;"	m
+DEFAULT_INCLUDES	Makefile	/^DEFAULT_INCLUDES = -I. -I$(top_builddir)$/;"	m
+DEFS	Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DELIVERED_CSTA_STATUS	sip-csta.c	50;"	d	file:
+DEPARTMENT_PROP	sipe.c	2573;"	d	file:
+DEPDIR	Makefile	/^DEPDIR = .deps$/;"	m
+DES	sip-sec-ntlm.c	/^DES (const unsigned char *k, const unsigned char *d, unsigned char * results)$/;"	f	file:
+DESL	sip-sec-ntlm.c	/^DESL (const unsigned char *k, const unsigned char *d, unsigned char * results)$/;"	f	file:
+DISTFILES	Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DIST_COMMON	Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.am $(srcdir)\/Makefile.in$/;"	m
+DIST_SOURCES	Makefile	/^DIST_SOURCES = $(am__libsipe_core_la_SOURCES_DIST) \\$/;"	m
+DSYMUTIL	Makefile	/^DSYMUTIL = $/;"	m
+DUMPBIN	Makefile	/^DUMPBIN = $/;"	m
+ECHO_C	Makefile	/^ECHO_C = $/;"	m
+ECHO_N	Makefile	/^ECHO_N = -n$/;"	m
+ECHO_T	Makefile	/^ECHO_T = $/;"	m
+EGREP	Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+EMAIL_PROP	sipe.c	2560;"	d	file:
+ENVIRONMENT_TIMEZONE	sipe-cal.c	291;"	d	file:
+ESTABLISHED_CSTA_STATUS	sip-csta.c	51;"	d	file:
+ETAGS	Makefile	/^ETAGS = etags$/;"	m
+EXEEXT	Makefile	/^EXEEXT = $/;"	m
+EXTRA_DIST	Makefile	/^EXTRA_DIST = \\$/;"	m
+F	md4.c	49;"	d	file:
+FGREP	Makefile	/^FGREP = \/bin\/grep -F$/;"	m
+G	md4.c	52;"	d	file:
+GETTEXT_PACKAGE	Makefile	/^GETTEXT_PACKAGE = pidgin-sipe$/;"	m
+GLIB_CFLAGS	Makefile	/^GLIB_CFLAGS = -I\/usr\/include\/glib-2.0 -I\/usr\/lib\/glib-2.0\/include  $/;"	m
+GLIB_LIBS	Makefile	/^GLIB_LIBS = -lglib-2.0  $/;"	m
+GMIME_CFLAGS	Makefile	/^GMIME_CFLAGS = $/;"	m
+GMIME_LIBS	Makefile	/^GMIME_LIBS = $/;"	m
+GMODULE_CFLAGS	Makefile	/^GMODULE_CFLAGS = -I\/usr\/include\/glib-2.0 -I\/usr\/lib\/glib-2.0\/include  $/;"	m
+GMODULE_LIBS	Makefile	/^GMODULE_LIBS = -Wl,--export-dynamic -lgmodule-2.0 -lglib-2.0  $/;"	m
+GMOFILES	Makefile	/^GMOFILES = $/;"	m
+GMSGFMT	Makefile	/^GMSGFMT = \/usr\/bin\/msgfmt$/;"	m
+GREP	Makefile	/^GREP = \/bin\/grep$/;"	m
+H	md4.c	55;"	d	file:
+HMAC_MD5	sip-sec-ntlm.c	447;"	d	file:
+HTTP_CONN	http-conn.c	86;"	d	file:
+HTTP_CONN_ALLOW_REDIRECT	http-conn.h	33;"	d
+HTTP_CONN_ERROR	http-conn.h	36;"	d
+HTTP_CONN_ERROR_FATAL	http-conn.h	37;"	d
+HTTP_CONN_GET	http-conn.h	27;"	d
+HTTP_CONN_HEADER	http-conn.c	53;"	d	file:
+HTTP_CONN_NO_REDIRECT	http-conn.h	34;"	d
+HTTP_CONN_POST	http-conn.h	28;"	d
+HTTP_CONN_SSL	http-conn.h	30;"	d
+HTTP_CONN_TCP	http-conn.h	31;"	d
+HX_SIZE_OF_IFREQ	sipe-utils.c	447;"	d	file:
+HX_SIZE_OF_IFREQ	sipe-utils.c	449;"	d	file:
+HttpConn	http-conn.h	/^typedef struct http_conn_struct HttpConn;$/;"	t	typeref:struct:http_conn_struct
+HttpConnAuth	http-conn.h	/^typedef struct http_conn_auth HttpConnAuth;$/;"	t	typeref:struct:http_conn_auth
+HttpConnCallback	http-conn.h	/^typedef void (*HttpConnCallback) (int return_code, const char *body, const char *content_type,$/;"	t
+HttpSession	http-conn.h	/^typedef struct http_session_struct HttpSession;$/;"	t	typeref:struct:http_session_struct
+INDENT_FMT	sipe.c	8107;"	d	file:
+INDENT_MARKED_FMT	sipe.c	8112;"	d	file:
+INDENT_MARKED_INHERITED_FMT	sipe.c	8118;"	d	file:
+INSTALL	Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL_DATA	Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_HEADER	Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_STRIP_PROGRAM	Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+INSTOBJEXT	Makefile	/^INSTOBJEXT = .mo$/;"	m
+INTLLIBS	Makefile	/^INTLLIBS = $/;"	m
+INTLTOOL_EXTRACT	Makefile	/^INTLTOOL_EXTRACT = \/usr\/bin\/intltool-extract$/;"	m
+INTLTOOL_MERGE	Makefile	/^INTLTOOL_MERGE = \/usr\/bin\/intltool-merge$/;"	m
+INTLTOOL_PERL	Makefile	/^INTLTOOL_PERL = \/usr\/bin\/perl$/;"	m
+INTLTOOL_UPDATE	Makefile	/^INTLTOOL_UPDATE = \/usr\/bin\/intltool-update$/;"	m
+IS	sipe-cal.c	47;"	d	file:
+ISC_REQ_IDENTIFY	sip-sec-sspi.c	41;"	d	file:
+IS_FLAG	sip-sec-ntlm.c	188;"	d	file:
+KRB5_CFLAGS	Makefile	/^KRB5_CFLAGS = $/;"	m
+KRB5_LDFLAGS	Makefile	/^KRB5_LDFLAGS = $/;"	m
+KXKEY	sip-sec-ntlm.c	/^KXKEY ( guint32 flags,$/;"	f	file:
+LD	Makefile	/^LD = \/usr\/bin\/ld$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS = $/;"	m
+LIBOBJS	Makefile	/^LIBOBJS = $/;"	m
+LIBS	Makefile	/^LIBS =  -Wl,-Bsymbolic-functions -lgssapi_krb5 -lkrb5 -lk5crypto -lcom_err$/;"	m
+LIBTOOL	Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LIBXML2_CFLAGS	Makefile	/^LIBXML2_CFLAGS = -I\/usr\/include\/libxml2  $/;"	m
+LIBXML2_LIBS	Makefile	/^LIBXML2_LIBS = -lxml2  $/;"	m
+LINK	Makefile	/^LINK = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \\$/;"	m
+LIPO	Makefile	/^LIPO = $/;"	m
+LMOWFv1	sip-sec-ntlm.c	/^LMOWFv1 (const char *password, SIPE_UNUSED_PARAMETER const char *user, SIPE_UNUSED_PARAMETER const char *domain, unsigned char *result)$/;"	f	file:
+LN_S	Makefile	/^LN_S = ln -s$/;"	m
+LOCALE_CPPFLAGS	Makefile	/^LOCALE_CPPFLAGS = -DLOCALEDIR=\\"$(prefix)\/$(DATADIRNAME)\/locale\\"$/;"	m
+LTCOMPILE	Makefile	/^LTCOMPILE = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \\$/;"	m
+LTLIBOBJS	Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBRARIES	Makefile	/^LTLIBRARIES = $(noinst_LTLIBRARIES)$/;"	m
+MAC	sip-sec-ntlm.c	/^MAC (guint32 flags,$/;"	f	file:
+MAINTAINERCLEANFILES	Makefile	/^MAINTAINERCLEANFILES = \\$/;"	m
+MAKEINFO	Makefile	/^MAKEINFO = ${SHELL} \/home\/fstl\/Public\/siplcs\/missing --run makeinfo$/;"	m
+MD4	sip-sec-ntlm.c	412;"	d	file:
+MD5	sip-sec-ntlm.c	415;"	d	file:
+MKDIR_P	Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+MKINSTALLDIRS	Makefile	/^MKINSTALLDIRS = .\/mkinstalldirs$/;"	m
+MSGFMT	Makefile	/^MSGFMT = \/usr\/bin\/msgfmt$/;"	m
+MSGFMT_OPTS	Makefile	/^MSGFMT_OPTS = -c$/;"	m
+MSGMERGE	Makefile	/^MSGMERGE = \/usr\/bin\/msgmerge$/;"	m
+MSG_LEN	sipmsg.c	580;"	d	file:
+MsAvRestrictions	sip-sec-ntlm.c	115;"	d	file:
+MsvAvDnsComputerName	sip-sec-ntlm.c	106;"	d	file:
+MsvAvDnsDomainName	sip-sec-ntlm.c	107;"	d	file:
+MsvAvDnsTreeName	sip-sec-ntlm.c	109;"	d	file:
+MsvAvEOL	sip-sec-ntlm.c	103;"	d	file:
+MsvAvFlags	sip-sec-ntlm.c	111;"	d	file:
+MsvAvNbComputerName	sip-sec-ntlm.c	104;"	d	file:
+MsvAvNbDomainName	sip-sec-ntlm.c	105;"	d	file:
+MsvAvTargetName	sip-sec-ntlm.c	117;"	d	file:
+MsvAvTimestamp	sip-sec-ntlm.c	113;"	d	file:
+MsvChannelBindings	sip-sec-ntlm.c	119;"	d	file:
+NEGOTIATE_FLAGS_COMMON_MIN	sip-sec-ntlm.c	153;"	d	file:
+NEGOTIATE_FLAGS_CONN	sip-sec-ntlm.c	162;"	d	file:
+NEGOTIATE_FLAGS_CONNLESS	sip-sec-ntlm.c	179;"	d	file:
+NEGOTIATE_FLAGS_CONNLESS_EXTRA	sip-sec-ntlm.c	171;"	d	file:
+NICE_CFLAGS	Makefile	/^NICE_CFLAGS = -pthread -I\/usr\/include\/glib-2.0 -I\/usr\/lib\/glib-2.0\/include -I\/usr\/local\/include -I\/usr\/local\/include\/nice  $/;"	m
+NICE_LIBS	Makefile	/^NICE_LIBS = -pthread -L\/usr\/local\/lib -lnice -lgobject-2.0 -lgthread-2.0 -lrt -lglib-2.0  $/;"	m
+NM	Makefile	/^NM = \/usr\/bin\/nm -B$/;"	m
+NMEDIT	Makefile	/^NMEDIT = $/;"	m
+NONCE	sip-sec-ntlm.c	/^NONCE(unsigned char *buffer, int num)$/;"	f	file:
+NORMAL_INSTALL	Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_UNINSTALL	Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NSS_CFLAGS	Makefile	/^NSS_CFLAGS = $/;"	m
+NSS_LIBS	Makefile	/^NSS_LIBS = $/;"	m
+NTLMSSP_LM_RESP_LEN	sip-sec-ntlm.c	185;"	d	file:
+NTLMSSP_LN_OR_NT_KEY_LEN	sip-sec-ntlm.c	184;"	d	file:
+NTLMSSP_NEGOTIATE_128	sip-sec-ntlm.c	98;"	d	file:
+NTLMSSP_NEGOTIATE_56	sip-sec-ntlm.c	100;"	d	file:
+NTLMSSP_NEGOTIATE_ALWAYS_SIGN	sip-sec-ntlm.c	84;"	d	file:
+NTLMSSP_NEGOTIATE_DATAGRAM	sip-sec-ntlm.c	75;"	d	file:
+NTLMSSP_NEGOTIATE_EXTENDED_SESSIONSECURITY	sip-sec-ntlm.c	88;"	d	file:
+NTLMSSP_NEGOTIATE_IDENTIFY	sip-sec-ntlm.c	89;"	d	file:
+NTLMSSP_NEGOTIATE_KEY_EXCH	sip-sec-ntlm.c	99;"	d	file:
+NTLMSSP_NEGOTIATE_LM_KEY	sip-sec-ntlm.c	76;"	d	file:
+NTLMSSP_NEGOTIATE_NTLM	sip-sec-ntlm.c	78;"	d	file:
+NTLMSSP_NEGOTIATE_NT_ONLY	sip-sec-ntlm.c	79;"	d	file:
+NTLMSSP_NEGOTIATE_OEM	sip-sec-ntlm.c	70;"	d	file:
+NTLMSSP_NEGOTIATE_OEM_DOMAIN_SUPPLIED	sip-sec-ntlm.c	81;"	d	file:
+NTLMSSP_NEGOTIATE_OEM_WORKSTATION_SUPPLIED	sip-sec-ntlm.c	82;"	d	file:
+NTLMSSP_NEGOTIATE_SEAL	sip-sec-ntlm.c	74;"	d	file:
+NTLMSSP_NEGOTIATE_SIGN	sip-sec-ntlm.c	73;"	d	file:
+NTLMSSP_NEGOTIATE_TARGET_INFO	sip-sec-ntlm.c	92;"	d	file:
+NTLMSSP_NEGOTIATE_UNICODE	sip-sec-ntlm.c	69;"	d	file:
+NTLMSSP_NEGOTIATE_VERSION	sip-sec-ntlm.c	94;"	d	file:
+NTLMSSP_REQUEST_NON_NT_SESSION_KEY	sip-sec-ntlm.c	91;"	d	file:
+NTLMSSP_REQUEST_TARGET	sip-sec-ntlm.c	71;"	d	file:
+NTLMSSP_SESSION_KEY_LEN	sip-sec-ntlm.c	186;"	d	file:
+NTLMSSP_TARGET_TYPE_DOMAIN	sip-sec-ntlm.c	85;"	d	file:
+NTLMSSP_TARGET_TYPE_SERVER	sip-sec-ntlm.c	86;"	d	file:
+NTOWFv1	sip-sec-ntlm.c	/^NTOWFv1 (const char* password, SIPE_UNUSED_PARAMETER const char *user, SIPE_UNUSED_PARAMETER const char *domain, unsigned char *result)$/;"	f	file:
+NTOWFv2	sip-sec-ntlm.c	/^NTOWFv2 (const char* password, const char *user, const char *domain, unsigned char *result)$/;"	f
+OBJDUMP	Makefile	/^OBJDUMP = objdump$/;"	m
+OBJEXT	Makefile	/^OBJEXT = o$/;"	m
+OFFICE_PROP	sipe.c	2575;"	d	file:
+ORIGINATED_CSTA_STATUS	sip-csta.c	49;"	d	file:
+OTOOL	Makefile	/^OTOOL = $/;"	m
+OTOOL64	Makefile	/^OTOOL64 = $/;"	m
+PACKAGE	Makefile	/^PACKAGE = pidgin-sipe$/;"	m
+PACKAGE_BUGREPORT	Makefile	/^PACKAGE_BUGREPORT = https:\/\/sourceforge.net\/tracker\/?atid=949931&group_id=194563$/;"	m
+PACKAGE_NAME	Makefile	/^PACKAGE_NAME = pidgin-sipe$/;"	m
+PACKAGE_STRING	Makefile	/^PACKAGE_STRING = pidgin-sipe 1.11.0$/;"	m
+PACKAGE_TARNAME	Makefile	/^PACKAGE_TARNAME = pidgin-sipe$/;"	m
+PACKAGE_URL	Makefile	/^PACKAGE_URL = http:\/\/sipe.sourceforge.net\/$/;"	m
+PACKAGE_VERSION	Makefile	/^PACKAGE_VERSION = 1.11.0$/;"	m
+PATH_SEPARATOR	Makefile	/^PATH_SEPARATOR = :$/;"	m
+PHONE_CUSTOM1_DISPLAY_PROP	sipe.c	2570;"	d	file:
+PHONE_CUSTOM1_PROP	sipe.c	2569;"	d	file:
+PHONE_DISPLAY_PROP	sipe.c	2562;"	d	file:
+PHONE_HOME_DISPLAY_PROP	sipe.c	2566;"	d	file:
+PHONE_HOME_PROP	sipe.c	2565;"	d	file:
+PHONE_MOBILE_DISPLAY_PROP	sipe.c	2564;"	d	file:
+PHONE_MOBILE_PROP	sipe.c	2563;"	d	file:
+PHONE_OTHER_DISPLAY_PROP	sipe.c	2568;"	d	file:
+PHONE_OTHER_PROP	sipe.c	2567;"	d	file:
+PHONE_PROP	sipe.c	2561;"	d	file:
+PKG_CONFIG	Makefile	/^PKG_CONFIG = \/usr\/bin\/pkg-config$/;"	m
+POFILES	Makefile	/^POFILES = $/;"	m
+POST_INSTALL	Makefile	/^POST_INSTALL = :$/;"	m
+POST_UNINSTALL	Makefile	/^POST_UNINSTALL = :$/;"	m
+POSUB	Makefile	/^POSUB = po$/;"	m
+PO_IN_DATADIR_FALSE	Makefile	/^PO_IN_DATADIR_FALSE = $/;"	m
+PO_IN_DATADIR_TRUE	Makefile	/^PO_IN_DATADIR_TRUE = $/;"	m
+PRE_INSTALL	Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_UNINSTALL	Makefile	/^PRE_UNINSTALL = :$/;"	m
+PURPLE_CFLAGS	Makefile	/^PURPLE_CFLAGS = -I\/usr\/local\/include\/libpurple -I\/usr\/include\/glib-2.0 -I\/usr\/lib\/glib-2.0\/include  $/;"	m
+PURPLE_LIBS	Makefile	/^PURPLE_LIBS = -L\/usr\/local\/lib -lpurple -lglib-2.0  $/;"	m
+PURPLE_MAJOR_VERSION	Makefile	/^PURPLE_MAJOR_VERSION = 2$/;"	m
+QUALITY_CFLAGS	Makefile	/^QUALITY_CFLAGS =  -Werror -Wall -Wextra -Werror=declaration-after-statement$/;"	m
+RANDOM32BITS	sipe-utils.c	49;"	d	file:
+RANLIB	Makefile	/^RANLIB = ranlib$/;"	m
+RC4K	sip-sec-ntlm.c	408;"	d	file:
+RD1	md4.c	61;"	d	file:
+RD2	md4.c	64;"	d	file:
+RD3	md4.c	67;"	d	file:
+ROTL	md4.c	58;"	d	file:
+SDP_ACCEPT_TYPES	sipe.c	124;"	d	file:
+SDP_ACCEPT_TYPES	sipe.c	128;"	d	file:
+SEALKEY	sip-sec-ntlm.c	/^SEALKEY (guint32 flags, const unsigned char * random_session_key, gboolean client, unsigned char * result)$/;"	f	file:
+SED	Makefile	/^SED = \/bin\/sed$/;"	m
+SET_MAKE	Makefile	/^SET_MAKE = $/;"	m
+SHELL	Makefile	/^SHELL = \/bin\/bash$/;"	m
+SIGNKEY	sip-sec-ntlm.c	/^SIGNKEY (const unsigned char * random_session_key, gboolean client, unsigned char * result)$/;"	f	file:
+SIPE_ACCOUNT_DATA	sipe-core-private.h	85;"	d
+SIPE_ACCOUNT_DATA_PRIVATE	sipe-core-private.h	86;"	d
+SIPE_ACTIVITY_I18N	sipe.c	160;"	d	file:
+SIPE_ADD_BUDDY_INFO	sipe.c	8135;"	d	file:
+SIPE_CAL_BUSY	sipe-cal.h	38;"	d
+SIPE_CAL_FREE	sipe-cal.h	36;"	d
+SIPE_CAL_NO_DATA	sipe-cal.h	40;"	d
+SIPE_CAL_OOF	sipe-cal.h	39;"	d
+SIPE_CAL_TENTATIVE	sipe-cal.h	37;"	d
+SIPE_CORE_PRIVATE	sipe-core-private.h	81;"	d
+SIPE_CORE_PRIVATE_FLAG_IS	sipe-core-private.h	73;"	d
+SIPE_CORE_PRIVATE_FLAG_SET	sipe-core-private.h	75;"	d
+SIPE_CORE_PRIVATE_FLAG_UNSET	sipe-core-private.h	77;"	d
+SIPE_CORE_PRIVATE_FLAG_xxx	sipe-core-private.h	65;"	d
+SIPE_CORE_PUBLIC	sipe-core-private.h	82;"	d
+SIPE_CORE_PUBLIC_FLAG_IS	sipe-core-private.h	67;"	d
+SIPE_CORE_PUBLIC_FLAG_SET	sipe-core-private.h	69;"	d
+SIPE_CORE_PUBLIC_FLAG_UNSET	sipe-core-private.h	71;"	d
+SIPE_DEFAULT_CODESET	sip-sec-ntlm.c	/^static char SIPE_DEFAULT_CODESET[] = "ANSI_X3.4-1968";$/;"	v	file:
+SIPE_DIALOG_FOREACH	sipe-dialog.h	33;"	d
+SIPE_DIALOG_FOREACH_END	sipe-dialog.h	38;"	d
+SIPE_DOMINO_CALENDAR_REQUEST	sipe-domino.c	94;"	d	file:
+SIPE_DOMINO_LOGIN_REQUEST	sipe-domino.c	85;"	d	file:
+SIPE_EPID_HASH_END	uuid.c	140;"	d	file:
+SIPE_EPID_HASH_START	uuid.c	139;"	d	file:
+SIPE_EPID_LENGTH	uuid.c	141;"	d	file:
+SIPE_EWS_AUTODISCOVER_REQUEST	sipe-ews.c	66;"	d	file:
+SIPE_EWS_STATE_AUTODISCOVER_1_FAILURE	sipe-ews.c	150;"	d	file:
+SIPE_EWS_STATE_AUTODISCOVER_2_FAILURE	sipe-ews.c	151;"	d	file:
+SIPE_EWS_STATE_AUTODISCOVER_SUCCESS	sipe-ews.c	149;"	d	file:
+SIPE_EWS_STATE_AVAILABILITY_FAILURE	sipe-ews.c	153;"	d	file:
+SIPE_EWS_STATE_AVAILABILITY_SUCCESS	sipe-ews.c	152;"	d	file:
+SIPE_EWS_STATE_NONE	sipe-ews.c	148;"	d	file:
+SIPE_EWS_STATE_OOF_FAILURE	sipe-ews.c	155;"	d	file:
+SIPE_EWS_STATE_OOF_SUCCESS	sipe-ews.c	154;"	d	file:
+SIPE_EWS_USER_AVAILABILITY_REQUEST	sipe-ews.c	101;"	d	file:
+SIPE_EWS_USER_OOF_SETTINGS_REQUEST	sipe-ews.c	82;"	d	file:
+SIPE_FREE_BUSY_GRANULARITY_SEC	sipe-cal.h	43;"	d
+SIPE_FREE_BUSY_PERIOD_SEC	sipe-cal.h	45;"	d
+SIPE_FT_CHUNK_HEADER_LENGTH	sipe-ft.c	75;"	d	file:
+SIPE_FT_KEY_LENGTH	sipe-ft.c	74;"	d	file:
+SIPE_FT_TCP_PORT_MAX	sipe-ft.c	88;"	d	file:
+SIPE_FT_TCP_PORT_MIN	sipe-ft.c	87;"	d	file:
+SIPE_IDLE_SET_DELAY	sipe.c	92;"	d	file:
+SIPE_INVITE_TEXT	sipe.h	260;"	d
+SIPE_PUB_CALENDAR_DATA	sipe-utils.h	93;"	d
+SIPE_PUB_DEVICE	sipe-utils.h	44;"	d
+SIPE_PUB_NOTE_OOF	sipe-utils.h	101;"	d
+SIPE_PUB_STATE_CALENDAR	sipe-utils.h	68;"	d
+SIPE_PUB_STATE_CALENDAR_OOF	sipe-utils.h	77;"	d
+SIPE_PUB_STATE_MACHINE	sipe-utils.h	52;"	d
+SIPE_PUB_STATE_PHONE	sipe-utils.h	85;"	d
+SIPE_PUB_STATE_USER	sipe-utils.h	60;"	d
+SIPE_PUB_XML_DEVICE	sipe.h	289;"	d
+SIPE_PUB_XML_FREE_BUSY	sipe.h	516;"	d
+SIPE_PUB_XML_NOTE	sipe.h	432;"	d
+SIPE_PUB_XML_PUBLICATION_CLEAR	sipe.h	419;"	d
+SIPE_PUB_XML_STATE_CALENDAR	sipe.h	382;"	d
+SIPE_PUB_XML_STATE_CALENDAR_ACTIVITY	sipe.h	360;"	d
+SIPE_PUB_XML_STATE_CALENDAR_AVAIL	sipe.h	352;"	d
+SIPE_PUB_XML_STATE_CALENDAR_CLEAR	sipe.h	407;"	d
+SIPE_PUB_XML_STATE_MACHINE	sipe.h	311;"	d
+SIPE_PUB_XML_STATE_USER	sipe.h	334;"	d
+SIPE_PUB_XML_WORKING_HOURS	sipe.h	462;"	d
+SIPE_SEND_CONF_ADD	sipe-conf.c	60;"	d	file:
+SIPE_SEND_CONF_ADD_USER	sipe-conf.c	88;"	d	file:
+SIPE_SEND_CONF_DELETE_USER	sipe-conf.c	158;"	d	file:
+SIPE_SEND_CONF_INVITE	sipe-conf.c	175;"	d	file:
+SIPE_SEND_CONF_MODIFY_CONF_LOCK	sipe-conf.c	137;"	d	file:
+SIPE_SEND_CONF_MODIFY_USER_ROLES	sipe-conf.c	114;"	d	file:
+SIPE_SEND_PRESENCE	sipe.h	273;"	d
+SIPE_SEND_TYPING	sipe.h	262;"	d
+SIPE_SESSION_FOREACH	sipe-session.h	34;"	d
+SIPE_SESSION_FOREACH_END	sipe-session.h	39;"	d
+SIPE_SOAP_ADD_GROUP	sipe.h	564;"	d
+SIPE_SOAP_ALLOW_DENY	sipe.h	581;"	d
+SIPE_SOAP_DEL_CONTACT	sipe.h	560;"	d
+SIPE_SOAP_DEL_GROUP	sipe.h	575;"	d
+SIPE_SOAP_MOD_GROUP	sipe.h	569;"	d
+SIPE_SOAP_SEARCH_CONTACT	sipe.h	651;"	d
+SIPE_SOAP_SEARCH_ROW	sipe.h	664;"	d
+SIPE_SOAP_SET_CONTACT	sipe.h	552;"	d
+SIPE_SOAP_SET_PRESENCE	sipe.h	634;"	d
+SIPE_SOAP_SET_PRESENCE_CALENDAR	sipe.h	594;"	d
+SIPE_SOAP_SET_PRESENCE_NOTE_XML	sipe.h	601;"	d
+SIPE_SOAP_SET_PRESENCE_OOF_XML	sipe.h	605;"	d
+SIPE_SOAP_SET_PRESENCE_STATES	sipe.h	614;"	d
+SIPE_STATUS_ATTR_ID_MESSAGE	sipe.c	120;"	d	file:
+SIPE_STATUS_ID_AVAILABLE	sipe.c	100;"	d	file:
+SIPE_STATUS_ID_AWAY	sipe.c	112;"	d	file:
+SIPE_STATUS_ID_BRB	sipe.c	111;"	d	file:
+SIPE_STATUS_ID_BUSY	sipe.c	102;"	d	file:
+SIPE_STATUS_ID_BUSYIDLE	sipe.c	103;"	d	file:
+SIPE_STATUS_ID_DND	sipe.c	104;"	d	file:
+SIPE_STATUS_ID_IDLE	sipe.c	110;"	d	file:
+SIPE_STATUS_ID_INVISIBLE	sipe.c	108;"	d	file:
+SIPE_STATUS_ID_IN_CONF	sipe.c	106;"	d	file:
+SIPE_STATUS_ID_IN_MEETING	sipe.c	105;"	d	file:
+SIPE_STATUS_ID_LUNCH	sipe.c	114;"	d	file:
+SIPE_STATUS_ID_OFFLINE	sipe.c	99;"	d	file:
+SIPE_STATUS_ID_ON_PHONE	sipe.c	107;"	d	file:
+SIPE_STATUS_ID_UNKNOWN	sipe.c	98;"	d	file:
+SIPE_TARGET_ARCH	sip-transport.c	268;"	d	file:
+SIPE_TARGET_PLATFORM	sip-transport.c	246;"	d	file:
+SIPE_TYPING_RECV_TIMEOUT	sipe.h	41;"	d
+SIPE_TYPING_SEND_TIMEOUT	sipe.h	42;"	d
+SIP_SEC_E_INTERNAL_ERROR	sip-sec-mech.h	31;"	d
+SIP_SEC_E_OK	sip-sec-mech.h	30;"	d
+SIP_SEC_I_CONTINUE_NEEDED	sip-sec-mech.h	32;"	d
+SIP_SEND_CSTA_CLEAR_CONNECTION	sip-csta.c	127;"	d	file:
+SIP_SEND_CSTA_GET_CSTA_FEATURES	sip-csta.c	74;"	d	file:
+SIP_SEND_CSTA_MAKE_CALL	sip-csta.c	113;"	d	file:
+SIP_SEND_CSTA_MONITOR_START	sip-csta.c	90;"	d	file:
+SIP_SEND_CSTA_MONITOR_STOP	sip-csta.c	102;"	d	file:
+SIP_SEND_CSTA_REQUEST_SYSTEM_STATUS	sip-csta.c	58;"	d	file:
+SIP_TO_CORE_PRIVATE	sipe-core-private.h	87;"	d
+SIP_TO_CORE_PUBLIC	sipe-core-private.h	88;"	d
+SITE_PROP	sipe.c	2571;"	d	file:
+SOURCES	Makefile	/^SOURCES = $(libsipe_core_la_SOURCES) $(libsipe_core_purple_la_SOURCES) \\$/;"	m
+SSPI_MECH_KERBEROS	sip-sec-sspi.c	38;"	d	file:
+SSPI_MECH_NEGOTIATE	sip-sec-sspi.c	39;"	d	file:
+SSPI_MECH_NTLM	sip-sec-sspi.c	37;"	d	file:
+STRIP	Makefile	/^STRIP = strip$/;"	m
+SipSecBuffer	sip-sec-mech.h	/^} SipSecBuffer;$/;"	t	typeref:struct:__anon2
+SipSecContext	sip-sec.h	/^typedef struct sip_sec_context *SipSecContext;$/;"	t	typeref:struct:sip_sec_context
+TELEPATHY_CFLAGS	Makefile	/^TELEPATHY_CFLAGS = $/;"	m
+TELEPATHY_LIBS	Makefile	/^TELEPATHY_LIBS = $/;"	m
+TESTS	Makefile	/^TESTS = $(check_PROGRAMS)$/;"	m
+TESTS_ENVIRONMENT	Makefile	/^TESTS_ENVIRONMENT = G_SLICE="always-malloc"$/;"	m
+TIME_NULL	sipe-cal.c	46;"	d	file:
+TIME_T_TO_VAL	sip-sec-ntlm.c	124;"	d	file:
+TIME_VAL_FACTOR	sip-sec-ntlm.c	122;"	d	file:
+TIME_VAL_OFFSET	sip-sec-ntlm.c	123;"	d	file:
+TIME_VAL_TO_T	sip-sec-ntlm.c	125;"	d	file:
+TITLE_PROP	sipe.c	2574;"	d	file:
+TRANSPORT_DESCRIPTOR	sip-transport.c	76;"	d	file:
+TWO_BIT_MASK	sipe-cal.c	876;"	d	file:
+TransCallback	sip-transport.h	/^typedef gboolean (*TransCallback) (struct sipe_core_private *,$/;"	t
+UPDATE_CALENDAR_DELAY	sipe.c	94;"	d	file:
+UPDATE_CALENDAR_INTERVAL	sipe.c	95;"	d	file:
+USE_NLS	Makefile	/^USE_NLS = yes$/;"	m
+UUID_OFFSET_TO_LAST_SEGMENT	uuid.c	53;"	d	file:
+Uint32	md4.c	/^typedef PRUint32 Uint32;$/;"	t	file:
+Uint8	md4.c	/^typedef PRUint8 Uint8;$/;"	t	file:
+VERSION	Makefile	/^VERSION = 1.11.0$/;"	m
+VIEWENTITY_END_TIME	sipe-domino.c	131;"	d	file:
+VIEWENTITY_START0_TIME	sipe-domino.c	129;"	d	file:
+VIEWENTITY_START_TIME	sipe-domino.c	130;"	d	file:
+VIEWENTITY_TEXT_LIST	sipe-domino.c	132;"	d	file:
+XGETTEXT	Makefile	/^XGETTEXT = \/usr\/bin\/xgettext$/;"	m
+Z	sip-sec-ntlm.c	/^Z(unsigned char *buffer, int num)$/;"	f	file:
+_APPEND_DATA	sip-sec-ntlm.c	1169;"	d	file:
+_APPEND_STRING	sip-sec-ntlm.c	1166;"	d	file:
+_FILL_SMB_HEADER	sip-sec-ntlm.c	1161;"	d	file:
+_SIPE_COMPILING_TESTS	sip-sec-ntlm-tests.c	46;"	d	file:
+_context_krb5	sip-sec-krb5.c	/^typedef struct _context_krb5 {$/;"	s	file:
+_context_ntlm	sip-sec-ntlm.c	/^typedef struct _context_ntlm {$/;"	s	file:
+_context_sspi	sip-sec-sspi.c	/^typedef struct _context_sspi {$/;"	s	file:
+_parser_data	sipe-xml.c	/^struct _parser_data {$/;"	s	file:
+_reg_open_key	sipe-win32dep.c	/^static HKEY _reg_open_key(HKEY rootkey, const char *subkey, REGSAM access) {$/;"	f	file:
+_reg_read	sipe-win32dep.c	/^static gboolean _reg_read(HKEY reg_key, const char *valname, LPDWORD type, LPBYTE data, LPDWORD data_len) {$/;"	f	file:
+_sipe_file_transfer	sipe-ft.c	/^struct _sipe_file_transfer {$/;"	s	file:
+_sipe_xml	sipe-xml.c	/^struct _sipe_xml {$/;"	s	file:
+abs_builddir	Makefile	/^abs_builddir = \/home\/fstl\/Public\/siplcs\/src\/core$/;"	m
+abs_srcdir	Makefile	/^abs_srcdir = \/home\/fstl\/Public\/siplcs\/src\/core$/;"	m
+abs_top_builddir	Makefile	/^abs_top_builddir = \/home\/fstl\/Public\/siplcs$/;"	m
+abs_top_srcdir	Makefile	/^abs_top_srcdir = \/home\/fstl\/Public\/siplcs$/;"	m
+ac_ct_CC	Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_DUMPBIN	Makefile	/^ac_ct_DUMPBIN = $/;"	m
+access_level_set	sipe.h	/^	gboolean access_level_set; \/* whether basic access level set *\/$/;"	m	struct:sipe_account_data
+account	sipe.h	/^	struct _PurpleAccount *account;$/;"	m	struct:sipe_account_data	typeref:struct:sipe_account_data::_PurpleAccount
+acl_delta	sipe.h	/^	int acl_delta;$/;"	m	struct:sipe_account_data
+acquire_cred_func	sip-sec-mech.h	/^	sip_sec_acquire_cred_func     acquire_cred_func;$/;"	m	struct:sip_sec_context
+action	sipe-schedule.c	/^	sipe_schedule_action action;$/;"	m	struct:sipe_schedule	file:
+activity	sipe-buddy.h	/^	gchar *activity;$/;"	m	struct:sipe_buddy
+activity_since	sipe-buddy.h	/^	time_t activity_since;$/;"	m	struct:sipe_buddy
+allocated	sipe-xml-tests.c	/^static gsize allocated = 0;$/;"	v	file:
+allow_events	sipe.h	/^	GSList *allow_events;$/;"	m	struct:sipe_account_data
+allow_redirect	http-conn.c	/^	gboolean allow_redirect;$/;"	m	struct:http_conn_struct	file:
+am__DEPENDENCIES_1	Makefile	/^am__DEPENDENCIES_1 =$/;"	m
+am__aclocal_m4_deps	Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/VERSION $(top_srcdir)\/configure.ac$/;"	m
+am__append_1	Makefile	/^am__append_1 = sip-sec-krb5.h sip-sec-krb5.c$/;"	m
+am__append_2	Makefile	/^am__append_2 = $(KRB5_CFLAGS)$/;"	m
+am__append_7	Makefile	/^am__append_7 = sipe-media.h sipe-media.c$/;"	m
+am__cd	Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__configure_deps	Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__depfiles_maybe	Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__include	Makefile	/^am__include = include$/;"	m
+am__leading_dot	Makefile	/^am__leading_dot = .$/;"	m
+am__libsipe_core_la_SOURCES_DIST	Makefile	/^am__libsipe_core_la_SOURCES_DIST = http-conn.h http-conn.c sipmsg.h \\$/;"	m
+am__mv	Makefile	/^am__mv = mv -f$/;"	m
+am__objects_1	Makefile	/^am__objects_1 = libsipe_core_la-sip-sec-krb5.lo$/;"	m
+am__objects_4	Makefile	/^am__objects_4 = libsipe_core_la-sipe-media.lo$/;"	m
+am__quote	Makefile	/^am__quote = $/;"	m
+am__tar	Makefile	/^am__tar = tar --format=ustar -chf - "$$tardir"$/;"	m
+am__tty_colors	Makefile	/^am__tty_colors = \\$/;"	m
+am__untar	Makefile	/^am__untar = tar -xf -$/;"	m
+am_libsipe_core_la_OBJECTS	Makefile	/^am_libsipe_core_la_OBJECTS = libsipe_core_la-http-conn.lo \\$/;"	m
+am_libsipe_core_purple_la_OBJECTS	Makefile	/^am_libsipe_core_purple_la_OBJECTS = libsipe_core_purple_la-sipe.lo \\$/;"	m
+am_libsipe_core_tests_la_OBJECTS	Makefile	/^am_libsipe_core_tests_la_OBJECTS =  \\$/;"	m
+am_sipe_xml_tests_OBJECTS	Makefile	/^am_sipe_xml_tests_OBJECTS = sipe_xml_tests-sipe-xml-tests.$(OBJEXT)$/;"	m
+anonymous	sip-sec-ntlm.c	80;"	d	file:
+as_url	sipe-cal.h	/^	char *as_url;$/;"	m	struct:sipe_calendar
+assert_attribute	sipe-xml-tests.c	/^static void assert_attribute(const sipe_xml *xml,$/;"	f	file:
+assert_child	sipe-xml-tests.c	/^static const sipe_xml *assert_child(const sipe_xml *xml, const gchar *s, gboolean ok)$/;"	f	file:
+assert_data	sipe-xml-tests.c	/^static void assert_data(const sipe_xml *xml, const gchar *s)$/;"	f	file:
+assert_equal	sip-sec-ntlm-tests.c	/^static void assert_equal(const char * expected, const guchar * got, int len, gboolean stringify)$/;"	f	file:
+assert_equal_guint32	sip-sec-ntlm-tests.c	/^static void assert_equal_guint32(guint32 expected, guint32 got)$/;"	f	file:
+assert_int_attribute	sipe-xml-tests.c	/^static void assert_int_attribute(const sipe_xml *xml,$/;"	f	file:
+assert_name	sipe-xml-tests.c	/^static void assert_name(const sipe_xml *xml, const gchar *s)$/;"	f	file:
+assert_parse	sipe-xml-tests.c	/^static sipe_xml *assert_parse(const gchar *s, gboolean ok)$/;"	f	file:
+assert_stringify	sipe-xml-tests.c	/^static void assert_stringify(const sipe_xml *xml,$/;"	f	file:
+attributes	sipe-xml.c	/^	GHashTable *attributes;$/;"	m	struct:_sipe_xml	file:
+auth	http-conn.c	/^	HttpConnAuth *auth;$/;"	m	struct:http_conn_struct	file:
+auth	sipe-cal.h	/^	HttpConnAuth *auth;$/;"	m	struct:sipe_calendar
+auth_cookie	sipe-ft.c	/^	unsigned auth_cookie;$/;"	m	struct:_sipe_file_transfer	file:
+auth_header	sipe.c	/^gchar *auth_header(struct sipe_account_data *sip, struct sip_auth *auth, struct sipmsg * msg)$/;"	f
+authdomain	sipe.h	/^	gchar *authdomain;$/;"	m	struct:sipe_account_data
+authenticate_message	sip-sec-ntlm.c	/^struct authenticate_message {$/;"	s	file:
+authuser	sipe.h	/^	gchar *authuser;$/;"	m	struct:sipe_account_data
+auto_disco_method	sipe-cal.h	/^	int auto_disco_method;$/;"	m	struct:sipe_calendar
+av_id	sip-sec-ntlm.c	/^	guint16 av_id;$/;"	m	struct:av_pair	file:
+av_len	sip-sec-ntlm.c	/^	guint16 av_len;$/;"	m	struct:av_pair	file:
+av_pair	sip-sec-ntlm.c	/^struct av_pair {$/;"	s	file:
+availability	sipe.h	/^	int availability;$/;"	m	struct:sipe_publication
+b2w	md4.c	/^static void b2w(Uint32 *out, const Uint8 *in, Uint32 len)$/;"	f	file:
+backend_private	sipe-schedule.c	/^	gpointer backend_private;$/;"	m	struct:sipe_schedule	file:
+batched_support	sipe.h	/^	gboolean batched_support; \/*if there is support for batched subscription*\/$/;"	m	struct:sipe_account_data
+bias	sipe-cal.c	/^	int bias;                     \/* Ex.: 480 *\/$/;"	m	struct:sipe_cal_working_hours	file:
+bias	sipe-cal.c	/^	int bias;           \/* Ex.: -60 *\/$/;"	m	struct:sipe_cal_std_dst	file:
+bid	sipe-session.h	/^	int bid;$/;"	m	struct:sip_session
+bindir	Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+body	http-conn.c	/^	char *body;$/;"	m	struct:http_conn_struct	file:
+body	sipe-session.h	/^	gchar *body;$/;"	m	struct:queued_message
+body	sipmsg.c	/^	gchar *body;$/;"	m	struct:html_message_data	file:
+body	sipmsg.h	/^	gchar *body;$/;"	m	struct:sipmsg
+bodylen	sipmsg.h	/^	int bodylen;$/;"	m	struct:sipmsg
+buddies	sipe-core-private.h	/^	GHashTable *buddies;$/;"	m	struct:sipe_core_private
+buddies	sipe.c	/^	GSList *buddies;$/;"	m	struct:presence_batched_routed	file:
+buff_to_hex_str	sipe-utils.c	/^buff_to_hex_str(const guint8 *buff, const size_t buff_len)$/;"	f
+build	Makefile	/^build = i686-pc-linux-gnu$/;"	m
+build_alias	Makefile	/^build_alias = $/;"	m
+build_cpu	Makefile	/^build_cpu = i686$/;"	m
+build_os	Makefile	/^build_os = linux-gnu$/;"	m
+build_triplet	Makefile	/^build_triplet = i686-pc-linux-gnu$/;"	m
+build_vendor	Makefile	/^build_vendor = pc$/;"	m
+builddir	Makefile	/^builddir = .$/;"	m
+bytes_remaining_chunk	sipe-ft.c	/^	gsize bytes_remaining_chunk;$/;"	m	struct:_sipe_file_transfer	file:
+cal	sipe.h	/^	struct sipe_calendar *cal;$/;"	m	struct:sipe_account_data	typeref:struct:sipe_account_data::sipe_calendar
+cal_event_hash	sipe.h	/^	char *cal_event_hash;$/;"	m	struct:sipe_publication
+cal_events	sipe-cal.h	/^	GSList *cal_events;$/;"	m	struct:sipe_calendar
+cal_free_busy	sipe-buddy.h	/^	gchar *cal_free_busy;$/;"	m	struct:sipe_buddy
+cal_free_busy_base64	sipe-buddy.h	/^	gchar *cal_free_busy_base64;$/;"	m	struct:sipe_buddy
+cal_free_busy_published	sipe-buddy.h	/^	time_t cal_free_busy_published;$/;"	m	struct:sipe_buddy
+cal_granularity	sipe-buddy.h	/^	int cal_granularity;$/;"	m	struct:sipe_buddy
+cal_start_time	sipe-buddy.h	/^	gchar *cal_start_time;$/;"	m	struct:sipe_buddy
+cal_status	sipe-cal.h	/^	int cal_status;$/;"	m	struct:sipe_cal_event
+cal_working_hours	sipe-buddy.h	/^	struct sipe_cal_working_hours *cal_working_hours;$/;"	m	struct:sipe_buddy	typeref:struct:sipe_buddy::sipe_cal_working_hours
+call_accept_cb	sipe-media.c	/^static void call_accept_cb(sipe_media_call *call, gboolean local)$/;"	f	file:
+call_hangup_cb	sipe-media.c	/^static void call_hangup_cb(sipe_media_call *call, gboolean local)$/;"	f	file:
+call_hold_cb	sipe-media.c	/^static void call_hold_cb(sipe_media_call *call, gboolean local, gboolean state)$/;"	f	file:
+call_id	sip-csta.h	/^	gchar *call_id;$/;"	m	struct:sip_csta
+call_id	sipe-sign.h	/^	const gchar * call_id;$/;"	m	struct:sipmsg_breakdown
+call_reject_cb	sipe-media.c	/^static void call_reject_cb(sipe_media_call *call, gboolean local)$/;"	f	file:
+callback	http-conn.c	/^	HttpConnCallback callback;$/;"	m	struct:http_conn_struct	file:
+callback	sip-transport.h	/^	TransCallback callback;$/;"	m	struct:transaction
+callback	sipe-mime.c	/^	sipe_mime_parts_cb callback;$/;"	m	struct:gmime_callback_data	file:
+callback_characters	sipe-xml.c	/^static void callback_characters(void *user_data, const xmlChar *text, int text_len)$/;"	f	file:
+callback_end_element	sipe-xml.c	/^static void callback_end_element(void *user_data, const xmlChar *name)$/;"	f	file:
+callback_error	sipe-xml.c	/^static void callback_error(void *user_data, const char *msg, ...)$/;"	f	file:
+callback_serror	sipe-xml.c	/^static void callback_serror(void *user_data, xmlErrorPtr error)$/;"	f	file:
+callback_start_element	sipe-xml.c	/^static void callback_start_element(void *user_data, const xmlChar *name, const xmlChar **attrs)$/;"	f	file:
+callid	sipe-dialog.h	/^	gchar *callid;$/;"	m	struct:sip_dialog
+callid	sipe-session.h	/^	gchar *callid; \/* For multiparty conversations *\/$/;"	m	struct:sip_session
+candidates_prepared_cb	sipe-media.c	/^static void candidates_prepared_cb(sipe_media_call *call)$/;"	f	file:
+category	sipe.h	/^	gchar *category;$/;"	m	struct:sipe_publication
+challenge_message	sip-sec-ntlm.c	/^struct challenge_message {$/;"	s	file:
+chat_id	sipe-session.h	/^	int chat_id;$/;"	m	struct:sip_session
+chat_names_inverse	sipe-chat.c	/^static GHashTable *chat_names_inverse = NULL;$/;"	v	file:
+chat_title	sipe-session.h	/^	gchar *chat_title;$/;"	m	struct:sip_session
+check_PROGRAMS	Makefile	/^check_PROGRAMS = sipe_xml_tests$(EXEEXT)$/;"	m
+cipher_context	sipe-ft.c	/^	gpointer cipher_context;$/;"	m	struct:_sipe_file_transfer	file:
+client_seal_key	sip-sec-ntlm.c	/^	guchar *client_seal_key;$/;"	m	struct:_context_ntlm	file:
+client_sign_key	sip-sec-ntlm.c	/^	guchar *client_sign_key;$/;"	m	struct:_context_ntlm	file:
+clock_seq_hi_and_reserved	uuid.c	/^   guint8  clock_seq_hi_and_reserved;$/;"	m	struct:__anon1	file:
+clock_seq_low	uuid.c	/^   guint8  clock_seq_low;$/;"	m	struct:__anon1	file:
+closed	http-conn.c	/^	gboolean closed;$/;"	m	struct:http_conn_struct	file:
+codec_name_compare	sipe-media.c	/^codec_name_compare(sipe_codec* codec1, sipe_codec* codec2)$/;"	f	file:
+common	sip-sec-krb5.c	/^	struct sip_sec_context common;$/;"	m	struct:_context_krb5	typeref:struct:_context_krb5::sip_sec_context	file:
+common	sip-sec-ntlm.c	/^	struct sip_sec_context common;$/;"	m	struct:_context_ntlm	typeref:struct:_context_ntlm::sip_sec_context	file:
+common	sip-sec-sspi.c	/^	struct sip_sec_context common;$/;"	m	struct:_context_sspi	typeref:struct:_context_sspi::sip_sec_context	file:
+compute_response	sip-sec-ntlm.c	/^compute_response(const guint32 neg_flags,$/;"	f	file:
+conf_session_close	sipe-conf.c	/^conf_session_close(struct sipe_account_data *sip,$/;"	f
+conf_unconfirmed_messages	sipe-session.h	/^	GHashTable *conf_unconfirmed_messages;$/;"	m	struct:sip_session
+conn	http-conn.c	/^	struct sipe_transport_connection *conn;$/;"	m	struct:http_conn_struct	typeref:struct:http_conn_struct::sipe_transport_connection	file:
+conn_type	http-conn.c	/^	guint conn_type;$/;"	m	struct:http_conn_struct	file:
+contact	sipe.h	/^	gchar *contact;$/;"	m	struct:sipe_account_data
+contact	sipmsg.h	/^	gchar *contact;$/;"	m	struct:sipendpoint
+contacts_delta	sipe.h	/^	int contacts_delta;$/;"	m	struct:sipe_account_data
+container	sipe.c	/^	guint container;$/;"	m	struct:hash_table_delete_payload	file:
+container	sipe.h	/^	guint container;$/;"	m	struct:sipe_publication
+containers	sipe.c	/^static const guint containers[] = {32000, 400, 300, 200, 100};$/;"	v	file:
+containers	sipe.h	/^	GSList *containers; \/* MS-PRES containers *\/$/;"	m	struct:sipe_account_data
+content_type	http-conn.c	/^	char *content_type;$/;"	m	struct:http_conn_struct	file:
+content_type	sipe-session.h	/^	gchar *content_type;$/;"	m	struct:queued_message
+context_krb5	sip-sec-krb5.c	/^} *context_krb5;$/;"	t	typeref:struct:_context_krb5	file:
+context_ntlm	sip-sec-ntlm.c	/^} *context_ntlm;$/;"	t	typeref:struct:_context_ntlm	file:
+context_sspi	sip-sec-sspi.c	/^} *context_sspi;$/;"	t	typeref:struct:_context_sspi	file:
+conv	sipe-session.h	/^	struct _PurpleConversation *conv;$/;"	m	struct:sip_session	typeref:struct:sip_session::_PurpleConversation
+convert_from_utf16le	sip-sec-ntlm.c	/^static GIConv convert_from_utf16le = (GIConv)-1;$/;"	v	file:
+convert_to_utf16le	sip-sec-ntlm.c	/^static GIConv convert_to_utf16le   = (GIConv)-1;$/;"	v	file:
+cookie	http-conn.c	/^	char *cookie;$/;"	m	struct:http_session_struct	file:
+crc32	sip-sec-ntlm.c	/^static guint32 crc32(guint32 crc, const guint8 *buf, int len)$/;"	f	file:
+crc32_initialized	sip-sec-ntlm.c	/^static int crc32_initialized = 0;$/;"	v	file:
+crc32_make_table	sip-sec-ntlm.c	/^static void crc32_make_table()$/;"	f	file:
+crc32_table	sip-sec-ntlm.c	/^static guint32 crc32_table[256];$/;"	v	file:
+createUUIDfromHash	uuid.c	/^static void createUUIDfromHash(uuid_t *uuid, const unsigned char *hash)$/;"	f	file:
+cred_krb5	sip-sec-krb5.c	/^	gss_cred_id_t cred_krb5;$/;"	m	struct:_context_krb5	file:
+cred_sspi	sip-sec-sspi.c	/^	CredHandle* cred_sspi;$/;"	m	struct:_context_sspi	file:
+cseq	sipe-dialog.h	/^	int cseq;$/;"	m	struct:sip_dialog
+cseq	sipe-sign.h	/^	gchar * cseq;$/;"	m	struct:sipmsg_breakdown
+cseq	sipe.h	/^	int cseq;$/;"	m	struct:sipe_account_data
+csta	sipe.h	/^	struct sip_csta *csta; \/* For RCC - Remote Call Control *\/$/;"	m	struct:sipe_account_data	typeref:struct:sipe_account_data::sip_csta
+ctx_krb5	sip-sec-krb5.c	/^	gss_ctx_id_t ctx_krb5;$/;"	m	struct:_context_krb5	file:
+ctx_sspi	sip-sec-sspi.c	/^	CtxtHandle* ctx_sspi;$/;"	m	struct:_context_sspi	file:
+current	sipe-xml.c	/^	sipe_xml *current;$/;"	m	struct:_parser_data	file:
+data	http-conn.c	/^	void *data;$/;"	m	struct:http_conn_struct	file:
+data	sip-transport.h	/^	void *data;$/;"	m	struct:transaction_payload
+data	sipe-xml.c	/^	GString *data;$/;"	m	struct:_sipe_xml	file:
+datadir	Makefile	/^datadir = ${datarootdir}$/;"	m
+datarootdir	Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+day_of_week	sipe-cal.c	/^	gchar *day_of_week; \/* Sunday or Monday or Tuesday or Wednesday or Thursday or Friday or Saturday *\/$/;"	m	struct:sipe_cal_std_dst	file:
+day_order	sipe-cal.c	/^	int day_order;      \/* 1..5 *\/$/;"	m	struct:sipe_cal_std_dst	file:
+days_of_week	sipe-cal.c	/^	gchar *days_of_week;          \/* Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday separated by space *\/$/;"	m	struct:sipe_cal_working_hours	file:
+depcomp	Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/depcomp$/;"	m
+desc	sipe.c	/^	const char *desc;$/;"	m	struct:sipe_activity_map_struct	file:
+describe_av_pairs	sip-sec-ntlm.c	/^describe_av_pairs(GString* str, const void *av)$/;"	f	file:
+destroy	sip-transport.h	/^	GDestroyNotify destroy;$/;"	m	struct:transaction_payload
+destroy	sipe-schedule.c	/^	GDestroyNotify destroy;$/;"	m	struct:sipe_schedule	file:
+destroy_context_func	sip-sec-mech.h	/^	sip_sec_destroy_context_func  destroy_context_func;$/;"	m	struct:sip_sec_context
+device_id	sip-csta.h	/^	gchar *device_id;$/;"	m	struct:sip_csta
+device_name	sipe-buddy.h	/^	gchar *device_name;$/;"	m	struct:sipe_buddy
+dialog	sip-csta.h	/^	struct sip_dialog *dialog;$/;"	m	struct:sip_csta	typeref:struct:sip_csta::sip_dialog
+dialog	sipe-dialog.h	/^	struct sip_dialog dialog;$/;"	m	struct:sip_subscription	typeref:struct:sip_subscription::sip_dialog
+dialog	sipe-ft.c	/^	struct sip_dialog *dialog;$/;"	m	struct:_sipe_file_transfer	typeref:struct:_sipe_file_transfer::sip_dialog	file:
+dialogs	sipe-session.h	/^	GSList *dialogs;$/;"	m	struct:sip_session
+do_close	http-conn.c	/^	HttpConn* do_close;$/;"	m	struct:http_conn_struct	file:
+do_not_publish	sipe.h	/^	time_t do_not_publish[SIPE_ACTIVITY_NUM_TYPES];$/;"	m	struct:sipe_account_data
+do_read	sipe-ft.c	/^do_read(PurpleXfer *xfer, guchar *buf, size_t len)$/;"	f	file:
+do_reauthenticate_cb	sipe.c	/^static void do_reauthenticate_cb(struct sipe_core_private *sipe_private,$/;"	f	file:
+do_register	sip-transport.c	/^void do_register(struct sipe_account_data *sip)$/;"	f
+do_register_cb	sip-transport.c	/^void do_register_cb(struct sipe_core_private *sipe_private,$/;"	f
+do_register_exp	sip-transport.c	/^void do_register_exp(struct sipe_account_data *sip, int expire)$/;"	f
+docdir	Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+domain	http-conn.h	/^	char *domain;$/;"	m	struct:http_conn_auth
+domain	sip-sec-ntlm.c	/^	char* domain;$/;"	m	struct:_context_ntlm	file:
+domain	sip-sec-ntlm.c	/^	struct smb_header domain;$/;"	m	struct:authenticate_message	typeref:struct:authenticate_message::smb_header	file:
+domain	sip-sec-ntlm.c	/^	struct smb_header domain;$/;"	m	struct:negotiate_message	typeref:struct:negotiate_message::smb_header	file:
+domino_url	sipe-cal.h	/^	char *domino_url;$/;"	m	struct:sipe_calendar
+dst	sipe-cal.c	/^	struct sipe_cal_std_dst dst;  \/* DaylightTime *\/$/;"	m	struct:sipe_cal_working_hours	typeref:struct:sipe_cal_working_hours::sipe_cal_std_dst	file:
+dvidir	Makefile	/^dvidir = ${docdir}$/;"	m
+election_vote	sipe-dialog.h	/^	int election_vote;$/;"	m	struct:sip_dialog
+email	sipe-cal.h	/^	char *email;$/;"	m	struct:sipe_calendar
+email	sipe.h	/^	gchar *email;$/;"	m	struct:sipe_account_data
+empty_string	sipe-sign.c	/^static gchar * const empty_string = "";$/;"	v	file:
+encode_spaces	sipmsg.c	/^encode_spaces(const char *str)$/;"	f	file:
+encrypted_outbuf	sipe-ft.c	/^	guchar* encrypted_outbuf;$/;"	m	struct:_sipe_file_transfer	file:
+encryption_key	sipe-ft.c	/^	guchar encryption_key[SIPE_FT_KEY_LENGTH];$/;"	m	struct:_sipe_file_transfer	file:
+end_time	sipe-cal.c	/^	int end_time;                 \/* 0...1440 *\/$/;"	m	struct:sipe_cal_working_hours	file:
+end_time	sipe-cal.h	/^	time_t end_time;$/;"	m	struct:sipe_cal_event
+endpoint_GUID	sipe-dialog.h	/^	gchar *endpoint_GUID;$/;"	m	struct:sip_dialog
+epid	sipe.h	/^	gchar *epid;$/;"	m	struct:sipe_account_data
+epid	sipmsg.h	/^	gchar *epid;$/;"	m	struct:sipendpoint
+epid_ns_uuid	uuid.c	/^static const char *epid_ns_uuid = "fcacfb03-8a73-46ef-91b1-e5ebeeaba4fe";$/;"	v	file:
+error	sipe-xml.c	/^	gboolean error;$/;"	m	struct:_parser_data	file:
+event	sipe-dialog.h	/^	gchar *event;$/;"	m	struct:sip_subscription
+exec_prefix	Makefile	/^exec_prefix = ${prefix}$/;"	m
+expires	sip-sec-mech.h	/^	int expires;$/;"	m	struct:sip_sec_context
+expires	sipe-dialog.h	/^	int expires;$/;"	m	struct:sip_dialog
+expires	sipe-sign.h	/^	const gchar * expires;$/;"	m	struct:sipmsg_breakdown
+expires	sipe.h	/^	int expires;$/;"	m	struct:sip_auth
+failed	sipe-xml-tests.c	/^static guint failed    = 0;$/;"	v	file:
+failures	sip-sec-ntlm-tests.c	/^static int failures = 0;$/;"	v	file:
+fb_start	sipe-cal.h	/^	time_t fb_start;$/;"	m	struct:sipe_calendar
+fb_start_str	sipe.h	/^	char *fb_start_str;$/;"	m	struct:sipe_publication
+fd	sip-transport.h	/^	int fd;$/;"	m	struct:transaction
+filetransfers	sipe.h	/^	GHashTable *filetransfers;$/;"	m	struct:sipe_account_data
+fill_auth	sipe.c	/^static void fill_auth(const gchar *hdr, struct sip_auth *auth)$/;"	f	file:
+find_tag	sipe-dialog.c	/^static gchar *find_tag(const gchar *hdr)$/;"	f	file:
+first	sipe-xml.c	/^	sipe_xml *first;$/;"	m	struct:_sipe_xml	file:
+fix_newlines	sipe-utils.c	/^fix_newlines(const char *st)$/;"	f
+flags	sip-sec-ntlm.c	/^	guint32 flags;			\/* 0x8201 *\/$/;"	m	struct:challenge_message	file:
+flags	sip-sec-ntlm.c	/^	guint32 flags;			\/* 0xb203 *\/$/;"	m	struct:negotiate_message	file:
+flags	sip-sec-ntlm.c	/^	guint32 flags;$/;"	m	struct:_context_ntlm	file:
+flags	sip-sec-ntlm.c	/^	guint32 flags;$/;"	m	struct:authenticate_message	file:
+focus_dialog	sipe-session.h	/^	struct sip_dialog *focus_dialog;$/;"	m	struct:sip_session	typeref:struct:sip_session::sip_dialog
+focus_factory_uri	sipe.h	/^	gchar *focus_factory_uri;$/;"	m	struct:sipe_account_data
+focus_uri	sipe-session.h	/^	gchar *focus_uri;$/;"	m	struct:sip_session
+free_busy	sipe-cal.h	/^	char *free_busy;$/;"	m	struct:sipe_calendar
+free_busy_base64	sipe.h	/^	char *free_busy_base64;$/;"	m	struct:sipe_publication
+free_container	sipe.c	/^free_container(struct sipe_container *container)$/;"	f	file:
+free_container_member	sipe.c	/^free_container_member(struct sipe_container_member *member)$/;"	f	file:
+free_publication	sipe.c	/^free_publication(struct sipe_publication *publication)$/;"	f	file:
+from_tag	sipe-sign.h	/^	gchar * from_tag;$/;"	m	struct:sipmsg_breakdown
+from_url	sipe-sign.h	/^	gchar * from_url;$/;"	m	struct:sipmsg_breakdown
+gateway_status	sip-csta.h	/^	gchar *gateway_status;$/;"	m	struct:sip_csta
+gateway_uri	sip-csta.h	/^	gchar *gateway_uri;$/;"	m	struct:sip_csta
+gc	sipe.h	/^	struct _PurpleConnection *gc;$/;"	m	struct:sipe_account_data	typeref:struct:sipe_account_data::_PurpleConnection
+genbranch	sip-transport.c	/^static char *genbranch()$/;"	f	file:
+gencallid	sipe-utils.c	/^gchar *gencallid(void)$/;"	f
+genconfid	sipe-utils.c	/^gchar *genconfid(void)$/;"	f
+generateUUIDfromEPID	uuid.c	/^char *generateUUIDfromEPID(const gchar *epid)$/;"	f
+generate_key	sipe-ft.c	/^static void generate_key(guchar *buffer, gsize size)$/;"	f	file:
+gentag	sipe-utils.c	/^gchar *gentag(void)$/;"	f
+get_contact	sipe-utils.c	/^gchar *get_contact(const struct sipe_account_data  *sip)$/;"	f
+get_end_points	sipe.c	/^get_end_points (struct sipe_core_private *sipe_private,$/;"	f	file:
+get_epid	sipe-utils.c	/^get_epid(struct sipe_account_data *sip)$/;"	f
+get_html_message	sipmsg.c	/^gchar *get_html_message(const gchar *ms_text_format_in, const gchar *body_in)$/;"	f
+get_html_message_mime_cb	sipmsg.c	/^static void get_html_message_mime_cb(gpointer user_data,$/;"	f	file:
+gmime_callback	sipe-mime.c	/^static void gmime_callback(SIPE_UNUSED_PARAMETER GMimeObject *parent,$/;"	f	file:
+gmime_callback_data	sipe-mime.c	/^struct gmime_callback_data {$/;"	s	file:
+group_name	sipe.h	/^	gchar * group_name;$/;"	m	struct:group_user_context
+group_user_context	sipe.h	/^struct group_user_context {$/;"	s
+groups	sipe-buddy.h	/^	GSList *groups;$/;"	m	struct:sipe_buddy
+groups	sipe.h	/^	GSList *groups;$/;"	m	struct:sipe_account_data
+gssapi_context	sipe.h	/^	struct sip_sec_context *gssapi_context;$/;"	m	struct:sip_auth	typeref:struct:sip_auth::sip_sec_context
+gssapi_data	sipe.h	/^	gchar *gssapi_data;$/;"	m	struct:sip_auth
+hash_key	sipe-ft.c	/^	guchar hash_key[SIPE_FT_KEY_LENGTH];$/;"	m	struct:_sipe_file_transfer	file:
+hash_table	sipe.c	/^	GHashTable *hash_table;$/;"	m	struct:hash_table_delete_payload	file:
+hash_table_delete_payload	sipe.c	/^struct hash_table_delete_payload {$/;"	s	file:
+headers	sipmsg.h	/^	GSList *headers;$/;"	m	struct:sipmsg
+hex_str_to_buff	sipe-utils.c	/^hex_str_to_buff(const char *hex_str, guint8 **buff)$/;"	f
+hmac_context	sipe-ft.c	/^	gpointer hmac_context;$/;"	m	struct:_sipe_file_transfer	file:
+host	Makefile	/^host = i686-pc-linux-gnu$/;"	m
+host	http-conn.c	/^	char *host;$/;"	m	struct:http_conn_struct	file:
+host	sip-sec-ntlm.c	/^	struct smb_header host;$/;"	m	struct:authenticate_message	typeref:struct:authenticate_message::smb_header	file:
+host	sip-sec-ntlm.c	/^	struct smb_header host;$/;"	m	struct:negotiate_message	typeref:struct:negotiate_message::smb_header	file:
+host	sipe.c	/^	gchar  *host;$/;"	m	struct:presence_batched_routed	file:
+host_alias	Makefile	/^host_alias = $/;"	m
+host_cpu	Makefile	/^host_cpu = i686$/;"	m
+host_os	Makefile	/^host_os = linux-gnu$/;"	m
+host_triplet	Makefile	/^host_triplet = i686-pc-linux-gnu$/;"	m
+host_vendor	Makefile	/^host_vendor = pc$/;"	m
+html_message_data	sipmsg.c	/^struct html_message_data {$/;"	s	file:
+htmldir	Makefile	/^htmldir = ${docdir}$/;"	m
+http_conn	sipe-cal.h	/^	HttpConn *http_conn;$/;"	m	struct:sipe_calendar
+http_conn_auth	http-conn.h	/^struct http_conn_auth {$/;"	s
+http_conn_auth_free	http-conn.c	/^http_conn_auth_free(struct http_conn_auth* auth)$/;"	f
+http_conn_clone	http-conn.c	/^http_conn_clone(HttpConn* http_conn)$/;"	f	file:
+http_conn_close	http-conn.c	/^http_conn_close(HttpConn *http_conn, const char *message)$/;"	f	file:
+http_conn_connected	http-conn.c	/^static void http_conn_connected(struct sipe_transport_connection *conn)$/;"	f	file:
+http_conn_create	http-conn.c	/^http_conn_create(struct sipe_core_public *sipe_public,$/;"	f
+http_conn_error	http-conn.c	/^static void http_conn_error(struct sipe_transport_connection *conn,$/;"	f	file:
+http_conn_free	http-conn.c	/^http_conn_free(HttpConn* http_conn)$/;"	f
+http_conn_input	http-conn.c	/^static void http_conn_input(struct sipe_transport_connection *conn)$/;"	f	file:
+http_conn_is_closed	http-conn.c	/^http_conn_is_closed(HttpConn *http_conn)$/;"	f
+http_conn_parse_url	http-conn.c	/^http_conn_parse_url(const char *url,$/;"	f	file:
+http_conn_process_input_message	http-conn.c	/^http_conn_process_input_message(HttpConn *http_conn,$/;"	f	file:
+http_conn_send	http-conn.c	/^http_conn_send(	HttpConn *http_conn,$/;"	f
+http_conn_send0	http-conn.c	/^http_conn_send0(HttpConn *http_conn,$/;"	f	file:
+http_conn_session_create	http-conn.c	/^http_conn_session_create()$/;"	f
+http_conn_session_free	http-conn.c	/^http_conn_session_free(HttpSession *http_session)$/;"	f
+http_conn_set_close	http-conn.c	/^http_conn_set_close(HttpConn* http_conn)$/;"	f
+http_conn_setup	http-conn.c	/^static struct sipe_transport_connection *http_conn_setup(HttpConn *http_conn,$/;"	f	file:
+http_conn_struct	http-conn.c	/^struct http_conn_struct {$/;"	s	file:
+http_session	http-conn.c	/^	HttpSession *http_session;$/;"	m	struct:http_conn_struct	file:
+http_session	sipe-cal.h	/^	HttpSession *http_session;$/;"	m	struct:sipe_calendar
+http_session_struct	http-conn.c	/^struct http_session_struct {$/;"	s	file:
+id	sipe.h	/^	guint id;$/;"	m	struct:sipe_container
+id	sipe.h	/^	int id;$/;"	m	struct:sipe_group
+idle_switch	sipe.h	/^	time_t idle_switch;$/;"	m	struct:sipe_account_data
+im_mcu_uri	sipe-session.h	/^	gchar *im_mcu_uri;$/;"	m	struct:sip_session
+includedir	Makefile	/^includedir = ${prefix}\/include$/;"	m
+infodir	Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+init_context_func	sip-sec-mech.h	/^	sip_sec_init_context_func     init_context_func;$/;"	m	struct:sip_sec_context
+initial_state_published	sipe.h	/^	gboolean initial_state_published; \/* whether we published our initial state *\/$/;"	m	struct:sipe_account_data
+install_sh	Makefile	/^install_sh = ${SHELL} \/home\/fstl\/Public\/siplcs\/install-sh$/;"	m
+install_sh_DATA	Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_PROGRAM	Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+instance	sipe.h	/^	guint instance;$/;"	m	struct:sipe_publication
+invitation_cookie	sipe-ft.c	/^	gchar *invitation_cookie;$/;"	m	struct:_sipe_file_transfer	file:
+is_connection_based	sip-sec-mech.h	/^	int is_connection_based;$/;"	m	struct:sip_sec_context
+is_domino_disabled	sipe-cal.h	/^	int is_domino_disabled;$/;"	m	struct:sipe_calendar
+is_empty	sipe-utils.c	/^is_empty(const char *st)$/;"	f
+is_established	sipe-dialog.h	/^	gboolean is_established;$/;"	m	struct:sip_dialog
+is_ews_disabled	sipe-cal.h	/^	int is_ews_disabled;$/;"	m	struct:sipe_calendar
+is_meeting	sipe-cal.h	/^	int is_meeting;$/;"	m	struct:sipe_cal_event
+is_multiparty	sipe-session.h	/^	gboolean is_multiparty;$/;"	m	struct:sip_session
+is_oof_note	sipe-buddy.h	/^	gboolean is_oof_note;$/;"	m	struct:sipe_buddy
+is_oof_note	sipe.h	/^	gboolean is_oof_note;$/;"	m	struct:sipe_account_data
+is_updated	sipe-cal.h	/^	int is_updated;$/;"	m	struct:sipe_calendar
+is_voting_in_progress	sipe-session.h	/^	gboolean is_voting_in_progress;$/;"	m	struct:sip_session
+just_added	sipe-buddy.h	/^	gboolean just_added;$/;"	m	struct:sipe_buddy
+key	sip-transport.h	/^	gchar *key;$/;"	m	struct:transaction
+last	sipe-xml.c	/^	sipe_xml *last;$/;"	m	struct:_sipe_xml	file:
+last_non_cal_activity	sipe-buddy.h	/^	gchar *last_non_cal_activity;$/;"	m	struct:sipe_buddy
+last_non_cal_status_id	sipe-buddy.h	/^	const char *last_non_cal_status_id;$/;"	m	struct:sipe_buddy
+legacy_dn	sipe-cal.h	/^	char *legacy_dn;$/;"	m	struct:sipe_calendar
+len	sip-sec-ntlm.c	/^	guint16 len;$/;"	m	struct:smb_header	file:
+length	sip-sec-mech.h	/^	gsize   length;$/;"	m	struct:__anon2
+libdir	Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libexecdir	Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libsipe_core_la_CFLAGS	Makefile	/^libsipe_core_la_CFLAGS = $(DEBUG_CFLAGS) $(QUALITY_CFLAGS) \\$/;"	m
+libsipe_core_la_LIBADD	Makefile	/^libsipe_core_la_LIBADD =$/;"	m
+libsipe_core_la_LINK	Makefile	/^libsipe_core_la_LINK = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+libsipe_core_la_OBJECTS	Makefile	/^libsipe_core_la_OBJECTS = $(am_libsipe_core_la_OBJECTS)$/;"	m
+libsipe_core_la_SOURCES	Makefile	/^libsipe_core_la_SOURCES = http-conn.h http-conn.c sipmsg.h sipmsg.c \\$/;"	m
+libsipe_core_purple_la_CFLAGS	Makefile	/^libsipe_core_purple_la_CFLAGS = $(libsipe_core_la_CFLAGS) $(PURPLE_CFLAGS)$/;"	m
+libsipe_core_purple_la_LIBADD	Makefile	/^libsipe_core_purple_la_LIBADD =$/;"	m
+libsipe_core_purple_la_LINK	Makefile	/^libsipe_core_purple_la_LINK = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+libsipe_core_purple_la_OBJECTS	Makefile	/^libsipe_core_purple_la_OBJECTS = $(am_libsipe_core_purple_la_OBJECTS)$/;"	m
+libsipe_core_purple_la_SOURCES	Makefile	/^libsipe_core_purple_la_SOURCES = \\$/;"	m
+libsipe_core_tests_la_CFLAGS	Makefile	/^libsipe_core_tests_la_CFLAGS = $(libsipe_core_la_CFLAGS)$/;"	m
+libsipe_core_tests_la_LIBADD	Makefile	/^libsipe_core_tests_la_LIBADD =$/;"	m
+libsipe_core_tests_la_LINK	Makefile	/^libsipe_core_tests_la_LINK = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+libsipe_core_tests_la_OBJECTS	Makefile	/^libsipe_core_tests_la_OBJECTS = $(am_libsipe_core_tests_la_OBJECTS)$/;"	m
+libsipe_core_tests_la_SOURCES	Makefile	/^libsipe_core_tests_la_SOURCES = \\$/;"	m
+line_status	sip-csta.h	/^	gchar *line_status;$/;"	m	struct:sip_csta
+line_uri	sip-csta.h	/^	gchar *line_uri;$/;"	m	struct:sip_csta
+listener	sipe-ft.c	/^	PurpleNetworkListenData *listener;$/;"	m	struct:_sipe_file_transfer	file:
+listenfd	sipe-ft.c	/^	int listenfd;$/;"	m	struct:_sipe_file_transfer	file:
+lm_resp	sip-sec-ntlm.c	/^	struct smb_header lm_resp;$/;"	m	struct:authenticate_message	typeref:struct:authenticate_message::smb_header	file:
+localedir	Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localstatedir	Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+location	sipe-cal.h	/^	char *location;$/;"	m	struct:sipe_cal_event
+locked	sipe-session.h	/^	gboolean locked;$/;"	m	struct:sip_session
+lt_ECHO	Makefile	/^lt_ECHO = echo$/;"	m
+main	sipe-xml-tests.c	/^int main(SIPE_UNUSED_PARAMETER int argc, SIPE_UNUSED_PARAMETER char **argv)$/;"	f
+make_signature_func	sip-sec-mech.h	/^	sip_sec_make_signature_func   make_signature_func;$/;"	m	struct:sip_sec_context
+mandir	Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+maxlen	sip-sec-ntlm.c	/^	guint16 maxlen;$/;"	m	struct:smb_header	file:
+md4_h__	md4.h	39;"	d
+md4step	md4.c	/^static void md4step(Uint32 state[4], const Uint8 *data)$/;"	f	file:
+md4sum	md4.c	/^void md4sum(const Uint8 *input, Uint32 inputLen, Uint8 *result)$/;"	f
+mech	sip-sec-sspi.c	/^	const char *mech;$/;"	m	struct:_context_sspi	file:
+media_call	sipe-core-private.h	/^	struct _sipe_media_call *media_call;$/;"	m	struct:sipe_core_private	typeref:struct:sipe_core_private::_sipe_media_call
+media_connected_cb	sipe-media.c	/^static void media_connected_cb(sipe_media_call *call)$/;"	f	file:
+meeting_location	sipe-buddy.h	/^	gchar *meeting_location;$/;"	m	struct:sipe_buddy
+meeting_subject	sipe-buddy.h	/^	gchar *meeting_subject;$/;"	m	struct:sipe_buddy
+members	sipe.h	/^	GSList *members;$/;"	m	struct:sipe_container
+memory_leak_check	sipe-xml-tests.c	/^static GMemVTable memory_leak_check = {$/;"	v	file:
+method	http-conn.c	/^	char *method;$/;"	m	struct:http_conn_struct	file:
+method	sipmsg.h	/^	gchar *method;$/;"	m	struct:sipmsg
+mkdir_p	Makefile	/^mkdir_p = \/bin\/mkdir -p$/;"	m
+mkinstalldirs	Makefile	/^mkinstalldirs = $(SHELL) $(top_srcdir)\/mkinstalldirs$/;"	m
+monitor_cross_ref_id	sip-csta.h	/^	gchar *monitor_cross_ref_id;$/;"	m	struct:sip_csta
+month	sipe-cal.c	/^	int month;          \/* 1..12 *\/$/;"	m	struct:sipe_cal_std_dst	file:
+ms_text_format	sipmsg.c	/^	gchar *ms_text_format;$/;"	m	struct:html_message_data	file:
+msg	sip-transport.h	/^	struct sipmsg *msg;$/;"	m	struct:transaction	typeref:struct:transaction::sipmsg
+msg	sipe-sign.h	/^	struct sipmsg * msg;$/;"	m	struct:sipmsg_breakdown	typeref:struct:sipmsg_breakdown::sipmsg
+msn_import_html	sipmsg.c	/^msn_import_html(const char *html, char **attributes, char **message)$/;"	f
+msn_parse_format	sipmsg.c	/^msn_parse_format(const char *mime, char **pre_ret, char **post_ret)$/;"	f
+name	sipe-buddy.h	/^	gchar *name;$/;"	m	struct:sipe_buddy
+name	sipe-schedule.c	/^	gchar *name;$/;"	m	struct:sipe_schedule	file:
+name	sipe-utils.h	/^	gchar *name;$/;"	m	struct:sipnameval
+name	sipe-xml.c	/^	gchar *name;$/;"	m	struct:_sipe_xml	file:
+name	sipe.h	/^	gchar *name;$/;"	m	struct:sipe_group
+nc	sipe.h	/^	int nc;$/;"	m	struct:sip_auth
+negotiate_message	sip-sec-ntlm.c	/^struct negotiate_message {$/;"	s	file:
+new_headers	sipmsg.h	/^	GSList *new_headers;$/;"	m	struct:sipmsg
+node	uuid.c	/^   guint8  node[6];$/;"	m	struct:__anon1	file:
+noinst_LTLIBRARIES	Makefile	/^noinst_LTLIBRARIES = \\$/;"	m
+nonce	sip-sec-ntlm.c	/^	guint8  nonce[8];$/;"	m	struct:challenge_message	file:
+note	sipe-buddy.h	/^	gchar *note;$/;"	m	struct:sipe_buddy
+note	sipe.h	/^	gchar *note;$/;"	m	struct:sipe_account_data
+note	sipe.h	/^	gchar *note;$/;"	m	struct:sipe_publication
+note_since	sipe-buddy.h	/^	time_t note_since;$/;"	m	struct:sipe_buddy
+note_since	sipe.h	/^	time_t note_since;$/;"	m	struct:sipe_account_data
+nt_resp	sip-sec-ntlm.c	/^	struct smb_header nt_resp;$/;"	m	struct:authenticate_message	typeref:struct:authenticate_message::smb_header	file:
+ntlm_message	sip-sec-ntlm.c	/^struct ntlm_message {$/;"	s	file:
+ntlm_num	sipe.h	/^	int ntlm_num;$/;"	m	struct:sip_auth
+ntlm_revision_current	sip-sec-ntlm.c	/^	guint8  ntlm_revision_current;$/;"	m	struct:version	file:
+num	sipe-sign.h	/^	gchar * num;$/;"	m	struct:sipmsg_breakdown
+num	sipmsg.h	/^	gchar *num;$/;"	m	struct:sipmsg
+oab_url	sipe-cal.h	/^	char *oab_url;$/;"	m	struct:sipe_calendar
+ocs2007	sipe.h	/^	gboolean ocs2007; \/*if there is support for batched category subscription [SIP-PRES]*\/$/;"	m	struct:sipe_account_data
+offset	sip-sec-ntlm.c	/^	guint32 offset;$/;"	m	struct:smb_header	file:
+oldincludedir	Makefile	/^oldincludedir = \/usr\/include$/;"	m
+oof_end	sipe-cal.h	/^	time_t oof_end;$/;"	m	struct:sipe_calendar
+oof_note	sipe-cal.h	/^	char *oof_note;$/;"	m	struct:sipe_calendar
+oof_start	sipe-cal.h	/^	time_t oof_start;$/;"	m	struct:sipe_calendar
+oof_state	sipe-cal.h	/^	char *oof_state; \/* Enabled, Disabled, Scheduled *\/$/;"	m	struct:sipe_calendar
+oof_url	sipe-cal.h	/^	char *oof_url;$/;"	m	struct:sipe_calendar
+opaque	sipe.h	/^	gchar *opaque;$/;"	m	struct:sip_auth
+our_publication_keys	sipe.h	/^	GSList *our_publication_keys;		\/* [MS-PRES] *\/$/;"	m	struct:sipe_account_data
+our_publications	sipe.h	/^	GHashTable *our_publications;		\/* [MS-PRES] *\/$/;"	m	struct:sipe_account_data
+ourtag	sipe-dialog.h	/^	gchar *ourtag;$/;"	m	struct:sip_dialog
+outbuf_ptr	sipe-ft.c	/^	guchar* outbuf_ptr;$/;"	m	struct:_sipe_file_transfer	file:
+outbuf_size	sipe-ft.c	/^	gsize outbuf_size;$/;"	m	struct:_sipe_file_transfer	file:
+outgoing_invite	sipe-dialog.h	/^	struct transaction *outgoing_invite;$/;"	m	struct:sip_dialog	typeref:struct:sip_dialog::transaction
+outgoing_message_queue	sipe-session.h	/^	GSList *outgoing_message_queue;$/;"	m	struct:sip_session
+p_assertet_identity_sip_uri	sipe-sign.h	/^	gchar * p_assertet_identity_sip_uri;$/;"	m	struct:sipmsg_breakdown
+p_assertet_identity_tel_uri	sipe-sign.h	/^	gchar * p_assertet_identity_tel_uri;$/;"	m	struct:sipmsg_breakdown
+parent	sipe-xml.c	/^	sipe_xml *parent;$/;"	m	struct:_sipe_xml	file:
+parse_attribute	sipe.c	/^static char *parse_attribute(const char *attrname, const char *source)$/;"	f	file:
+parse_cseq	sipe-utils.c	/^int parse_cseq(const gchar *hdr)$/;"	f
+parse_from	sipe-utils.c	/^gchar *parse_from(const gchar *hdr)$/;"	f
+parser	sipe-xml.c	/^static xmlSAXHandler parser = {$/;"	v	file:
+password	http-conn.h	/^	char *password;$/;"	m	struct:http_conn_auth
+password	sip-sec-ntlm.c	/^	char *password;$/;"	m	struct:_context_ntlm	file:
+password	sipe.h	/^	gchar *password;$/;"	m	struct:sipe_account_data
+payload	sip-transport.h	/^	struct transaction_payload *payload;$/;"	m	struct:transaction	typeref:struct:transaction::transaction_payload
+payload	sipe-schedule.c	/^	gpointer payload;$/;"	m	struct:sipe_schedule	file:
+pdfdir	Makefile	/^pdfdir = ${docdir}$/;"	m
+pending_invite_queue	sipe-session.h	/^	GSList *pending_invite_queue;$/;"	m	struct:sip_session
+pkgdatadir	Makefile	/^pkgdatadir = $(datadir)\/pidgin-sipe$/;"	m
+pkgincludedir	Makefile	/^pkgincludedir = $(includedir)\/pidgin-sipe$/;"	m
+pkglibdir	Makefile	/^pkglibdir = $(libdir)\/pidgin-sipe$/;"	m
+pkglibexecdir	Makefile	/^pkglibexecdir = $(libexecdir)\/pidgin-sipe$/;"	m
+port	http-conn.c	/^	guint port;$/;"	m	struct:http_conn_struct	file:
+preferred	sipmsg.c	/^	gboolean preferred;$/;"	m	struct:html_message_data	file:
+prefix	Makefile	/^prefix = \/usr\/local$/;"	m
+presence_batched_routed	sipe.c	/^struct presence_batched_routed {$/;"	s	file:
+presence_method_version	sipe.h	/^	int presence_method_version;$/;"	m	struct:sipe_account_data
+printUUID	uuid.c	/^static void printUUID(uuid_t *uuid, char *string)$/;"	f	file:
+process_add_group_response	sipe.c	/^static gboolean process_add_group_response(struct sipe_core_private *sipe_private,$/;"	f	file:
+process_conf_add_response	sipe-conf.c	/^process_conf_add_response(struct sipe_core_private *sipe_private,$/;"	f	file:
+process_csta_get_features_response	sip-csta.c	/^process_csta_get_features_response(SIPE_UNUSED_PARAMETER struct sipe_core_private *sipe_private,$/;"	f	file:
+process_csta_make_call_response	sip-csta.c	/^process_csta_make_call_response(struct sipe_core_private *sipe_private,$/;"	f	file:
+process_csta_monitor_start_response	sip-csta.c	/^process_csta_monitor_start_response(struct sipe_core_private *sipe_private,$/;"	f	file:
+process_get_info_response	sipe.c	/^process_get_info_response(struct sipe_core_private *sipe_private,$/;"	f	file:
+process_incoming_bye	sipe.c	/^static void process_incoming_bye(struct sipe_core_private *sipe_private,$/;"	f	file:
+process_incoming_cancel	sipe.c	/^static void process_incoming_cancel(SIPE_UNUSED_PARAMETER struct sipe_core_private *sipe_private,$/;"	f	file:
+process_incoming_info	sipe.c	/^static void process_incoming_info(struct sipe_core_private *sipe_private,$/;"	f	file:
+process_incoming_info_csta	sip-csta.c	/^process_incoming_info_csta(struct sipe_account_data *sip,$/;"	f
+process_incoming_invite	sipe.c	/^static void process_incoming_invite(struct sipe_core_private *sipe_private,$/;"	f	file:
+process_incoming_invite_conf	sipe-conf.c	/^process_incoming_invite_conf(struct sipe_account_data *sip,$/;"	f
+process_incoming_message	sipe.c	/^static void process_incoming_message(struct sipe_core_private *sipe_private,$/;"	f	file:
+process_incoming_notify	sipe.c	/^static void process_incoming_notify(struct sipe_core_private *sipe_private,$/;"	f	file:
+process_incoming_notify_msrtc	sipe.c	/^static void process_incoming_notify_msrtc(struct sipe_core_private *sipe_private,$/;"	f	file:
+process_incoming_notify_pidf	sipe.c	/^static void process_incoming_notify_pidf(struct sipe_core_private *sipe_private,$/;"	f	file:
+process_incoming_notify_rlmi	sipe.c	/^static void process_incoming_notify_rlmi(struct sipe_core_private *sipe_private,$/;"	f	file:
+process_incoming_notify_rlmi_resub	sipe.c	/^static void process_incoming_notify_rlmi_resub(struct sipe_core_private *sipe_private,$/;"	f	file:
+process_incoming_options	sipe.c	/^static void process_incoming_options(struct sipe_core_private *sipe_private,$/;"	f	file:
+process_incoming_refer	sipe.c	/^static void process_incoming_refer(struct sipe_core_private *sipe_private,$/;"	f	file:
+process_info_response	sipe.c	/^process_info_response(struct sipe_core_private *sipe_private,$/;"	f	file:
+process_input_message	sipe.c	/^void process_input_message(struct sipe_account_data *sip,$/;"	f
+process_invite_conf_focus_response	sipe-conf.c	/^process_invite_conf_focus_response(struct sipe_core_private *sipe_private,$/;"	f	file:
+process_invite_conf_response	sipe-conf.c	/^process_invite_conf_response(struct sipe_core_private *sipe_private,$/;"	f	file:
+process_invite_csta_gateway_response	sip-csta.c	/^process_invite_csta_gateway_response(struct sipe_core_private *sipe_private,$/;"	f	file:
+process_invite_response	sipe.c	/^process_invite_response(struct sipe_core_private *sipe_private,$/;"	f	file:
+process_message_response	sipe.c	/^process_message_response(struct sipe_core_private *sipe_private,$/;"	f	file:
+process_options_response	sipe.c	/^process_options_response(SIPE_UNUSED_PARAMETER struct sipe_core_private *sipe_private,$/;"	f	file:
+process_register_response	sipe.c	/^gboolean process_register_response(struct sipe_core_private *sipe_private,$/;"	f
+process_search_contact_response	sipe.c	/^static gboolean process_search_contact_response(struct sipe_core_private *sipe_private,$/;"	f	file:
+process_send_presence_category_publish_response	sipe.c	/^process_send_presence_category_publish_response(struct sipe_core_private *sipe_private,$/;"	f	file:
+process_subscribe_response	sipe.c	/^gboolean process_subscribe_response(struct sipe_core_private *sipe_private,$/;"	f
+processing_input	sipe.h	/^	gboolean processing_input;$/;"	m	struct:sipe_account_data
+product_build	sip-sec-ntlm.c	/^	guint16 product_build;$/;"	m	struct:version	file:
+product_major_version	sip-sec-ntlm.c	/^	guint8  product_major_version;$/;"	m	struct:version	file:
+product_minor_version	sip-sec-ntlm.c	/^	guint8  product_minor_version;$/;"	m	struct:version	file:
+program_transform_name	Makefile	/^program_transform_name = s,x,x,$/;"	m
+protocol	sip-sec-ntlm.c	/^	guint8  protocol[8];		\/* 'N', 'T', 'L', 'M', 'S', 'S', 'P', '\\0' *\/$/;"	m	struct:negotiate_message	file:
+protocol	sip-sec-ntlm.c	/^	guint8  protocol[8];		\/* 'N', 'T', 'L', 'M', 'S', 'S', 'P', '\\0'*\/$/;"	m	struct:challenge_message	file:
+protocol	sip-sec-ntlm.c	/^	guint8  protocol[8];     \/* 'N', 'T', 'L', 'M', 'S', 'S', 'P', '\\0'*\/$/;"	m	struct:authenticate_message	file:
+protocol	sip-sec-ntlm.c	/^	guint8  protocol[8];     \/* 'N', 'T', 'L', 'M', 'S', 'S', 'P', '\\0'*\/$/;"	m	struct:ntlm_message	file:
+protocol	sip-transport.c	/^	const char *protocol;$/;"	m	struct:sipe_service_data	file:
+protocol	sipe-sign.h	/^	gchar * protocol;$/;"	m	struct:sipmsg_breakdown
+proxy	sipe.h	/^	struct sip_auth proxy;$/;"	m	struct:sipe_account_data	typeref:struct:sipe_account_data::sip_auth
+psdir	Makefile	/^psdir = ${docdir}$/;"	m
+public_domains	sipe.c	/^static const char * const public_domains [] = {$/;"	v	file:
+publish_calendar_status_self	sipe.c	/^publish_calendar_status_self(struct sipe_core_private *sipe_private,$/;"	f
+published	sipe-cal.h	/^	gboolean published;$/;"	m	struct:sipe_calendar
+purple_blist_add_buddy_clone	sipe.c	/^purple_blist_add_buddy_clone(PurpleGroup * group, PurpleBuddy * buddy)$/;"	f	file:
+purple_group	sipe.h	/^	struct _PurpleGroup *purple_group;$/;"	m	struct:sipe_group	typeref:struct:sipe_group::_PurpleGroup
+queued_message	sipe-session.h	/^struct queued_message {$/;"	s
+r1	sip-sec-ntlm.c	97;"	d	file:
+r2	sip-sec-ntlm.c	96;"	d	file:
+r3	sip-sec-ntlm.c	95;"	d	file:
+r4	sip-sec-ntlm.c	93;"	d	file:
+r5	sip-sec-ntlm.c	90;"	d	file:
+r6	sip-sec-ntlm.c	87;"	d	file:
+r7	sip-sec-ntlm.c	83;"	d	file:
+r8	sip-sec-ntlm.c	77;"	d	file:
+r9	sip-sec-ntlm.c	72;"	d	file:
+raise_ft_error	sipe-ft.c	/^void raise_ft_error(PurpleXfer *xfer, const char *errmsg)$/;"	f	file:
+raise_ft_error_and_cancel	sipe-ft.c	/^void raise_ft_error_and_cancel(PurpleXfer *xfer, const char *errmsg)$/;"	f	file:
+raise_ft_socket_read_error_and_cancel	sipe-ft.c	/^void raise_ft_socket_read_error_and_cancel(PurpleXfer *xfer)$/;"	f	file:
+raise_ft_socket_write_error_and_cancel	sipe-ft.c	/^void raise_ft_socket_write_error_and_cancel(PurpleXfer *xfer)$/;"	f	file:
+raise_ft_strerror	sipe-ft.c	/^void raise_ft_strerror(PurpleXfer *xfer, const char *errmsg)$/;"	f	file:
+rand	sipe-sign.h	/^	gchar * rand;$/;"	m	struct:sipmsg_breakdown
+rand	sipmsg.h	/^	gchar *rand;$/;"	m	struct:sipmsg
+rand_guid	sipe-conf.c	/^rand_guid()$/;"	f	file:
+readUUID	uuid.c	/^static void readUUID(const char *string, uuid_t *uuid)$/;"	f	file:
+read_fully	sipe-ft.c	/^read_fully(PurpleXfer *xfer, guchar *buf, size_t len)$/;"	f	file:
+read_line	sipe-ft.c	/^static gssize read_line(PurpleXfer *xfer, gchar *buffer, gssize size)$/;"	f	file:
+realm	sipe-sign.h	/^	gchar * realm;$/;"	m	struct:sipmsg_breakdown
+realm	sipe.h	/^	gchar *realm;$/;"	m	struct:sip_auth
+reauthenticate_set	sipe.h	/^	gboolean reauthenticate_set; \/* whether reauthenticate timer set *\/$/;"	m	struct:sipe_account_data
+regcallid	sipe.h	/^	gchar *regcallid;$/;"	m	struct:sipe_account_data
+registerstatus	sipe.h	/^	int registerstatus; \/* 0 nothing, 1 first registration send, 2 auth received, 3 registered *\/$/;"	m	struct:sipe_account_data
+registrar	sipe.h	/^	struct sip_auth registrar;$/;"	m	struct:sipe_account_data	typeref:struct:sipe_account_data::sip_auth
+replace	sipe-utils.c	/^replace(const char *st,$/;"	f
+request	sipe-dialog.h	/^	gchar *request;$/;"	m	struct:sip_dialog
+request_id	sipe-session.h	/^	guint request_id;$/;"	m	struct:sip_session
+reregister_set	sipe.h	/^	gboolean reregister_set; \/* whether reregister timer set *\/$/;"	m	struct:sipe_account_data
+resolve_next_service	sip-transport.c	/^static void resolve_next_service(struct sipe_core_private *sipe_private,$/;"	f	file:
+response	sipmsg.h	/^	int response; \/* 0 means request, otherwise response code *\/$/;"	m	struct:sipmsg
+retries	http-conn.c	/^	int retries;$/;"	m	struct:http_conn_struct	file:
+retries	sip-transport.h	/^	int retries;$/;"	m	struct:transaction
+retries	sipe.h	/^	int retries;$/;"	m	struct:sip_auth
+root	sipe-xml.c	/^	sipe_xml *root;$/;"	m	struct:_parser_data	file:
+roster_manager	sipe-session.h	/^	gchar *roster_manager;$/;"	m	struct:sip_session
+routes	sipe-dialog.h	/^	GSList *routes;$/;"	m	struct:sip_dialog
+sbindir	Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sec_ctx	http-conn.c	/^	SipSecContext sec_ctx;$/;"	m	struct:http_conn_struct	file:
+send_filetransfer_accept	sipe-ft.c	/^static void send_filetransfer_accept(PurpleXfer* xfer)$/;"	f	file:
+send_filetransfer_cancel	sipe-ft.c	/^static void send_filetransfer_cancel(PurpleXfer* xfer) {$/;"	f	file:
+send_presence_category_publish	sipe.c	/^send_presence_category_publish(struct sipe_core_private *sipe_private)$/;"	f	file:
+send_presence_publish	sipe.c	/^static void send_presence_publish(struct sipe_core_private *sipe_private,$/;"	f	file:
+send_presence_soap	sipe.c	/^send_presence_soap(struct sipe_account_data *sip,$/;"	f
+send_presence_soap0	sipe.c	/^send_presence_soap0(struct sipe_core_private *sipe_private,$/;"	f	file:
+send_presence_status	sipe.c	/^static void send_presence_status(struct sipe_core_private *sipe_private,$/;"	f	file:
+send_publish_category_initial	sipe.c	/^send_publish_category_initial(struct sipe_core_private *sipe_private)$/;"	f	file:
+send_response_with_session_description	sipe-media.c	/^send_response_with_session_description(sipe_media_call *call, int code, gchar *text)$/;"	f	file:
+send_sip_request	sip-transport.c	/^send_sip_request(struct sipe_core_private *sipe_private, const gchar *method,$/;"	f
+send_sip_response	sip-transport.c	/^void send_sip_response(struct sipe_core_private *sipe_private,$/;"	f
+send_soap_request	sipe.c	/^static void send_soap_request(struct sipe_core_private *sipe_private,$/;"	f	file:
+send_soap_request_with_cb	sipe.c	/^send_soap_request_with_cb(struct sipe_core_private *sipe_private,$/;"	f	file:
+server_name	sipe-core-private.h	/^	gchar *server_name;$/;"	m	struct:sipe_core_private
+server_port	sipe-core-private.h	/^	guint  server_port;$/;"	m	struct:sipe_core_private
+server_seal_key	sip-sec-ntlm.c	/^	guchar *server_seal_key;$/;"	m	struct:_context_ntlm	file:
+server_sign_key	sip-sec-ntlm.c	/^	guchar *server_sign_key;$/;"	m	struct:_context_ntlm	file:
+server_version	sipe-core-private.h	/^	gchar *server_version;$/;"	m	struct:sipe_core_private
+service_autodetect	sip-transport.c	/^static const struct sipe_service_data service_autodetect[] = {$/;"	v	typeref:struct:sipe_service_data	file:
+service_data	sipe-core-private.h	/^	const struct sipe_service_data *service_data;$/;"	m	struct:sipe_core_private	typeref:struct:sipe_core_private::sipe_service_data
+service_tcp	sip-transport.c	/^static const struct sipe_service_data service_tcp[] = {$/;"	v	typeref:struct:sipe_service_data	file:
+service_tls	sip-transport.c	/^static const struct sipe_service_data service_tls[] = {$/;"	v	typeref:struct:sipe_service_data	file:
+services	sip-transport.c	/^static const struct sipe_service_data *services[] = {$/;"	v	typeref:struct:sipe_service_data	file:
+session_key	sip-sec-ntlm.c	/^	struct smb_header session_key;$/;"	m	struct:authenticate_message	typeref:struct:authenticate_message::smb_header	file:
+sessions	sipe.h	/^	GSList *sessions;$/;"	m	struct:sipe_account_data
+set_socket_nonblock	sipe-ft.c	/^static void set_socket_nonblock(int fd, gboolean state)$/;"	f	file:
+setup_des_key	sip-sec-ntlm.c	/^static void setup_des_key(const unsigned char key_56[], unsigned char *key)$/;"	f	file:
+sharedstatedir	Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+sibling	sipe-xml.c	/^	sipe_xml *sibling;$/;"	m	struct:_sipe_xml	file:
+sign_outgoing_message	sip-transport.c	/^static void sign_outgoing_message (struct sipmsg * msg, struct sipe_account_data *sip, const gchar *method)$/;"	f	file:
+signature	sipmsg.h	/^	gchar *signature;$/;"	m	struct:sipmsg
+sip	sipe-cal.h	/^	struct sipe_account_data *sip;$/;"	m	struct:sipe_calendar	typeref:struct:sipe_calendar::sipe_account_data
+sip	sipe-ft.c	/^	struct sipe_account_data *sip;$/;"	m	struct:_sipe_file_transfer	typeref:struct:_sipe_file_transfer::sipe_account_data	file:
+sip	sipe.h	/^	struct sipe_account_data * sip;$/;"	m	struct:sipe_auth_job	typeref:struct:sipe_auth_job::sipe_account_data
+sip_auth	sipe.h	/^struct sip_auth {$/;"	s
+sip_csta	sip-csta.h	/^struct sip_csta {$/;"	s
+sip_csta_close	sip-csta.c	/^sip_csta_close(struct sipe_account_data *sip)$/;"	f
+sip_csta_free	sip-csta.c	/^sip_csta_free(struct sip_csta *csta)$/;"	f	file:
+sip_csta_get_features	sip-csta.c	/^sip_csta_get_features(struct sipe_account_data *sip)$/;"	f	file:
+sip_csta_initialize	sip-csta.c	/^sip_csta_initialize(struct sipe_account_data *sip,$/;"	f	file:
+sip_csta_make_call	sip-csta.c	/^sip_csta_make_call(struct sipe_account_data *sip,$/;"	f
+sip_csta_monitor_start	sip-csta.c	/^sip_csta_monitor_start(struct sipe_account_data *sip)$/;"	f	file:
+sip_csta_monitor_stop	sip-csta.c	/^sip_csta_monitor_stop(struct sipe_account_data *sip)$/;"	f	file:
+sip_csta_open	sip-csta.c	/^sip_csta_open(struct sipe_account_data *sip,$/;"	f
+sip_csta_update_id_and_status	sip-csta.c	/^sip_csta_update_id_and_status(struct sip_csta *csta,$/;"	f	file:
+sip_dialog	sipe-dialog.h	/^struct sip_dialog {$/;"	s
+sip_sec_acquire_cred__krb5	sip-sec-krb5.c	/^sip_sec_acquire_cred__krb5(SipSecContext context,$/;"	f	file:
+sip_sec_acquire_cred__ntlm	sip-sec-ntlm.c	/^sip_sec_acquire_cred__ntlm(SipSecContext context,$/;"	f	file:
+sip_sec_acquire_cred__sspi	sip-sec-sspi.c	/^sip_sec_acquire_cred__sspi(SipSecContext context,$/;"	f	file:
+sip_sec_acquire_cred_func	sip-sec-mech.h	/^(*sip_sec_acquire_cred_func)(SipSecContext context,$/;"	t
+sip_sec_context	sip-sec-mech.h	/^struct sip_sec_context {$/;"	s
+sip_sec_create_context	sip-sec.c	/^sip_sec_create_context(guint type,$/;"	f
+sip_sec_create_context__Kerberos	sip-sec.c	49;"	d	file:
+sip_sec_create_context__Kerberos	sip-sec.c	51;"	d	file:
+sip_sec_create_context__Kerberos	sip-sec.c	59;"	d	file:
+sip_sec_create_context__Kerberos	sip-sec.c	63;"	d	file:
+sip_sec_create_context__NONE	sip-sec.c	/^sip_sec_create_context__NONE(SIPE_UNUSED_PARAMETER guint type)$/;"	f	file:
+sip_sec_create_context__NTLM	sip-sec.c	44;"	d	file:
+sip_sec_create_context__NTLM	sip-sec.c	57;"	d	file:
+sip_sec_create_context__NTLM	sip-sec.c	61;"	d	file:
+sip_sec_create_context__Negotiate	sip-sec.c	45;"	d	file:
+sip_sec_create_context__Negotiate	sip-sec.c	58;"	d	file:
+sip_sec_create_context__Negotiate	sip-sec.c	62;"	d	file:
+sip_sec_create_context__krb5	sip-sec-krb5.c	/^sip_sec_create_context__krb5(SIPE_UNUSED_PARAMETER guint type)$/;"	f
+sip_sec_create_context__ntlm	sip-sec-ntlm.c	/^sip_sec_create_context__ntlm(SIPE_UNUSED_PARAMETER guint type)$/;"	f
+sip_sec_create_context__sspi	sip-sec-sspi.c	/^sip_sec_create_context__sspi(guint type)$/;"	f
+sip_sec_create_context_func	sip-sec-mech.h	/^(*sip_sec_create_context_func)(guint type);$/;"	t
+sip_sec_destroy	sip-sec.c	/^void sip_sec_destroy(void)$/;"	f
+sip_sec_destroy__ntlm	sip-sec-ntlm.c	/^void sip_sec_destroy__ntlm(void)$/;"	f
+sip_sec_destroy_context	sip-sec.c	/^sip_sec_destroy_context(SipSecContext context)$/;"	f
+sip_sec_destroy_context_func	sip-sec-mech.h	/^(*sip_sec_destroy_context_func)(SipSecContext context);$/;"	t
+sip_sec_destroy_sec_context__krb5	sip-sec-krb5.c	/^sip_sec_destroy_sec_context__krb5(SipSecContext context)$/;"	f	file:
+sip_sec_destroy_sec_context__ntlm	sip-sec-ntlm.c	/^sip_sec_destroy_sec_context__ntlm(SipSecContext context)$/;"	f	file:
+sip_sec_destroy_sec_context__sspi	sip-sec-sspi.c	/^sip_sec_destroy_sec_context__sspi(SipSecContext context)$/;"	f	file:
+sip_sec_destroy_sspi_context	sip-sec-sspi.c	/^sip_sec_destroy_sspi_context(context_sspi context)$/;"	f	file:
+sip_sec_get_interval_from_now_sec	sip-sec-sspi.c	/^sip_sec_get_interval_from_now_sec(TimeStamp timestamp)$/;"	f	file:
+sip_sec_init	sip-sec.c	/^void sip_sec_init(void)$/;"	f
+sip_sec_init__ntlm	sip-sec-ntlm.c	/^void sip_sec_init__ntlm(void)$/;"	f
+sip_sec_init_context	sip-sec.c	/^sip_sec_init_context(SipSecContext *context,$/;"	f
+sip_sec_init_context_func	sip-sec-mech.h	/^(*sip_sec_init_context_func)(SipSecContext context,$/;"	t
+sip_sec_init_context_step	sip-sec.c	/^sip_sec_init_context_step(SipSecContext context,$/;"	f
+sip_sec_init_sec_context__krb5	sip-sec-krb5.c	/^sip_sec_init_sec_context__krb5(SipSecContext context,$/;"	f	file:
+sip_sec_init_sec_context__ntlm	sip-sec-ntlm.c	/^sip_sec_init_sec_context__ntlm(SipSecContext context,$/;"	f	file:
+sip_sec_init_sec_context__sspi	sip-sec-sspi.c	/^sip_sec_init_sec_context__sspi(SipSecContext context,$/;"	f	file:
+sip_sec_krb5_obtain_tgt	sip-sec-krb5.c	/^sip_sec_krb5_obtain_tgt(SIPE_UNUSED_PARAMETER const char *realm_in,$/;"	f
+sip_sec_krb5_print_error	sip-sec-krb5.c	/^sip_sec_krb5_print_error(const char *func,$/;"	f
+sip_sec_krb5_print_gss_error	sip-sec-krb5.c	/^void sip_sec_krb5_print_gss_error(char *func, OM_uint32 ret, OM_uint32 minor)$/;"	f
+sip_sec_krb5_print_gss_error0	sip-sec-krb5.c	/^sip_sec_krb5_print_gss_error0(char *func,$/;"	f	file:
+sip_sec_make_signature	sip-sec.c	/^char * sip_sec_make_signature(SipSecContext context, const char *message)$/;"	f
+sip_sec_make_signature__krb5	sip-sec-krb5.c	/^sip_sec_make_signature__krb5(SipSecContext context,$/;"	f	file:
+sip_sec_make_signature__ntlm	sip-sec-ntlm.c	/^sip_sec_make_signature__ntlm(SipSecContext context,$/;"	f	file:
+sip_sec_make_signature__sspi	sip-sec-sspi.c	/^sip_sec_make_signature__sspi(SipSecContext context,$/;"	f	file:
+sip_sec_make_signature_func	sip-sec-mech.h	/^(*sip_sec_make_signature_func)(SipSecContext context,$/;"	t
+sip_sec_ntlm_authenticate_message_describe	sip-sec-ntlm.c	/^sip_sec_ntlm_authenticate_message_describe(struct authenticate_message *cmsg)$/;"	f	file:
+sip_sec_ntlm_challenge_message_describe	sip-sec-ntlm.c	/^sip_sec_ntlm_challenge_message_describe(struct challenge_message *cmsg)$/;"	f	file:
+sip_sec_ntlm_describe_smb_header	sip-sec-ntlm.c	/^sip_sec_ntlm_describe_smb_header(struct smb_header *header,$/;"	f	file:
+sip_sec_ntlm_describe_version	sip-sec-ntlm.c	/^sip_sec_ntlm_describe_version(struct version *ver) {$/;"	f	file:
+sip_sec_ntlm_gen_authenticate	sip-sec-ntlm.c	/^sip_sec_ntlm_gen_authenticate(guchar **client_sign_key,$/;"	f	file:
+sip_sec_ntlm_gen_negotiate	sip-sec-ntlm.c	/^sip_sec_ntlm_gen_negotiate(SipSecBuffer *out_buff)$/;"	f	file:
+sip_sec_ntlm_message_describe	sip-sec-ntlm.c	/^sip_sec_ntlm_message_describe(SipSecBuffer buff)$/;"	f
+sip_sec_ntlm_negotiate_flags_describe	sip-sec-ntlm.c	/^sip_sec_ntlm_negotiate_flags_describe(guint32 flags)$/;"	f	file:
+sip_sec_ntlm_negotiate_message_describe	sip-sec-ntlm.c	/^sip_sec_ntlm_negotiate_message_describe(struct negotiate_message *cmsg)$/;"	f	file:
+sip_sec_ntlm_parse_challenge	sip-sec-ntlm.c	/^sip_sec_ntlm_parse_challenge(SipSecBuffer in_buff,$/;"	f	file:
+sip_sec_ntlm_sipe_signature_make	sip-sec-ntlm.c	/^sip_sec_ntlm_sipe_signature_make(guint32 flags,$/;"	f	file:
+sip_sec_ntlm_tests	sip-sec-ntlm-tests.c	/^gboolean sip_sec_ntlm_tests(void)$/;"	f
+sip_sec_sspi_print_error	sip-sec-sspi.c	/^sip_sec_sspi_print_error(const char *func,$/;"	f
+sip_sec_verify_signature	sip-sec.c	/^int sip_sec_verify_signature(SipSecContext context, const char *message, const char *signature_hex)$/;"	f
+sip_sec_verify_signature__krb5	sip-sec-krb5.c	/^sip_sec_verify_signature__krb5(SipSecContext context,$/;"	f	file:
+sip_sec_verify_signature__ntlm	sip-sec-ntlm.c	/^sip_sec_verify_signature__ntlm(SipSecContext context,$/;"	f	file:
+sip_sec_verify_signature__sspi	sip-sec-sspi.c	/^sip_sec_verify_signature__sspi(SipSecContext context,$/;"	f	file:
+sip_sec_verify_signature_func	sip-sec-mech.h	/^(*sip_sec_verify_signature_func)(SipSecContext context,$/;"	t
+sip_session	sipe-session.h	/^struct sip_session {$/;"	s
+sip_subscription	sipe-dialog.h	/^struct sip_subscription {$/;"	s
+sip_tel_uri_denormalize	sip-csta.c	/^sip_tel_uri_denormalize(const gchar *tel_uri)$/;"	f
+sip_to_tel_uri	sip-csta.c	/^sip_to_tel_uri(const gchar *phone)$/;"	f
+sip_to_tel_uri0	sip-csta.c	/^sip_to_tel_uri0(const gchar *phone)$/;"	f	file:
+sip_transport_connected	sip-transport.c	/^static void sip_transport_connected(struct sipe_transport_connection *conn)$/;"	f	file:
+sip_transport_default_contact	sip-transport.c	/^void sip_transport_default_contact(struct sipe_core_private *sipe_private)$/;"	f
+sip_transport_error	sip-transport.c	/^static void sip_transport_error(struct sipe_transport_connection *conn,$/;"	f	file:
+sip_transport_input	sip-transport.c	/^static void sip_transport_input(struct sipe_transport_connection *conn)$/;"	f	file:
+sip_uint32	sip-sec-mech.h	/^typedef unsigned long sip_uint32;$/;"	t
+sip_uri	sipe-utils.c	/^gchar *sip_uri(const gchar *string)$/;"	f
+sip_uri_from_name	sipe-utils.c	/^gchar *sip_uri_from_name(const gchar *name)$/;"	f
+sip_uri_self	sipe-utils.h	188;"	d
+sipe_account_data	sipe.h	/^struct sipe_account_data {$/;"	s
+sipe_activity_map	sipe.c	/^} const sipe_activity_map[] =$/;"	v	file:
+sipe_activity_map_struct	sipe.c	/^static struct sipe_activity_map_struct$/;"	s	file:
+sipe_add_buddy	sipe.c	/^void sipe_add_buddy(PurpleConnection *gc, PurpleBuddy *buddy, PurpleGroup *group)$/;"	f
+sipe_apply_calendar_status	sipe.c	/^sipe_apply_calendar_status(struct sipe_core_private *sipe_private,$/;"	f	file:
+sipe_ask_access_domain	sipe.c	/^sipe_ask_access_domain(struct sipe_core_private *sipe_private)$/;"	f	file:
+sipe_ask_access_domain_cb	sipe.c	/^sipe_ask_access_domain_cb(PurpleConnection *gc, PurpleRequestFields *fields)$/;"	f	file:
+sipe_auth_free	sipe.c	/^static void sipe_auth_free(struct sip_auth *auth)$/;"	f	file:
+sipe_auth_job	sipe.h	/^struct sipe_auth_job {$/;"	s
+sipe_auth_user_cb	sipe.c	/^void sipe_auth_user_cb(void * data)$/;"	f	file:
+sipe_backend_debug	sipe-xml-tests.c	/^void sipe_backend_debug(sipe_debug_level level,$/;"	f
+sipe_backend_network_ip_address	sipe-xml-tests.c	/^const gchar *sipe_backend_network_ip_address(void) { return(NULL); }$/;"	f
+sipe_buddy	sipe-buddy.h	/^struct sipe_buddy {$/;"	s
+sipe_buddy_menu	sipe.c	/^sipe_buddy_menu(PurpleBuddy *buddy)$/;"	f
+sipe_buddy_menu_access_level_add_domain_cb	sipe.c	/^sipe_buddy_menu_access_level_add_domain_cb(PurpleBuddy *buddy)$/;"	f	file:
+sipe_buddy_menu_access_level_cb	sipe.c	/^sipe_buddy_menu_access_level_cb(PurpleBuddy *buddy,$/;"	f	file:
+sipe_buddy_menu_access_level_help_cb	sipe.c	/^sipe_buddy_menu_access_level_help_cb(PurpleBuddy *buddy)$/;"	f	file:
+sipe_buddy_menu_chat_invite_cb	sipe.c	/^sipe_buddy_menu_chat_invite_cb(PurpleBuddy *buddy, char *chat_title)$/;"	f	file:
+sipe_buddy_menu_chat_make_leader_cb	sipe.c	/^sipe_buddy_menu_chat_make_leader_cb(PurpleBuddy *buddy, const char *chat_title)$/;"	f	file:
+sipe_buddy_menu_chat_new_cb	sipe.c	/^sipe_buddy_menu_chat_new_cb(PurpleBuddy *buddy)$/;"	f	file:
+sipe_buddy_menu_chat_remove_cb	sipe.c	/^sipe_buddy_menu_chat_remove_cb(PurpleBuddy *buddy, const char *chat_title)$/;"	f	file:
+sipe_buddy_menu_copy_to_cb	sipe.c	/^sipe_buddy_menu_copy_to_cb(PurpleBlistNode *node, const char *group_name)$/;"	f	file:
+sipe_buddy_menu_make_call_cb	sipe.c	/^sipe_buddy_menu_make_call_cb(PurpleBuddy *buddy, const char *phone)$/;"	f	file:
+sipe_buddy_menu_send_email_cb	sipe.c	/^sipe_buddy_menu_send_email_cb(PurpleBuddy *buddy)$/;"	f	file:
+sipe_buddy_remove	sipe.c	/^static gboolean sipe_buddy_remove(SIPE_UNUSED_PARAMETER gpointer key, gpointer buddy,$/;"	f	file:
+sipe_buddy_subscribe_cb	sipe.c	/^sipe_buddy_subscribe_cb(char *buddy_name,$/;"	f	file:
+sipe_cal_calendar_free	sipe-cal.c	/^sipe_cal_calendar_free(struct sipe_calendar *cal)$/;"	f
+sipe_cal_calendar_init	sipe-cal.c	/^sipe_cal_calendar_init(struct sipe_account_data *sip, gboolean *has_url)$/;"	f
+sipe_cal_event	sipe-cal.h	/^struct sipe_cal_event {$/;"	s
+sipe_cal_event_describe	sipe-cal.c	/^sipe_cal_event_describe(struct sipe_cal_event* cal_event)$/;"	f
+sipe_cal_event_free	sipe-cal.c	/^sipe_cal_event_free(struct sipe_cal_event* cal_event)$/;"	f
+sipe_cal_event_hash	sipe-cal.c	/^sipe_cal_event_hash(struct sipe_cal_event* event)$/;"	f
+sipe_cal_events_free	sipe-cal.c	/^sipe_cal_events_free(GSList *cal_events)$/;"	f
+sipe_cal_free_working_hours	sipe-cal.c	/^sipe_cal_free_working_hours(struct sipe_cal_working_hours *wh)$/;"	f
+sipe_cal_get_description	sipe-cal.c	/^sipe_cal_get_description(struct sipe_buddy *buddy)$/;"	f
+sipe_cal_get_event	sipe-cal.c	/^sipe_cal_get_event(GSList *cal_events,$/;"	f
+sipe_cal_get_free_busy	sipe-cal.c	/^sipe_cal_get_free_busy(struct sipe_buddy *buddy)$/;"	f	file:
+sipe_cal_get_freebusy_base64	sipe-cal.c	/^sipe_cal_get_freebusy_base64(const char* freebusy_hex)$/;"	f
+sipe_cal_get_since_time	sipe-cal.c	/^sipe_cal_get_since_time(const gchar *free_busy,$/;"	f	file:
+sipe_cal_get_status	sipe-cal.c	/^sipe_cal_get_status(struct sipe_buddy *buddy,$/;"	f
+sipe_cal_get_status0	sipe-cal.c	/^sipe_cal_get_status0(const gchar *free_busy,$/;"	f	file:
+sipe_cal_get_std_dst_time	sipe-cal.c	/^sipe_cal_get_std_dst_time(time_t now,$/;"	f	file:
+sipe_cal_get_switch_time	sipe-cal.c	/^sipe_cal_get_switch_time(const gchar *free_busy,$/;"	f	file:
+sipe_cal_get_today_work_hours	sipe-cal.c	/^sipe_cal_get_today_work_hours(struct sipe_cal_working_hours *wh,$/;"	f	file:
+sipe_cal_get_tz	sipe-cal.c	/^sipe_cal_get_tz(struct sipe_cal_working_hours *wh,$/;"	f	file:
+sipe_cal_get_until	sipe-cal.c	/^sipe_cal_get_until(const time_t now,$/;"	f	file:
+sipe_cal_get_wday	sipe-cal.c	/^sipe_cal_get_wday(char *wday_name)$/;"	f	file:
+sipe_cal_is_in_work_hours	sipe-cal.c	/^sipe_cal_is_in_work_hours(const time_t time_in_question,$/;"	f	file:
+sipe_cal_mktime_of_day	sipe-cal.c	/^sipe_cal_mktime_of_day(struct tm *sample_today_tm,$/;"	f	file:
+sipe_cal_parse_std_dst	sipe-cal.c	/^sipe_cal_parse_std_dst(const sipe_xml *xn_std_dst_time,$/;"	f	file:
+sipe_cal_parse_working_hours	sipe-cal.c	/^sipe_cal_parse_working_hours(const sipe_xml *xn_working_hours,$/;"	f
+sipe_cal_std_dst	sipe-cal.c	/^struct sipe_cal_std_dst {$/;"	s	file:
+sipe_cal_working_hours	sipe-cal.c	/^struct sipe_cal_working_hours {$/;"	s	file:
+sipe_calendar	sipe-cal.h	/^struct sipe_calendar {$/;"	s
+sipe_change_access_level	sipe.c	/^sipe_change_access_level(struct sipe_core_private *sipe_private,$/;"	f	file:
+sipe_chat_find_name	sipe-chat.c	/^sipe_chat_find_name(const gchar *chat_name)$/;"	f
+sipe_chat_get_name	sipe-chat.c	/^sipe_chat_get_name(const gchar *proto_chat_id)$/;"	f
+sipe_chat_leave	sipe.c	/^sipe_chat_leave (PurpleConnection *gc, int id)$/;"	f
+sipe_chat_menu	sipe.c	/^sipe_chat_menu(PurpleChat *chat)$/;"	f
+sipe_chat_menu_lock_cb	sipe.c	/^sipe_chat_menu_lock_cb(PurpleChat *chat)$/;"	f	file:
+sipe_chat_menu_unlock_cb	sipe.c	/^sipe_chat_menu_unlock_cb(PurpleChat *chat)$/;"	f	file:
+sipe_chat_send	sipe.c	/^int sipe_chat_send(PurpleConnection *gc, int id, const char *what,$/;"	f
+sipe_cipher_context_init	sipe-ft.c	/^static gpointer sipe_cipher_context_init(const guchar *enc_key)$/;"	f	file:
+sipe_cleanup_local_blist	sipe.c	/^static void sipe_cleanup_local_blist(struct sipe_core_private *sipe_private) {$/;"	f	file:
+sipe_conf_add	sipe-conf.c	/^sipe_conf_add(struct sipe_account_data *sip,$/;"	f
+sipe_conf_delete_user	sipe-conf.c	/^sipe_conf_delete_user(struct sipe_account_data *sip,$/;"	f
+sipe_conf_immcu_closed	sipe-conf.c	/^sipe_conf_immcu_closed(struct sipe_account_data *sip,$/;"	f
+sipe_conf_modify_conference_lock	sipe-conf.c	/^sipe_conf_modify_conference_lock(struct sipe_account_data *sip,$/;"	f
+sipe_conf_modify_lock	sipe.c	/^sipe_conf_modify_lock(PurpleChat *chat, gboolean locked)$/;"	f	file:
+sipe_conf_modify_user_role	sipe-conf.c	/^sipe_conf_modify_user_role(struct sipe_account_data *sip,$/;"	f
+sipe_connection_cleanup	sipe.c	/^static void sipe_connection_cleanup(struct sipe_core_private *sipe_private)$/;"	f	file:
+sipe_contact_set_acl	sipe.c	/^sipe_contact_set_acl (struct sipe_core_private *sipe_private,$/;"	f	file:
+sipe_container	sipe.h	/^struct sipe_container {$/;"	s
+sipe_container_member	sipe.h	/^struct sipe_container_member {$/;"	s
+sipe_convo_closed	sipe.c	/^sipe_convo_closed(PurpleConnection * gc, const char *who)$/;"	f
+sipe_core_about	sipe-core.c	/^gchar *sipe_core_about(void)$/;"	f
+sipe_core_allocate	sipe.c	/^struct sipe_core_public *sipe_core_allocate(const gchar *signin_name,$/;"	f
+sipe_core_buddy_info	sipe.c	/^GSList *sipe_core_buddy_info(struct sipe_core_public *sipe_public,$/;"	f
+sipe_core_buddy_status	sipe-buddy.c	/^gchar *sipe_core_buddy_status(struct sipe_core_public *sipe_public,$/;"	f
+sipe_core_chat_create	sipe-chat.c	/^void sipe_core_chat_create(struct sipe_core_public *sipe_public, int id,$/;"	f
+sipe_core_contact_allow_deny	sipe.c	/^sipe_core_contact_allow_deny (struct sipe_core_public *sipe_public,$/;"	f
+sipe_core_deallocate	sipe.c	/^void sipe_core_deallocate(struct sipe_core_public *sipe_public)$/;"	f
+sipe_core_destroy	sipe-core.c	/^void sipe_core_destroy(void)$/;"	f
+sipe_core_dns_resolve_failure	sip-transport.c	/^void sipe_core_dns_resolve_failure(struct sipe_core_public *sipe_public)$/;"	f
+sipe_core_dns_resolved	sip-transport.c	/^void sipe_core_dns_resolved(struct sipe_core_public *sipe_public,$/;"	f
+sipe_core_group_set_user	sipe.c	/^sipe_core_group_set_user(struct sipe_core_public *sipe_public, const gchar * who)$/;"	f
+sipe_core_init	sipe-core.c	/^void sipe_core_init(void)$/;"	f
+sipe_core_media_initiate_call	sipe-media.c	/^sipe_core_media_initiate_call(struct sipe_core_public *sipe_public,$/;"	f
+sipe_core_private	sipe-core-private.h	/^struct sipe_core_private {$/;"	s
+sipe_core_reset_status	sipe.c	/^void sipe_core_reset_status(struct sipe_core_public *sipe_public)$/;"	f
+sipe_core_schedule_execute	sipe-schedule.c	/^void sipe_core_schedule_execute(gpointer data)$/;"	f
+sipe_core_transport_sip_connect	sip-transport.c	/^void sipe_core_transport_sip_connect(struct sipe_core_public *sipe_public,$/;"	f
+sipe_core_transport_sip_keepalive	sip-transport.c	/^void sipe_core_transport_sip_keepalive(struct sipe_core_public *sipe_public)$/;"	f
+sipe_core_update_calendar	sipe.c	/^sipe_core_update_calendar(struct sipe_core_public *sipe_public)$/;"	f
+sipe_crypt	sipe-crypt.c	/^sipe_crypt(CK_MECHANISM_TYPE cipherMech,$/;"	f	file:
+sipe_crypt_ctx_create	sipe-crypt.c	/^sipe_crypt_ctx_create(CK_MECHANISM_TYPE cipherMech, const guchar *key, gsize key_length)$/;"	f	file:
+sipe_crypt_ctx_destroy	sipe-crypt.c	/^sipe_crypt_ctx_destroy(PK11Context* EncContext)$/;"	f	file:
+sipe_crypt_ctx_encrypt	sipe-crypt.c	/^sipe_crypt_ctx_encrypt(PK11Context* EncContext, const guchar *in, gsize length, guchar *out)$/;"	f	file:
+sipe_crypt_des	sipe-crypt.c	/^sipe_crypt_des(const guchar *key,$/;"	f
+sipe_crypt_ft_destroy	sipe-crypt.c	/^sipe_crypt_ft_destroy(gpointer context)$/;"	f
+sipe_crypt_ft_start	sipe-crypt.c	/^sipe_crypt_ft_start(const guchar *key)$/;"	f
+sipe_crypt_ft_stream	sipe-crypt.c	/^sipe_crypt_ft_stream(gpointer context,$/;"	f
+sipe_crypt_rc4	sipe-crypt.c	/^sipe_crypt_rc4(const guchar *key, gsize key_length,$/;"	f
+sipe_deny_user_cb	sipe.c	/^void sipe_deny_user_cb(void * data)$/;"	f	file:
+sipe_dialog_add	sipe-dialog.c	/^struct sip_dialog *sipe_dialog_add(struct sip_session *session)$/;"	f
+sipe_dialog_any	sipe-dialog.h	138;"	d
+sipe_dialog_find	sipe-dialog.c	/^struct sip_dialog *sipe_dialog_find(struct sip_session *session,$/;"	f
+sipe_dialog_find_3	sipe-dialog.c	/^sipe_dialog_find_3(struct sip_session *session,$/;"	f	file:
+sipe_dialog_first	sipe-dialog.h	145;"	d
+sipe_dialog_free	sipe-dialog.c	/^void sipe_dialog_free(struct sip_dialog *dialog)$/;"	f
+sipe_dialog_parse	sipe-dialog.c	/^void sipe_dialog_parse(struct sip_dialog *dialog,$/;"	f
+sipe_dialog_parse_routes	sipe-dialog.c	/^void sipe_dialog_parse_routes(struct sip_dialog *dialog,$/;"	f
+sipe_dialog_remove	sipe-dialog.c	/^void sipe_dialog_remove(struct sip_session *session, const gchar *who)$/;"	f
+sipe_dialog_remove_3	sipe-dialog.c	/^sipe_dialog_remove_3(struct sip_session *session,$/;"	f
+sipe_dialog_remove_all	sipe-dialog.c	/^void sipe_dialog_remove_all(struct sip_session *session)$/;"	f
+sipe_digest	sipe-digest.c	/^static void sipe_digest(const SECOidTag algorithm,$/;"	f	file:
+sipe_digest_ft_destroy	sipe-digest.c	/^void sipe_digest_ft_destroy(gpointer context)$/;"	f
+sipe_digest_ft_end	sipe-digest.c	/^void sipe_digest_ft_end(gpointer context, guchar *digest)$/;"	f
+sipe_digest_ft_start	sipe-digest.c	/^gpointer sipe_digest_ft_start(const guchar *sha1_digest)$/;"	f
+sipe_digest_ft_update	sipe-digest.c	/^void sipe_digest_ft_update(gpointer context, const guchar *data, gsize length)$/;"	f
+sipe_digest_hmac_ctx_append	sipe-digest.c	/^static void sipe_digest_hmac_ctx_append(PK11Context* DigestContext, const guchar *data, gsize data_length)$/;"	f	file:
+sipe_digest_hmac_ctx_create	sipe-digest.c	/^sipe_digest_hmac_ctx_create(CK_MECHANISM_TYPE hmacMech, const guchar *key, gsize key_length)$/;"	f	file:
+sipe_digest_hmac_ctx_destroy	sipe-digest.c	/^static void sipe_digest_hmac_ctx_destroy(PK11Context* DigestContext)$/;"	f	file:
+sipe_digest_hmac_ctx_digest	sipe-digest.c	/^static void sipe_digest_hmac_ctx_digest(PK11Context* DigestContext, guchar *digest, gsize digest_length)$/;"	f	file:
+sipe_digest_hmac_md5	sipe-digest.c	/^void sipe_digest_hmac_md5(const guchar *key, gsize key_length,$/;"	f
+sipe_digest_md4	sipe-digest.c	/^void sipe_digest_md4(const guchar *data, gsize length, guchar *digest)$/;"	f
+sipe_digest_md5	sipe-digest.c	/^void sipe_digest_md5(const guchar *data, gsize length, guchar *digest)$/;"	f
+sipe_digest_sha1	sipe-digest.c	/^void sipe_digest_sha1(const guchar *data, gsize length, guchar *digest)$/;"	f
+sipe_digest_sha1	sipe-xml-tests.c	/^void sipe_digest_sha1(SIPE_UNUSED_PARAMETER const guchar *data,$/;"	f
+sipe_domino_compose_url	sipe-domino.c	/^sipe_domino_compose_url(const char *protocol, const char *mail_server, const char *mail_file)$/;"	f	file:
+sipe_domino_do_calendar_request	sipe-domino.c	/^sipe_domino_do_calendar_request(struct sipe_calendar *cal)$/;"	f	file:
+sipe_domino_do_login_request	sipe-domino.c	/^sipe_domino_do_login_request(struct sipe_calendar *cal)$/;"	f	file:
+sipe_domino_get_free_busy	sipe-domino.c	/^sipe_domino_get_free_busy(time_t fb_start,$/;"	f	file:
+sipe_domino_get_slot_no	sipe-domino.c	/^sipe_domino_get_slot_no(time_t fb_start, time_t in)$/;"	f	file:
+sipe_domino_process_calendar_response	sipe-domino.c	/^sipe_domino_process_calendar_response(int return_code,$/;"	f	file:
+sipe_domino_process_login_response	sipe-domino.c	/^sipe_domino_process_login_response(int return_code,$/;"	f	file:
+sipe_domino_read_notes_ini	sipe-domino.c	/^sipe_domino_read_notes_ini(const char *filename_with_path, char **mail_server, char **mail_file)$/;"	f	file:
+sipe_domino_time_to_str	sipe-domino.c	/^sipe_domino_time_to_str(time_t timestamp)$/;"	f	file:
+sipe_domino_update_calendar	sipe-domino.c	/^sipe_domino_update_calendar(struct sipe_account_data *sip)$/;"	f
+sipe_domino_uri_escape	sipe-domino.c	/^static gchar *sipe_domino_uri_escape(const gchar *string)$/;"	f	file:
+sipe_election_result	sipe.c	/^sipe_election_result(struct sipe_core_private *sipe_private,$/;"	f	file:
+sipe_election_start	sipe.c	/^sipe_election_start(struct sipe_core_private *sipe_private,$/;"	f	file:
+sipe_ews_do_autodiscover	sipe-ews.c	/^sipe_ews_do_autodiscover(struct sipe_calendar *cal,$/;"	f	file:
+sipe_ews_do_avail_request	sipe-ews.c	/^sipe_ews_do_avail_request(struct sipe_calendar *cal)$/;"	f	file:
+sipe_ews_do_oof_request	sipe-ews.c	/^sipe_ews_do_oof_request(struct sipe_calendar *cal)$/;"	f	file:
+sipe_ews_get_oof_note	sipe-ews.c	/^sipe_ews_get_oof_note(struct sipe_calendar *cal)$/;"	f
+sipe_ews_process_autodiscover	sipe-ews.c	/^sipe_ews_process_autodiscover(int return_code,$/;"	f	file:
+sipe_ews_process_avail_response	sipe-ews.c	/^sipe_ews_process_avail_response(int return_code,$/;"	f	file:
+sipe_ews_process_oof_response	sipe-ews.c	/^sipe_ews_process_oof_response(int return_code,$/;"	f	file:
+sipe_ews_run_state_machine	sipe-ews.c	/^sipe_ews_run_state_machine(struct sipe_calendar *cal)$/;"	f	file:
+sipe_ews_update_calendar	sipe-ews.c	/^sipe_ews_update_calendar(struct sipe_account_data *sip)$/;"	f
+sipe_file_transfer	sipe-ft.c	/^typedef struct _sipe_file_transfer sipe_file_transfer;$/;"	t	typeref:struct:_sipe_file_transfer	file:
+sipe_find_access_level	sipe.c	/^sipe_find_access_level(struct sipe_core_private *sipe_private,$/;"	f	file:
+sipe_find_container	sipe.c	/^sipe_find_container(struct sipe_core_private *sipe_private,$/;"	f	file:
+sipe_find_container_member	sipe.c	/^sipe_find_container_member(struct sipe_container *container,$/;"	f	file:
+sipe_find_member_access_level	sipe.c	/^sipe_find_member_access_level(struct sipe_core_private *sipe_private,$/;"	f	file:
+sipe_free_buddy	sipe.c	/^static void sipe_free_buddy(struct sipe_buddy *buddy)$/;"	f	file:
+sipe_free_queued_message	sipe-session.c	/^sipe_free_queued_message(struct queued_message *message)$/;"	f
+sipe_ft_client_connected	sipe-ft.c	/^void sipe_ft_client_connected(gpointer p_xfer, gint listenfd,$/;"	f	file:
+sipe_ft_free_xfer_struct	sipe-ft.c	/^sipe_ft_free_xfer_struct(PurpleXfer *xfer)$/;"	f	file:
+sipe_ft_incoming_accept	sipe-ft.c	/^void sipe_ft_incoming_accept(PurpleAccount *account, const GSList *body)$/;"	f
+sipe_ft_incoming_cancel	sipe-ft.c	/^void sipe_ft_incoming_cancel(PurpleAccount *account, GSList *body)$/;"	f
+sipe_ft_incoming_init	sipe-ft.c	/^sipe_ft_incoming_init(PurpleXfer *xfer)$/;"	f	file:
+sipe_ft_incoming_start	sipe-ft.c	/^sipe_ft_incoming_start(PurpleXfer *xfer)$/;"	f	file:
+sipe_ft_incoming_stop	sipe-ft.c	/^sipe_ft_incoming_stop(PurpleXfer *xfer)$/;"	f	file:
+sipe_ft_incoming_transfer	sipe-ft.c	/^void sipe_ft_incoming_transfer(PurpleAccount *account, struct sipmsg *msg, const GSList *body)$/;"	f
+sipe_ft_listen_socket_created	sipe-ft.c	/^void sipe_ft_listen_socket_created(int listenfd, gpointer data)$/;"	f	file:
+sipe_ft_new_xfer	sipe-ft.c	/^PurpleXfer * sipe_ft_new_xfer(PurpleConnection *gc, const char *who)$/;"	f
+sipe_ft_outgoing_init	sipe-ft.c	/^sipe_ft_outgoing_init(PurpleXfer *xfer)$/;"	f	file:
+sipe_ft_outgoing_start	sipe-ft.c	/^sipe_ft_outgoing_start(PurpleXfer *xfer)$/;"	f	file:
+sipe_ft_outgoing_stop	sipe-ft.c	/^sipe_ft_outgoing_stop(PurpleXfer *xfer)$/;"	f	file:
+sipe_ft_parse_msg_body	sipe-ft.c	/^GSList * sipe_ft_parse_msg_body(const gchar *body)$/;"	f
+sipe_ft_read	sipe-ft.c	/^sipe_ft_read(guchar **buffer, PurpleXfer *xfer)$/;"	f	file:
+sipe_ft_request_denied	sipe-ft.c	/^sipe_ft_request_denied(PurpleXfer *xfer)$/;"	f	file:
+sipe_ft_send_file	sipe-ft.c	/^void sipe_ft_send_file(PurpleConnection *gc, const char *who, const char *file)$/;"	f
+sipe_ft_write	sipe-ft.c	/^sipe_ft_write(const guchar *buffer, size_t size, PurpleXfer *xfer)$/;"	f	file:
+sipe_get_access_control_menu	sipe.c	/^sipe_get_access_control_menu(struct sipe_core_private *sipe_private,$/;"	f	file:
+sipe_get_access_domains	sipe.c	/^sipe_get_access_domains(struct sipe_core_private *sipe_private)$/;"	f	file:
+sipe_get_access_groups_menu	sipe.c	/^sipe_get_access_groups_menu(struct sipe_core_private *sipe_private)$/;"	f	file:
+sipe_get_access_level_name	sipe.c	/^sipe_get_access_level_name(int container_id)$/;"	f	file:
+sipe_get_access_levels_menu	sipe.c	/^sipe_get_access_levels_menu(struct sipe_core_private *sipe_private,$/;"	f	file:
+sipe_get_act_avail_by_status_2005	sipe.c	/^sipe_get_act_avail_by_status_2005(const char *status,$/;"	f	file:
+sipe_get_activity_by_token	sipe.c	/^sipe_get_activity_by_token(const char *token)$/;"	f	file:
+sipe_get_activity_desc_by_token	sipe.c	/^sipe_get_activity_desc_by_token(const char *token)$/;"	f	file:
+sipe_get_auth_scheme_name	sipe.c	/^sipe_get_auth_scheme_name(struct sipe_core_private *sipe_private)$/;"	f	file:
+sipe_get_availability_by_status	sipe.c	/^sipe_get_availability_by_status(const char* sipe_status_id, char** activity_token)$/;"	f	file:
+sipe_get_buddy_groups_string	sipe.c	/^sipe_get_buddy_groups_string (struct sipe_buddy *buddy) {$/;"	f	file:
+sipe_get_domain	sipe.c	/^sipe_get_domain(const char *email)$/;"	f	file:
+sipe_get_epid	uuid.c	/^char *sipe_get_epid(const char *self_sip_uri,$/;"	f
+sipe_get_first_last_names	sipe.c	/^sipe_get_first_last_names(struct sipe_core_private *sipe_private,$/;"	f	file:
+sipe_get_info	sipe.c	/^void sipe_get_info(PurpleConnection *gc, const char *username)$/;"	f
+sipe_get_no_sip_uri	sipe.c	/^sipe_get_no_sip_uri(const char *sip_uri)$/;"	f	file:
+sipe_get_pub_instance	sipe-utils.c	/^sipe_get_pub_instance(struct sipe_account_data *sip,$/;"	f
+sipe_get_status_by_act_avail_2005	sipe.c	/^sipe_get_status_by_act_avail_2005(const int activity,$/;"	f	file:
+sipe_get_status_by_availability	sipe.c	/^sipe_get_status_by_availability(int avail,$/;"	f	file:
+sipe_get_subscription_key	sipe.c	/^sipe_get_subscription_key(const gchar *event,$/;"	f	file:
+sipe_get_supported_header	sipe-dialog.c	/^sipe_get_supported_header(const struct sipmsg *msg,$/;"	f	file:
+sipe_get_useragent	sip-transport.c	/^sipe_get_useragent(struct sipe_core_private *sipe_private)$/;"	f
+sipe_got_user_status	sipe.c	/^sipe_got_user_status(struct sipe_core_private *sipe_private,$/;"	f	file:
+sipe_group	sipe.h	/^struct sipe_group {$/;"	s
+sipe_group_add	sipe.c	/^sipe_group_add(struct sipe_core_private *sipe_private,$/;"	f	file:
+sipe_group_buddy	sipe.c	/^sipe_group_buddy(PurpleConnection *gc,$/;"	f
+sipe_group_compare	sipe.c	/^sipe_group_compare(struct sipe_group *group1, struct sipe_group *group2) {$/;"	f	file:
+sipe_group_context_destroy	sipe.c	/^static void sipe_group_context_destroy(gpointer data)$/;"	f	file:
+sipe_group_create	sipe.c	/^static void sipe_group_create (struct sipe_core_private *sipe_private,$/;"	f	file:
+sipe_group_find_by_id	sipe.c	/^static struct sipe_group *sipe_group_find_by_id(struct sipe_core_private *sipe_private,$/;"	f	file:
+sipe_group_find_by_name	sipe.c	/^static struct sipe_group *sipe_group_find_by_name(struct sipe_core_private *sipe_private,$/;"	f	file:
+sipe_group_rename	sipe.c	/^sipe_group_rename(struct sipe_core_private *sipe_private,$/;"	f	file:
+sipe_hmac_context_init	sipe-ft.c	/^static gpointer sipe_hmac_context_init(const guchar *hash_key)$/;"	f	file:
+sipe_hmac_finalize	sipe-ft.c	/^static gchar* sipe_hmac_finalize(gpointer hmac_context)$/;"	f	file:
+sipe_ht_equals_nick	sipe.c	/^static gboolean sipe_ht_equals_nick(const char *nick1, const char *nick2)$/;"	f	file:
+sipe_ht_hash_nick	sipe.c	/^static guint sipe_ht_hash_nick(const char *nick)$/;"	f	file:
+sipe_im_process_queue	sipe.c	/^sipe_im_process_queue (struct sipe_account_data * sip, struct sip_session * session)$/;"	f
+sipe_im_send	sipe.c	/^int sipe_im_send(PurpleConnection *gc, const char *who, const char *what,$/;"	f
+sipe_invite	sipe.c	/^sipe_invite(struct sipe_account_data *sip,$/;"	f
+sipe_invite_call	sipe-media.c	/^sipe_invite_call(struct sipe_core_private *sipe_private, TransCallback tc)$/;"	f	file:
+sipe_invite_conf	sipe-conf.c	/^sipe_invite_conf(struct sipe_account_data *sip,$/;"	f
+sipe_invite_conf_focus	sipe-conf.c	/^sipe_invite_conf_focus(struct sipe_account_data *sip,$/;"	f
+sipe_invite_csta_gateway	sip-csta.c	/^sipe_invite_csta_gateway(struct sipe_core_private *sipe_private,$/;"	f	file:
+sipe_invite_mime_cb	sipe.c	/^static void sipe_invite_mime_cb(gpointer user_data, const GSList *fields,$/;"	f	file:
+sipe_invite_to_chat	sipe.c	/^sipe_invite_to_chat(struct sipe_account_data *sip,$/;"	f
+sipe_is_bad_alias	sipe-utils.c	/^sipe_is_bad_alias(const char *uri,$/;"	f
+sipe_is_election_finished	sipe.c	/^sipe_is_election_finished(struct sip_session *session)$/;"	f	file:
+sipe_is_our_publication	sipe.c	/^sipe_is_our_publication(struct sipe_core_private *sipe_private,$/;"	f	file:
+sipe_is_public_domain	sipe.c	/^sipe_is_public_domain(const char *domain)$/;"	f	file:
+sipe_is_user_state	sipe.c	/^sipe_is_user_state(struct sipe_core_private *sipe_private)$/;"	f	file:
+sipe_localtime_tz	sipe-cal.c	/^sipe_localtime_tz(const time_t *time,$/;"	f	file:
+sipe_make_signature	sipe.c	/^sipe_make_signature(struct sipe_account_data *sip,$/;"	f
+sipe_media_call_free	sipe-media.c	/^sipe_media_call_free(sipe_media_call *call)$/;"	f	file:
+sipe_media_call_init	sipe-media.c	/^sipe_media_call_init(struct sipe_core_private *sipe_private, const gchar* participant, gboolean initiator)$/;"	f	file:
+sipe_media_candidate_list_free	sipe-media.c	/^void sipe_media_candidate_list_free(GList *candidates)$/;"	f
+sipe_media_codec_list_free	sipe-media.c	/^void sipe_media_codec_list_free(GList *codecs)$/;"	f
+sipe_media_create_sdp	sipe-media.c	/^sipe_media_create_sdp(sipe_media_call *call) {$/;"	f	file:
+sipe_media_dialog_init	sipe-media.c	/^sipe_media_dialog_init(struct sip_session* session, struct sipmsg *msg)$/;"	f	file:
+sipe_media_get_callid	sipe-media.c	/^sipe_media_get_callid(sipe_media_call *call)$/;"	f
+sipe_media_hangup	sipe-media.c	/^void sipe_media_hangup(struct sipe_core_private *sipe_private)$/;"	f
+sipe_media_incoming_invite	sipe-media.c	/^sipe_media_incoming_invite(struct sipe_core_private *sipe_private, struct sipmsg *msg)$/;"	f
+sipe_media_parse_codecs	sipe-media.c	/^sipe_media_parse_codecs(GSList *sdp_attrs)$/;"	f	file:
+sipe_media_parse_remote_candidates	sipe-media.c	/^sipe_media_parse_remote_candidates(GSList *sdp_attrs)$/;"	f	file:
+sipe_media_parse_remote_candidates_legacy	sipe-media.c	/^sipe_media_parse_remote_candidates_legacy(gchar *remote_ip, guint16	remote_port)$/;"	f	file:
+sipe_media_parse_remote_codecs	sipe-media.c	/^sipe_media_parse_remote_codecs(sipe_media_call *call)$/;"	f	file:
+sipe_media_parse_sdp_attributes_and_candidates	sipe-media.c	/^sipe_media_parse_sdp_attributes_and_candidates(sipe_media_call* call, gchar *frame) {$/;"	f	file:
+sipe_media_process_invite_response	sipe-media.c	/^sipe_media_process_invite_response(struct sipe_core_private *sipe_private,$/;"	f	file:
+sipe_media_prune_remote_codecs	sipe-media.c	/^sipe_media_prune_remote_codecs(GList *local_codecs, GList *remote_codecs)$/;"	f	file:
+sipe_media_sdp_candidates_format	sipe-media.c	/^sipe_media_sdp_candidates_format(GList *candidates, sipe_media_call* call)$/;"	f	file:
+sipe_media_sdp_codec_ids_format	sipe-media.c	/^sipe_media_sdp_codec_ids_format(GList *codecs)$/;"	f	file:
+sipe_media_sdp_codecs_format	sipe-media.c	/^sipe_media_sdp_codecs_format(GList *codecs)$/;"	f	file:
+sipe_media_send_ack	sipe-media.c	/^sipe_media_send_ack(struct sipe_core_private *sipe_private,$/;"	f	file:
+sipe_mime_parts_foreach	sipe-mime.c	/^void sipe_mime_parts_foreach(const gchar *type,$/;"	f
+sipe_mktime_tz	sipe-cal.c	/^sipe_mktime_tz(struct tm *tm,$/;"	f
+sipe_notify_user	sipe.c	/^sipe_notify_user(struct sipe_core_private *sipe_private,$/;"	f	file:
+sipe_options_request	sipe.c	/^static void sipe_options_request(struct sipe_core_private *sipe_private,$/;"	f	file:
+sipe_parse_html	sipmsg.h	98;"	d
+sipe_presence_mime_cb	sipe.c	/^static void sipe_presence_mime_cb(gpointer user_data, \/* sipe_core_private *\/$/;"	f	file:
+sipe_presence_timeout_mime_cb	sipe.c	/^static void sipe_presence_timeout_mime_cb(gpointer user_data,$/;"	f	file:
+sipe_present_err	sipe.c	/^sipe_present_err(struct sipe_core_private *sipe_private,$/;"	f	file:
+sipe_present_info	sipe.c	/^sipe_present_info(struct sipe_account_data *sip,$/;"	f
+sipe_present_message_undelivered_err	sipe.c	/^sipe_present_message_undelivered_err(struct sipe_account_data *sip,$/;"	f
+sipe_private	sipe-schedule.c	/^	struct sipe_core_private *sipe_private;$/;"	m	struct:sipe_schedule	typeref:struct:sipe_schedule::sipe_core_private	file:
+sipe_process_conference	sipe-conf.c	/^sipe_process_conference(struct sipe_account_data *sip,$/;"	f
+sipe_process_imdn	sipe-conf.c	/^sipe_process_imdn(struct sipe_account_data *sip,$/;"	f
+sipe_process_incoming_x_msmsgsinvite	sipe.c	/^sipe_process_incoming_x_msmsgsinvite(struct sipe_core_private *sipe_private,$/;"	f	file:
+sipe_process_pending_invite_queue	sipe.c	/^sipe_process_pending_invite_queue(struct sipe_account_data *sip,$/;"	f
+sipe_process_presence	sipe.c	/^static void sipe_process_presence(struct sipe_core_private *sipe_private,$/;"	f	file:
+sipe_process_presence_timeout	sipe.c	/^static void sipe_process_presence_timeout(struct sipe_core_private *sipe_private,$/;"	f	file:
+sipe_process_presence_wpending	sipe.c	/^sipe_process_presence_wpending (struct sipe_core_private *sipe_private,$/;"	f	file:
+sipe_process_provisioning	sipe.c	/^sipe_process_provisioning(struct sipe_core_private *sipe_private,$/;"	f	file:
+sipe_process_provisioning_v2	sipe.c	/^static void sipe_process_provisioning_v2(struct sipe_core_private *sipe_private,$/;"	f	file:
+sipe_process_registration_notify	sipe.c	/^static void sipe_process_registration_notify(struct sipe_core_private *sipe_private,$/;"	f	file:
+sipe_process_roaming_acl	sipe.c	/^static void sipe_process_roaming_acl(struct sipe_core_private *sipe_private,$/;"	f	file:
+sipe_process_roaming_contacts	sipe.c	/^static gboolean sipe_process_roaming_contacts(struct sipe_core_private *sipe_private,$/;"	f	file:
+sipe_process_roaming_self	sipe.c	/^static void sipe_process_roaming_self(struct sipe_core_private *sipe_private,$/;"	f	file:
+sipe_public	http-conn.c	/^	struct sipe_core_public *sipe_public;$/;"	m	struct:http_conn_struct	typeref:struct:http_conn_struct::sipe_core_public	file:
+sipe_publication	sipe.h	/^struct sipe_publication {$/;"	s
+sipe_publish_get_cat_state_user_to_clear	sipe.c	/^static void sipe_publish_get_cat_state_user_to_clear(SIPE_UNUSED_PARAMETER const char *name,$/;"	f	file:
+sipe_publish_get_category_cal_free_busy	sipe.c	/^sipe_publish_get_category_cal_free_busy(struct sipe_core_private *sipe_private)$/;"	f	file:
+sipe_publish_get_category_cal_working_hours	sipe.c	/^sipe_publish_get_category_cal_working_hours(struct sipe_core_private *sipe_private)$/;"	f	file:
+sipe_publish_get_category_device	sipe.c	/^sipe_publish_get_category_device(struct sipe_core_private *sipe_private)$/;"	f	file:
+sipe_publish_get_category_note	sipe.c	/^sipe_publish_get_category_note(struct sipe_core_private *sipe_private,$/;"	f	file:
+sipe_publish_get_category_state	sipe.c	/^sipe_publish_get_category_state(struct sipe_core_private *sipe_private,$/;"	f	file:
+sipe_publish_get_category_state_calendar	sipe.c	/^sipe_publish_get_category_state_calendar(struct sipe_core_private *sipe_private,$/;"	f	file:
+sipe_publish_get_category_state_machine	sipe.c	/^sipe_publish_get_category_state_machine(struct sipe_core_private *sipe_private)$/;"	f	file:
+sipe_publish_get_category_state_user	sipe.c	/^sipe_publish_get_category_state_user(struct sipe_core_private *sipe_private)$/;"	f	file:
+sipe_purple_setup	sipe.c	/^void sipe_purple_setup(struct sipe_core_public *sipe_public,$/;"	f
+sipe_refer	sipe.c	/^sipe_refer(struct sipe_core_private *sipe_private,$/;"	f	file:
+sipe_refer_notify	sipe.c	/^sipe_refer_notify(struct sipe_core_private *sipe_private,$/;"	f	file:
+sipe_refresh_blocked_status	sipe.c	/^sipe_refresh_blocked_status(struct sipe_core_private *sipe_private)$/;"	f	file:
+sipe_refresh_blocked_status_cb	sipe.c	/^sipe_refresh_blocked_status_cb(char *buddy_name,$/;"	f	file:
+sipe_rejoin_chat	sipe.c	/^sipe_rejoin_chat(PurpleConversation *conv)$/;"	f	file:
+sipe_remove_buddy	sipe.c	/^void sipe_remove_buddy(PurpleConnection *gc, PurpleBuddy *buddy, PurpleGroup *group)$/;"	f
+sipe_remove_category_container_publications	sipe.c	/^sipe_remove_category_container_publications(GHashTable *our_publications,$/;"	f	file:
+sipe_remove_category_container_publications_cb	sipe.c	/^sipe_remove_category_container_publications_cb(const char *name,$/;"	f	file:
+sipe_remove_group	sipe.c	/^sipe_remove_group(PurpleConnection *gc, PurpleGroup *group)$/;"	f
+sipe_rename_group	sipe.c	/^sipe_rename_group(PurpleConnection *gc,$/;"	f
+sipe_reset_tz	sipe-cal.c	/^sipe_reset_tz(gchar *tz_orig)$/;"	f	file:
+sipe_sched_calendar_status_self_publish	sipe.c	/^sipe_sched_calendar_status_self_publish(struct sipe_core_private *sipe_private,$/;"	f	file:
+sipe_sched_calendar_status_update	sipe.c	/^sipe_sched_calendar_status_update(struct sipe_core_private *sipe_private,$/;"	f	file:
+sipe_schedule	sipe-schedule.c	/^struct sipe_schedule {$/;"	s	file:
+sipe_schedule_action	sipe-schedule.h	/^typedef void (*sipe_schedule_action)(struct sipe_core_private *sipe_private,$/;"	t
+sipe_schedule_allocate	sipe-schedule.c	/^static struct sipe_schedule *sipe_schedule_allocate(struct sipe_core_private *sipe_private,$/;"	f	file:
+sipe_schedule_cancel	sipe-schedule.c	/^void sipe_schedule_cancel(struct sipe_core_private *sipe_private,$/;"	f
+sipe_schedule_cancel_all	sipe-schedule.c	/^void sipe_schedule_cancel_all(struct sipe_core_private *sipe_private)$/;"	f
+sipe_schedule_deallocate	sipe-schedule.c	/^static void sipe_schedule_deallocate(struct sipe_schedule *schedule)$/;"	f	file:
+sipe_schedule_mseconds	sipe-schedule.c	/^void sipe_schedule_mseconds(struct sipe_core_private *sipe_private,$/;"	f
+sipe_schedule_seconds	sipe-schedule.c	/^void sipe_schedule_seconds(struct sipe_core_private *sipe_private,$/;"	f
+sipe_search_contact_with_cb	sipe.c	/^void sipe_search_contact_with_cb(PurpleConnection *gc, PurpleRequestFields *fields)$/;"	f
+sipe_searchresults_add_buddy	sipe.c	/^static void sipe_searchresults_add_buddy(PurpleConnection *gc, GList *row,$/;"	f	file:
+sipe_searchresults_im_buddy	sipe.c	/^static void sipe_searchresults_im_buddy(PurpleConnection *gc, GList *row,$/;"	f	file:
+sipe_send_container_members_prepare	sipe.c	/^sipe_send_container_members_prepare(const guint container_id,$/;"	f	file:
+sipe_send_election_request_rm	sipe.c	/^sipe_send_election_request_rm(struct sipe_core_private *sipe_private,$/;"	f	file:
+sipe_send_election_set_rm	sipe.c	/^sipe_send_election_set_rm(struct sipe_core_private *sipe_private,$/;"	f	file:
+sipe_send_message	sipe.c	/^static void sipe_send_message(struct sipe_core_private *sipe_private,$/;"	f	file:
+sipe_send_set_container_members	sipe.c	/^sipe_send_set_container_members(struct sipe_core_private *sipe_private,$/;"	f	file:
+sipe_send_typing	sipe.c	/^sipe_send_typing(PurpleConnection *gc, const char *who, PurpleTypingState state)$/;"	f
+sipe_server_register	sip-transport.c	/^void sipe_server_register(struct sipe_core_private *sipe_private,$/;"	f
+sipe_service_data	sip-transport.c	/^struct sipe_service_data {$/;"	s	file:
+sipe_session_add_chat	sipe-session.c	/^sipe_session_add_chat(struct sipe_account_data *sip)$/;"	f
+sipe_session_close	sipe.c	/^sipe_session_close(struct sipe_core_private *sipe_private,$/;"	f	file:
+sipe_session_close_all	sipe.c	/^sipe_session_close_all(struct sipe_core_private *sipe_private)$/;"	f	file:
+sipe_session_dequeue_message	sipe-session.c	/^sipe_session_dequeue_message(struct sip_session *session)$/;"	f
+sipe_session_enqueue_message	sipe-session.c	/^sipe_session_enqueue_message(struct sip_session *session,$/;"	f
+sipe_session_find_chat_by_callid	sipe-session.c	/^sipe_session_find_chat_by_callid(struct sipe_account_data *sip,$/;"	f
+sipe_session_find_chat_by_id	sipe-session.c	/^sipe_session_find_chat_by_id(struct sipe_account_data *sip,$/;"	f
+sipe_session_find_chat_by_title	sipe-session.c	/^sipe_session_find_chat_by_title(struct sipe_account_data *sip,$/;"	f
+sipe_session_find_conference	sipe-session.c	/^sipe_session_find_conference(struct sipe_account_data *sip,$/;"	f
+sipe_session_find_im	sipe-session.c	/^sipe_session_find_im(struct sipe_account_data *sip, const gchar *who)$/;"	f
+sipe_session_find_or_add_chat_by_callid	sipe-session.c	/^sipe_session_find_or_add_chat_by_callid(struct sipe_account_data *sip,$/;"	f
+sipe_session_find_or_add_im	sipe-session.c	/^sipe_session_find_or_add_im(struct sipe_account_data *sip,$/;"	f
+sipe_session_remove	sipe-session.c	/^sipe_session_remove(struct sipe_account_data *sip, struct sip_session *session)$/;"	f
+sipe_session_remove_all	sipe-session.c	/^sipe_session_remove_all(struct sipe_account_data *sip)$/;"	f
+sipe_set_idle	sipe.c	/^sipe_set_idle(PurpleConnection * gc,$/;"	f
+sipe_set_purple_account_status_and_note	sipe.c	/^sipe_set_purple_account_status_and_note(const PurpleAccount *account,$/;"	f	file:
+sipe_set_status	sipe.c	/^void sipe_set_status(PurpleAccount *account, PurpleStatus *status)$/;"	f
+sipe_soap	sipe.h	543;"	d
+sipe_strcase_equal	sipe-utils.c	/^sipe_strcase_equal(const gchar *left, const gchar *right)$/;"	f
+sipe_strequal	sipe-utils.c	/^sipe_strequal(const gchar *left, const gchar *right)$/;"	f
+sipe_subscribe_conference	sipe-conf.c	/^sipe_subscribe_conference(struct sipe_account_data *sip,$/;"	f	file:
+sipe_subscribe_poolfqdn_resource_uri	sipe.c	/^static void sipe_subscribe_poolfqdn_resource_uri(const char *host,$/;"	f	file:
+sipe_subscribe_presence_batched	sipe.c	/^static void sipe_subscribe_presence_batched(struct sipe_core_private *sipe_private,$/;"	f	file:
+sipe_subscribe_presence_batched_routed	sipe.c	/^static void sipe_subscribe_presence_batched_routed(struct sipe_core_private *sipe_private,$/;"	f	file:
+sipe_subscribe_presence_batched_routed_free	sipe.c	/^static void sipe_subscribe_presence_batched_routed_free(void *payload)$/;"	f	file:
+sipe_subscribe_presence_batched_to	sipe.c	/^static void sipe_subscribe_presence_batched_to(struct sipe_core_private *sipe_private,$/;"	f	file:
+sipe_subscribe_presence_single	sipe.c	/^static void sipe_subscribe_presence_single(struct sipe_core_private *sipe_private,$/;"	f	file:
+sipe_subscribe_presence_wpending	sipe.c	/^static void sipe_subscribe_presence_wpending(struct sipe_core_private *sipe_private,$/;"	f	file:
+sipe_subscribe_resource_uri	sipe.c	/^static void sipe_subscribe_resource_uri(const char *name,$/;"	f	file:
+sipe_subscribe_resource_uri_with_context	sipe.c	/^static void sipe_subscribe_resource_uri_with_context(const char *name, gpointer value, gchar **resources_uri)$/;"	f	file:
+sipe_subscribe_roaming_acl	sipe.c	/^static void sipe_subscribe_roaming_acl(struct sipe_core_private *sipe_private)$/;"	f	file:
+sipe_subscribe_roaming_contacts	sipe.c	/^static void sipe_subscribe_roaming_contacts(struct sipe_core_private *sipe_private)$/;"	f	file:
+sipe_subscribe_roaming_provisioning	sipe.c	/^static void sipe_subscribe_roaming_provisioning(struct sipe_core_private *sipe_private)$/;"	f	file:
+sipe_subscribe_roaming_provisioning_v2	sipe.c	/^static void sipe_subscribe_roaming_provisioning_v2(struct sipe_core_private *sipe_private)$/;"	f	file:
+sipe_subscribe_roaming_self	sipe.c	/^static void sipe_subscribe_roaming_self(struct sipe_core_private *sipe_private)$/;"	f	file:
+sipe_subscription_free	sipe-dialog.c	/^void sipe_subscription_free(struct sip_subscription *subscription)$/;"	f
+sipe_switch_tz	sipe-cal.c	/^sipe_switch_tz(const char *tz)$/;"	f	file:
+sipe_unsubscribe_cb	sipe.c	/^sipe_unsubscribe_cb(SIPE_UNUSED_PARAMETER gpointer key,$/;"	f	file:
+sipe_update_user_info	sipe.c	/^sipe_update_user_info(struct sipe_core_private *sipe_private,$/;"	f	file:
+sipe_update_user_phone	sipe.c	/^sipe_update_user_phone(struct sipe_core_private *sipe_private,$/;"	f	file:
+sipe_user_info_has_updated	sipe.c	/^sipe_user_info_has_updated(struct sipe_core_private *sipe_private,$/;"	f	file:
+sipe_utils_get_suitable_local_ip	sipe-utils.c	/^const char * sipe_utils_get_suitable_local_ip(int fd)$/;"	f
+sipe_utils_nameval_add	sipe-utils.c	/^sipe_utils_nameval_add(GSList* list, const gchar *name, const gchar *value)$/;"	f
+sipe_utils_nameval_find	sipe-utils.c	/^sipe_utils_nameval_find(const GSList *list, const gchar *name)$/;"	f
+sipe_utils_nameval_find_instance	sipe-utils.c	/^sipe_utils_nameval_find_instance(const GSList *list, const gchar *name, int which)$/;"	f
+sipe_utils_nameval_free	sipe-utils.c	/^sipe_utils_nameval_free(GSList *list) {$/;"	f
+sipe_utils_parse_lines	sipe-utils.c	/^sipe_utils_parse_lines(GSList **list, gchar **lines, gchar *delimiter)$/;"	f
+sipe_utils_shrink_buffer	sipe-utils.c	/^void sipe_utils_shrink_buffer(struct sipe_transport_connection *conn,$/;"	f
+sipe_utils_str_replace	sipe-utils.c	/^gchar *sipe_utils_str_replace(const gchar *string,$/;"	f
+sipe_utils_str_to_time	sipe-utils.c	/^sipe_utils_str_to_time(const gchar *timestamp)$/;"	f
+sipe_utils_time_to_str	sipe-utils.c	/^sipe_utils_time_to_str(time_t timestamp)$/;"	f
+sipe_xml	sipe-xml.h	/^typedef struct _sipe_xml sipe_xml;$/;"	t	typeref:struct:_sipe_xml
+sipe_xml_attribute	sipe-xml.c	/^const gchar *sipe_xml_attribute(const sipe_xml *node, const gchar *attr)$/;"	f
+sipe_xml_child	sipe-xml.c	/^const sipe_xml *sipe_xml_child(const sipe_xml *parent, const gchar *name)$/;"	f
+sipe_xml_data	sipe-xml.c	/^gchar *sipe_xml_data(const sipe_xml *node)$/;"	f
+sipe_xml_free	sipe-xml.c	/^void sipe_xml_free(sipe_xml *node)$/;"	f
+sipe_xml_int_attribute	sipe-xml.c	/^guint sipe_xml_int_attribute(const sipe_xml *node, const gchar *attr,$/;"	f
+sipe_xml_name	sipe-xml.c	/^const gchar *sipe_xml_name(const sipe_xml *node)$/;"	f
+sipe_xml_parse	sipe-xml.c	/^sipe_xml *sipe_xml_parse(const gchar *string, gsize length)$/;"	f
+sipe_xml_stringify	sipe-xml.c	/^gchar *sipe_xml_stringify(const sipe_xml *node)$/;"	f
+sipe_xml_stringify_attribute	sipe-xml.c	/^static void sipe_xml_stringify_attribute(gpointer key, gpointer value,$/;"	f	file:
+sipe_xml_stringify_node	sipe-xml.c	/^static void sipe_xml_stringify_node(GString *s, const sipe_xml *node)$/;"	f	file:
+sipe_xml_tests_CFLAGS	Makefile	/^sipe_xml_tests_CFLAGS = $(libsipe_core_la_CFLAGS)$/;"	m
+sipe_xml_tests_DEPENDENCIES	Makefile	/^sipe_xml_tests_DEPENDENCIES = libsipe_core.la $(am__DEPENDENCIES_1) \\$/;"	m
+sipe_xml_tests_LDADD	Makefile	/^sipe_xml_tests_LDADD = libsipe_core.la $(LIBXML2_LIBS) $(GLIB_LIBS)$/;"	m
+sipe_xml_tests_LINK	Makefile	/^sipe_xml_tests_LINK = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+sipe_xml_tests_OBJECTS	Makefile	/^sipe_xml_tests_OBJECTS = $(am_sipe_xml_tests_OBJECTS)$/;"	m
+sipe_xml_tests_SOURCES	Makefile	/^sipe_xml_tests_SOURCES = sipe-xml-tests.c$/;"	m
+sipe_xml_twin	sipe-xml.c	/^const sipe_xml *sipe_xml_twin(const sipe_xml *node)$/;"	f
+sipendpoint	sipmsg.h	/^struct sipendpoint {$/;"	s
+sipmsg	sipmsg.h	/^struct sipmsg {$/;"	s
+sipmsg_add_header	sipmsg.c	/^void sipmsg_add_header(struct sipmsg *msg, const gchar *name, const gchar *value) {$/;"	f
+sipmsg_add_header_now	sipmsg.c	/^void sipmsg_add_header_now(struct sipmsg *msg, const gchar *name, const gchar *value) {$/;"	f
+sipmsg_add_header_now_pos	sipmsg.c	/^void sipmsg_add_header_now_pos(struct sipmsg *msg, const gchar *name, const gchar *value, int pos) {$/;"	f
+sipmsg_apply_x_mms_im_format	sipmsg.c	/^gchar *sipmsg_apply_x_mms_im_format(const char *x_mms_im_format, gchar *body) {$/;"	f
+sipmsg_breakdown	sipe-sign.h	/^struct sipmsg_breakdown {$/;"	s
+sipmsg_breakdown_free	sipe-sign.c	/^sipmsg_breakdown_free(struct sipmsg_breakdown * msg)$/;"	f
+sipmsg_breakdown_get_string	sipe-sign.c	/^sipmsg_breakdown_get_string(int version,$/;"	f
+sipmsg_breakdown_parse	sipe-sign.c	/^void sipmsg_breakdown_parse(struct sipmsg_breakdown * msg, gchar * realm, gchar * target)$/;"	f
+sipmsg_copy	sipmsg.c	/^struct sipmsg *sipmsg_copy(const struct sipmsg *other) {$/;"	f
+sipmsg_find_auth_header	sipmsg.c	/^gchar *sipmsg_find_auth_header(struct sipmsg *msg, const gchar *name) {$/;"	f
+sipmsg_find_header	sipmsg.c	/^const gchar *sipmsg_find_header(const struct sipmsg *msg, const gchar *name) {$/;"	f
+sipmsg_find_header_instance	sipmsg.c	/^const gchar *sipmsg_find_header_instance(const struct sipmsg *msg, const gchar *name, int which) {$/;"	f
+sipmsg_find_part_of_header	sipmsg.c	/^gchar *sipmsg_find_part_of_header(const char *hdr, const char * before, const char * after, const char * def) {$/;"	f
+sipmsg_free	sipmsg.c	/^void sipmsg_free(struct sipmsg *msg) {$/;"	f
+sipmsg_get_msgr_string	sipmsg.c	/^gchar *sipmsg_get_msgr_string(gchar *x_mms_im_format) {$/;"	f
+sipmsg_get_x_mms_im_format	sipmsg.c	/^gchar *sipmsg_get_x_mms_im_format(gchar *msgr) {$/;"	f
+sipmsg_merge_new_headers	sipmsg.c	/^void sipmsg_merge_new_headers(struct sipmsg *msg) {$/;"	f
+sipmsg_parse_endpoints_header	sipmsg.c	/^GSList *sipmsg_parse_endpoints_header(const gchar *header)$/;"	f
+sipmsg_parse_header	sipmsg.c	/^struct sipmsg *sipmsg_parse_header(const gchar *header) {$/;"	f
+sipmsg_parse_msg	sipmsg.c	/^struct sipmsg *sipmsg_parse_msg(const gchar *msg) {$/;"	f
+sipmsg_remove_header_now	sipmsg.c	/^void sipmsg_remove_header_now(struct sipmsg *msg, const gchar *name) {$/;"	f
+sipmsg_strip_headers	sipmsg.c	/^void sipmsg_strip_headers(struct sipmsg *msg, const gchar *keepers[]) {$/;"	f
+sipmsg_to_string	sipmsg.c	/^char *sipmsg_to_string(const struct sipmsg *msg) {$/;"	f
+sipmsg_uri_unescape	sipmsg.c	/^gchar *sipmsg_uri_unescape(const gchar *string)$/;"	f	file:
+sipnameval	sipe-utils.h	/^struct sipnameval {$/;"	s
+slist_insert_unique_sorted	sipe.c	/^GSList * slist_insert_unique_sorted(GSList *list, gpointer data, GCompareFunc func) {$/;"	f
+smb_header	sip-sec-ntlm.c	/^struct smb_header {$/;"	s	file:
+srcdir	Makefile	/^srcdir = .$/;"	m
+sso	sip-sec-mech.h	/^	int sso;$/;"	m	struct:sip_sec_context
+start_time	sipe-cal.c	/^	int start_time;               \/* 0...1440 *\/$/;"	m	struct:sipe_cal_working_hours	file:
+start_time	sipe-cal.h	/^	time_t start_time;$/;"	m	struct:sipe_cal_event
+state	sipe-cal.h	/^	int state;$/;"	m	struct:sipe_calendar
+status	sipe.h	/^	gchar *status;$/;"	m	struct:sipe_account_data
+status_id	sipe.c	/^	const char *status_id;$/;"	m	struct:sipe_activity_map_struct	file:
+std	sipe-cal.c	/^	struct sipe_cal_std_dst std;  \/* StandardTime *\/$/;"	m	struct:sipe_cal_working_hours	typeref:struct:sipe_cal_working_hours::sipe_cal_std_dst	file:
+step	sip-sec-ntlm.c	/^	int step;$/;"	m	struct:_context_ntlm	file:
+subdir	Makefile	/^subdir = src\/core$/;"	m
+subject	sipe-cal.h	/^	char *subject;$/;"	m	struct:sipe_cal_event
+subject	sipe-session.h	/^	gchar *subject;$/;"	m	struct:sip_session
+subscribed	sipe.h	/^	gboolean subscribed; \/* whether subscribed to events, except buddies presence *\/$/;"	m	struct:sipe_account_data
+subscribed_buddies	sipe.h	/^	gboolean subscribed_buddies; \/* whether subscribed to buddies presence *\/$/;"	m	struct:sipe_account_data
+subscriptions	sipe.h	/^	GHashTable *subscriptions;$/;"	m	struct:sipe_account_data
+succeeded	sipe-xml-tests.c	/^static guint succeeded = 0;$/;"	v	file:
+successes	sip-sec-ntlm-tests.c	/^static int successes = 0;$/;"	v	file:
+supported	sipe-dialog.h	/^	GSList *supported; \/* counterparty capabilities *\/$/;"	m	struct:sip_dialog
+switch_time	sipe-cal.c	/^	time_t switch_time;$/;"	m	struct:sipe_cal_std_dst	file:
+sysconfdir	Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+target	sipe.h	/^	gchar *target;$/;"	m	struct:sip_auth
+target	sipmsg.h	/^	gchar *target;$/;"	m	struct:sipmsg
+target_alias	Makefile	/^target_alias = $/;"	m
+target_info	sip-sec-ntlm.c	/^	struct smb_header target_info;$/;"	m	struct:challenge_message	typeref:struct:challenge_message::smb_header	file:
+target_name	sip-sec-ntlm.c	/^	struct smb_header target_name;$/;"	m	struct:challenge_message	typeref:struct:challenge_message::smb_header	file:
+target_name	sipe-sign.h	/^	gchar * target_name;$/;"	m	struct:sipmsg_breakdown
+temporary	sipe-core-private.h	/^	struct sipe_account_data *temporary;$/;"	m	struct:sipe_core_private	typeref:struct:sipe_core_private::sipe_account_data
+test_client_challenge	sip-sec-ntlm.c	/^guchar test_client_challenge [8];	\/* random in implementation *\/$/;"	v
+test_free	sipe-xml-tests.c	/^static void test_free(gpointer mem)$/;"	f	file:
+test_malloc	sipe-xml-tests.c	/^static gpointer test_malloc(gsize n_bytes)$/;"	f	file:
+test_random_session_key	sip-sec-ntlm.c	/^guchar test_random_session_key[16];	\/* random in implementation *\/$/;"	v
+test_realloc	sipe-xml-tests.c	/^static gpointer test_realloc(gpointer mem, gsize n_bytes)$/;"	f	file:
+test_time_val	sip-sec-ntlm.c	/^guint64 test_time_val = 0;		\/* actual time in implementation *\/$/;"	v
+test_version	sip-sec-ntlm.c	/^struct version test_version;		\/* hard-coded in implementation *\/$/;"	v	typeref:struct:version
+teststring	sipe-xml-tests.c	/^static const gchar *teststring;$/;"	v	file:
+theirepid	sipe-dialog.h	/^	gchar *theirepid;$/;"	m	struct:sip_dialog
+theirtag	sipe-dialog.h	/^	gchar *theirtag;$/;"	m	struct:sip_dialog
+time	sip-transport.h	/^	time_t time;$/;"	m	struct:transaction
+time	sipe-cal.c	/^	gchar *time;        \/* hh:mm:ss, 02:00:00 *\/$/;"	m	struct:sipe_cal_std_dst	file:
+time_hi_and_version	uuid.c	/^   guint16 time_hi_and_version;$/;"	m	struct:__anon1	file:
+time_low	uuid.c	/^   guint32 time_low;$/;"	m	struct:__anon1	file:
+time_mid	uuid.c	/^   guint16 time_mid;$/;"	m	struct:__anon1	file:
+timeouts	sipe-core-private.h	/^	GSList *timeouts;$/;"	m	struct:sipe_core_private
+to_tag	sipe-sign.h	/^	gchar * to_tag;$/;"	m	struct:sipmsg_breakdown
+to_tel_uri	sip-csta.h	/^	gchar *to_tel_uri;$/;"	m	struct:sip_csta
+to_url	sipe-sign.h	/^	gchar * to_url;$/;"	m	struct:sipmsg_breakdown
+token	sipe.c	/^	const char *token;$/;"	m	struct:sipe_activity_map_struct	file:
+top_build_prefix	Makefile	/^top_build_prefix = ..\/..\/$/;"	m
+top_builddir	Makefile	/^top_builddir = ..\/..$/;"	m
+top_srcdir	Makefile	/^top_srcdir = ..\/..$/;"	m
+transaction	sip-transport.h	/^struct transaction {$/;"	s
+transaction_payload	sip-transport.h	/^struct transaction_payload {$/;"	s
+transactions	sipe-core-private.h	/^	GSList *transactions;$/;"	m	struct:sipe_core_private
+transactions_add_buf	sip-transport.c	/^transactions_add_buf(struct sipe_core_private *sipe_private,$/;"	f	file:
+transactions_find	sip-transport.c	/^struct transaction *transactions_find(struct sipe_core_private *sipe_private,$/;"	f
+transactions_remove	sip-transport.c	/^void transactions_remove(struct sipe_core_private *sipe_private,$/;"	f
+transform	Makefile	/^transform = $(program_transform_name)$/;"	m
+transport	sip-transport.c	/^	const char *transport;$/;"	m	struct:sipe_service_data	file:
+transport	sip-transport.h	/^	int transport; \/* 0 = tcp, 1 = udp *\/$/;"	m	struct:transaction
+transport	sipe-core-private.h	/^	struct sipe_transport_connection *transport;$/;"	m	struct:sipe_core_private	typeref:struct:sipe_core_private::sipe_transport_connection
+transport_descriptor	sip-transport.c	/^static const char *transport_descriptor[] = { "", "tls", "tcp"};$/;"	v	file:
+transport_type	sipe-core-private.h	/^	guint transport_type;$/;"	m	struct:sipe_core_private
+type	sip-sec-ntlm.c	/^	guint32 type;			\/* 0x00000001 *\/$/;"	m	struct:negotiate_message	file:
+type	sip-sec-ntlm.c	/^	guint32 type;			\/* 0x00000002 *\/$/;"	m	struct:challenge_message	file:
+type	sip-sec-ntlm.c	/^	guint32 type;            \/* 0x00000003 *\/$/;"	m	struct:authenticate_message	file:
+type	sip-sec-ntlm.c	/^	guint32 type;            \/* 0x00000003 *\/$/;"	m	struct:ntlm_message	file:
+type	sip-transport.c	/^	guint type;$/;"	m	struct:sipe_service_data	file:
+type	sipe.c	/^	sipe_activity type;$/;"	m	struct:sipe_activity_map_struct	file:
+type	sipe.h	/^	gchar *type;$/;"	m	struct:sipe_container_member
+type	sipe.h	/^	guint type;$/;"	m	struct:sip_auth
+tz	sipe-cal.c	/^	gchar *tz;                    \/* aggregated timezone string as in TZ environment variable.$/;"	m	struct:sipe_cal_working_hours	file:
+tz_dst	sipe-cal.c	/^	gchar *tz_dst;                \/* Ex.: TDT7 *\/$/;"	m	struct:sipe_cal_working_hours	file:
+tz_std	sipe-cal.c	/^	gchar *tz_std;                \/* Ex.: TST8 *\/$/;"	m	struct:sipe_cal_working_hours	file:
+unconfirmed_messages	sipe-session.h	/^	GHashTable *unconfirmed_messages;$/;"	m	struct:sip_session
+unicode_strconvcopy	sip-sec-ntlm.c	/^unicode_strconvcopy(gchar *dest, const gchar *source, gsize remlen)$/;"	f	file:
+unicode_strconvcopy_back	sip-sec-ntlm.c	/^unicode_strconvcopy_back(const gchar *source, gsize len)$/;"	f	file:
+update_calendar_status	sipe.c	/^update_calendar_status(struct sipe_core_private *sipe_private,$/;"	f	file:
+update_calendar_status_cb	sipe.c	/^update_calendar_status_cb(SIPE_UNUSED_PARAMETER char *name,$/;"	f	file:
+updated	sipe-cal.h	/^	time_t updated;$/;"	m	struct:sipe_calendar
+url	http-conn.c	/^	char *url;$/;"	m	struct:http_conn_struct	file:
+use_negotiate	http-conn.h	/^	int use_negotiate;$/;"	m	struct:http_conn_auth
+use_ntlm_v2	sip-sec-ntlm.c	/^static gboolean use_ntlm_v2 = FALSE;$/;"	v	file:
+user	http-conn.h	/^	char *user;$/;"	m	struct:http_conn_auth
+user	sip-sec-ntlm.c	/^	struct smb_header user;$/;"	m	struct:authenticate_message	typeref:struct:authenticate_message::smb_header	file:
+user_avail	sipe-buddy.h	/^	int user_avail;$/;"	m	struct:sipe_buddy
+user_avail_since	sipe-buddy.h	/^	time_t user_avail_since;$/;"	m	struct:sipe_buddy
+user_data	sipe-mime.c	/^	gpointer user_data;$/;"	m	struct:gmime_callback_data	file:
+user_name	sipe.h	/^	gchar * user_name;$/;"	m	struct:group_user_context
+user_state_publications	sipe.h	/^	GHashTable *user_state_publications;	\/* [MS-PRES] *\/$/;"	m	struct:sipe_account_data
+user_states	sipe.h	/^	gchar *user_states;$/;"	m	struct:sipe_account_data
+useragent	sipe-core-private.h	/^	gchar *useragent;$/;"	m	struct:sipe_core_private
+username	sip-sec-ntlm.c	/^	char *username;$/;"	m	struct:_context_ntlm	file:
+username	sipe.h	/^	gchar *username;$/;"	m	struct:sipe_account_data
+uuid_t	uuid.c	/^} uuid_t;$/;"	t	typeref:struct:__anon1	file:
+value	sip-sec-mech.h	/^	guint8 *value;$/;"	m	struct:__anon2
+value	sipe-utils.h	/^	gchar *value;$/;"	m	struct:sipnameval
+value	sipe.h	/^	gchar *value;$/;"	m	struct:sipe_container_member
+ver	sip-sec-ntlm.c	/^	struct version ver;$/;"	m	struct:authenticate_message	typeref:struct:authenticate_message::version	file:
+ver	sip-sec-ntlm.c	/^	struct version ver;$/;"	m	struct:challenge_message	typeref:struct:challenge_message::version	file:
+ver	sip-sec-ntlm.c	/^	struct version ver;$/;"	m	struct:negotiate_message	typeref:struct:negotiate_message::version	file:
+verify_signature_func	sip-sec-mech.h	/^	sip_sec_verify_signature_func verify_signature_func;$/;"	m	struct:sip_sec_context
+version	sip-sec-ntlm.c	/^struct version {$/;"	s	file:
+version	sipe.h	/^	guint version;$/;"	m	struct:sipe_container
+version	sipe.h	/^	guint version;$/;"	m	struct:sipe_publication
+version	sipe.h	/^	int version;$/;"	m	struct:sip_auth
+w2b	md4.c	/^static void w2b(Uint8 *out, const Uint32 *in, Uint32 len)$/;"	f	file:
+wday_names	sipe-cal.c	/^static const char *wday_names[] = {"Sunday",$/;"	v	file:
+who	sipe.h	/^	gchar * who;$/;"	m	struct:sipe_auth_job
+with	sipe-dialog.h	/^	gchar *with; \/* URI *\/$/;"	m	struct:sip_dialog
+with	sipe-session.h	/^	gchar *with; \/* For IM sessions only (not multi-party) . A URI.*\/$/;"	m	struct:sip_session
+working_hours_xml_str	sipe-cal.h	/^	char *working_hours_xml_str;$/;"	m	struct:sipe_calendar
+working_hours_xml_str	sipe.h	/^	char *working_hours_xml_str;$/;"	m	struct:sipe_publication
+wpurple_read_reg_expand_string	sipe-win32dep.c	/^char *wpurple_read_reg_expand_string(HKEY rootkey, const char *subkey, const char *valname) {$/;"	f
+year	sipe-cal.c	/^	gchar *year;        \/* YYYY *\/$/;"	m	struct:sipe_cal_std_dst	file:
+zero1	sip-sec-ntlm.c	/^	guint8  zero1[8];$/;"	m	struct:challenge_message	file:
+zero2	sip-sec-ntlm.c	/^	guint8  zero2[3];$/;"	m	struct:version	file:
